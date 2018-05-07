@@ -5,11 +5,14 @@
     <title>Raymond's Flooring</title>
     
        <style>
-    
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa');
        body {
-           background-color: blue;
-       }
-    
+           background-color:whitesmoke;
+           }
+           
+           echo {
+               font-style: font-family: 'Comfortaa', cursive;
+           }
     </style>
     
 </head>
