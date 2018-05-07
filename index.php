@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Raymond's Flooring</title>
-</head>
-<body>
-  
-  
-  
-   <style>
     
+       <style>
     
+       body {
+           background-color: blue;
+       }
     
     </style>
+    
+</head>
+<body>
    
    
     <?php
