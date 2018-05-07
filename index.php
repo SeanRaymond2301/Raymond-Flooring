@@ -2,11 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>THE FLOOR</title>
+    <title>Raymond's Flooring</title>
 </head>
 <body>
+  
+  
+  
+   <style>
+    
+    
+    
+    </style>
+   
+   
     <?php
     
-    >
+    ?>
+        
+        
+        
 </body>
 </html>
