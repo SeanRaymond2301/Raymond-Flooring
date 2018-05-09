@@ -4,31 +4,34 @@
   	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
 <header>
     <nav>
-        <img src="http://via.placeholder.com/125x125" alt="">
+        <img src="http://via.placeholder.com/100x100" alt="">
         <h1>Flooring Made Simple</h1>
         <div class="shrug">
             <ul>
-                <a href="page1">
-                    <li>Link 1</li>
+				<a href="?page=Home">
+                    <li>Home</li>
                 </a>
-                <a href="pag2">
-                    <li>link 2</li>
+                <a href="?page=about">
+                    <li>About</li>
                 </a>
-                <a href="page3">
-                    <li>Link 3</li>
+                <a href="?page=hardwood">
+                    <li>Hardwood</li>
                 </a>
-                <a href="page4">
-                    <li>Link 4</li>
+                <a href="?page=laminate">
+                    <li>Laminate</li>
                 </a>
-                <a href="page5">
-                    <li>Link 5</li>
+                <a href="?page=vinylP">
+                    <li>Vinyl Plank</li>
+                </a>
+                <a href="?page=contact">
+                    <li>Contact</li>
                 </a>
             </ul>
-            <h2>Matthew Raymond</h2>
-           	<h2>License #768883</h2>
+            <p class="lic-info">Matthew Raymond</p>
+           	<p class="lic-info">License #768883</p>
         </div>
     </nav>
 </header>
