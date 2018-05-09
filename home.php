@@ -58,6 +58,7 @@
         <li>Requires more molding</li>
         <li>Expands and contracts in different temperatures and humidities</li>
     </ul>
+    
     <h6>Carpet</h6>
     
     <nav>
