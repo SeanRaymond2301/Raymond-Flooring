@@ -1,7 +1,7 @@
 var sass = require('node-sass');
 var fs = require('fs');
 const cssFolder = "css";
-const sassFolder = "sass";
+const sassFolder = "scss";
 
 var fsTimeout = false;
 
