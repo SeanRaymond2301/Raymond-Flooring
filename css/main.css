@@ -2,8 +2,9 @@ body {
   margin: 0;
   background-color: #EAEAEA; }
 
-nav ul li {
-  margin-left: 3px;
+nav ul a {
   list-style-type: none;
   display: inline-block;
   text-decoration: none; }
+  nav ul a li {
+    margin-left: 15px; }
