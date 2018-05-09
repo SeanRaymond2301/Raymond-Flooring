@@ -1,8 +1,6 @@
-</head>
-<body>
   	<h1>Flooring Made Simple</h1>
    	<h2>Matthew Raymond</h2>
-   		<p>License #768883</p>
+   	<p>License #768883</p>
     	<img src="http://via.placeholder.com/100x100" alt="">
     <h2>Vinyl Plank</h2>
     	<p>Pro's</p>
