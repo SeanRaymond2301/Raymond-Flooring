@@ -18,8 +18,46 @@
     <img src="http://via.placeholder.com/100x100" alt="">
     
     <h3>Free-Floating Vinyl Plank</h3>
+    <p>Pro's</p>
+    <ul>
+    <li>Waterproof</li>
+    <li>Easiest to maintain</li>
+    <li>Soft</li>
+    </ul>
+    <p>Con's</p>
+    <ul>
+        <li>Easy to scratch</li>
+    </ul>
+    
     <h4>Engineered Hardwood</h4>
+    <p>Pro's</p>
+    <ul>
+        <li>Realistic</li>
+        <li>Soft like vinyl plank</li>
+        <li>Can be glued down or free-floating</li>
+    </ul>
+    <p>Con's</p>
+    <ul>
+        <li>Susceptible to water damage</li>
+        <li>If glued down, may be difficult to replace board</li>
+        <li>Most expensive to install</li>
+        <li>Hardest to install (if glued) </li>
+        <li>Require molding around outside doors, flooring changes,etc...</li>
+        <li>Expands and contracts in different temperatures and humidities</li>
+    </ul>
     <h5>Laminate</h5>
+    <p>Pro's</p>
+    <ul>
+        <li>Hard surface</li>
+        <li>Mimics appearance of real wood</li>
+    </ul>
+    <p>Con's</p>
+    <ul>
+        <li>Hard to gouge</li>
+        <li>susceptible to water damage</li>
+        <li>Requires more molding</li>
+        <li>Expands and contracts in different temperatures and humidities</li>
+    </ul>
     <h6>Carpet</h6>
     
     <nav>
