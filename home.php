@@ -35,7 +35,7 @@
     <p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry... </p>
     
     <h8>Questionaire</h8>
-    <p>This is a questionaire to help determine what type of flooring is best for your situation and to match your best interest.</p>
+    <p>This is a questionaire to help determine what type of flooring is a best fit for your situation based on my knowledge of flooring and what each type is used for.</p>
     
     </body>
 </html>
