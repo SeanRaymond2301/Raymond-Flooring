@@ -40,12 +40,12 @@
 	    </ul>
     <h2>Carpet</h2>
 	    <nav>
-	        <div>
+	        <ul>
 	            <li>Read More</li>
 	            <li>Read More</li>
 	            <li>Read More</li>
 	            <li>Read More</li>
-	        </div>
+	        </ul>
 	    </nav>
     <h2>About Me</h2>
     	<p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry... </p>
