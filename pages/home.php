@@ -1,10 +1,8 @@
-</head>
-<body>
   	<h1>Flooring Made Simple</h1>
    	<h2>Matthew Raymond</h2>
-   		<p>License #768883</p>
+   	<p>License #768883</p>
     	<img src="http://via.placeholder.com/100x100" alt="">
-    <h2>Free-Floating Vinyl Plank</h2>
+    <h2>Vinyl Plank</h2>
     	<p>Pro's</p>
 	    <ul>
 	        <li>Waterproof</li>
@@ -19,11 +17,11 @@
     	<p>Pro's</p>
 	    <ul>
 	        <li>Realistic</li>
-	        <li>Soft like vinyl plank</li>
 	        <li>Can be glued down or free-floating</li>
 	    </ul>
 	    <p>Con's</p>
 	    <ul>
+			<li>Soft like vinyl plank</li>
 	        <li>Susceptible to water damage</li>
 	        <li>If glued down, may be difficult to replace or repair the board</li>
 	        <li>Most expensive to install</li>
@@ -35,18 +33,16 @@
 	    <p>Pro's</p>
 	    <ul>
 	        <li>Hard surface</li>
-	        <li>Mimics appearance of real wood</li>
+	        <li>Has the appearance of real wood</li>
 	    </ul>
 	    <p>Con's</p>
 	    <ul>
 	        <li>Hard to gouge</li>
-	        <li>susceptible to water damage</li>
+	        <li>Susceptible to water damage</li>
 	        <li>Requires more molding</li>
 	        <li>Expands and contracts in different temperatures and humidities</li>
 	    </ul>
-
     <h2>Carpet</h2>
-
 	    <nav>
 	        <div>
 	            <li>Read More</li>
