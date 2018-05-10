@@ -5,22 +5,18 @@ body {
 .flex {
   display: flex; }
 
-nav ul a {
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none; }
-  nav ul a li {
-    margin-left: 15px; }
-
-nav ul a {
-  margin-left: 3px;
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none; }
+nav ul {
+  width: 600px; }
+  nav ul a {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none; }
+    nav ul a li {
+      margin-left: 15px; }
 
 .nav {
   z-index: 100;
-  width: 100%;
+  width: 1920px;
   position: fixed;
   background-image: url(images/header-img); }
 
@@ -60,7 +56,6 @@ nav ul a {
 .text {
   color: #EAEAEA;
   font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
