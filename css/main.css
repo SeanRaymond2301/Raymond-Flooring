@@ -20,7 +20,7 @@ nav ul a {
 
 .nav {
   z-index: 100;
-  width: 100%;
+  width: 1920px;
   position: fixed;
   background-image: url(../images/header.png);
   background-repeat: no-repeat; }
@@ -108,12 +108,12 @@ nav ul a {
   to {
     opacity: 1; } }
 
-footer ul li {
+footer ul a li {
   list-style-type: none;
   display: inline-block;
   text-decoration: none; }
 
-footer ul li {
+footer ul a {
   list-style-type: none;
   display: inline-block;
   text-decoration: none; }
