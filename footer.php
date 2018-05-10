@@ -4,19 +4,19 @@
          <img src="http://via.placeholder.com/50x50" alt="">
         <div>
             <ul>
-                <a href="page1">
+                <a href="?page=Home">
                     <li>Home</li>
                 </a>
-                <a href="page2">
+                <a href="?page=About">
                     <li>About Me</li>
                 </a>
-                <a href="page3">
+                <a href="?page=Hardwood">
                     <li>Hardwood</li>
                 </a>
-                <a href="page4">
+                <a href="?page=VinylPlank">
                     <li>Vinyl Plank</li>
                 </a>
-                <a href="page5">
+                <a href="?page=Contact">
                     <li>Contact</li>
                 </a>
             </ul>

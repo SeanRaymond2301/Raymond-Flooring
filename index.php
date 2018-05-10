@@ -13,10 +13,8 @@
 		include("header.php");
 		echo "<title>$page</title>";
 		echo "</head>";
-
 		echo "<body id='$page'>";
 		include("pages/$page.php");
-
 		echo "</body>";
 		include("footer.php");
 	}

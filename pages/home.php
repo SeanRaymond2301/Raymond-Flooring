@@ -1,7 +1,7 @@
-    
+
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../compilescss.js">
-    
+
     <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -47,9 +47,9 @@
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
     <h2>About Me</h2>
     	<p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry... </p>
