@@ -19,10 +19,15 @@ nav ul a {
   text-decoration: none; }
 
 .nav {
+  z-index: 100;
   width: 100%;
   position: fixed;
+<<<<<<< HEAD
   background-image: url(../images/header.png);
   background-repeat: no-repeat; }
+=======
+  background-image: url(images/header-img); }
+>>>>>>> 4ae81c679f42f373e9c3a41b1929cdca94e34368
 
 /* Slideshow container */
 .slideshow-container {
