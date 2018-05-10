@@ -2,7 +2,7 @@
     <footer>
         <p>&copy; 2018 Matthew Raymond</p>
          <img src="http://via.placeholder.com/50x50" alt="">
-        <div class="footer-nav">
+        <div>
             <ul>
                 <a href="page1">
                     <li>Home</li>
