@@ -15,8 +15,7 @@ nav ul li {
 /* Slideshow container */
 .slideshow-container {
   max-width: 950px;
-  position: relative;
-  
+  position: absolute;
   margin: auto;
 }
 
