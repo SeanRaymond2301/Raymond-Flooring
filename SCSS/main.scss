@@ -1,8 +1,12 @@
-$bg-color: #EAEAEA;
+
+$bg-color : #EAEAEA;
+
+
 
 body {
 	margin: 0;
 	background-color: $bg-color;
+
 }
 
 .flex {
@@ -130,4 +134,24 @@ nav ul a {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+//***********FOOTER***********//
+
+footer {
+        ul {
+            a{
+                li{
+                    list-style-type: none;
+                    display: inline-block;
+                    text-decoration: none;
+                }
+            }
+        }
+}
+
+footer ul a {
+            list-style-type: none;
+            display: inline-block;
+            text-decoration: none;
 }
