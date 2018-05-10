@@ -19,7 +19,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="http://via.placeholder.com/300x300" style="width:100%">
+    <img src="http://via.placeholder.com/1920x570" style="width:100%">
     <div class="text">Laminate
     <p>A hard surface, that mimics the look of real wood, but creeks the loudest of the three.</p>
     <ul>
@@ -30,7 +30,7 @@
 
   <div class="mySlides fade">
 	<div class="numbertext">3 / 3</div>
-	<img src="http://via.placeholder.com/300x300" style="width:100%">
+	<img src="http://via.placeholder.com/1920x570" style="width:100%">
 	<div class="text">Vinyl Plank
 	<p>Vinyl plank is waterproof, and the easiest of the three to maintain. Hardly ever creeks when stepped on.</p>
 	<ul>
