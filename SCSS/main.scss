@@ -1,8 +1,8 @@
-$bg-color = #EAEAEA;
+$bg-color: #EAEAEA;
 
 body {
 	margin: 0;
-	background-color: #$bg-color;
+	background-color: $bg-color;
 }
 
 .flex {
@@ -34,15 +34,14 @@ nav ul a {
 .nav {
 	width: 100%;
 	position: fixed;
-	
+
 }
 
 //***********SLIDESHOW***********//
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 950px;
-  position: absolute;
+  max-width: 1920px;
   margin: auto;
 }
 
@@ -79,7 +78,7 @@ nav ul a {
 
 /* Caption text */
 .text {
-  color: #$bg-color;
+  color: $bg-color;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
