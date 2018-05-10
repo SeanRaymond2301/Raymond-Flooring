@@ -13,7 +13,7 @@
 		include("header.php");
 		echo "</head>";
 		echo "<body>";
-		include("$page.php");
+		include("home.php");
 		echo "</body>";
 		include("footer.php");
 	}
