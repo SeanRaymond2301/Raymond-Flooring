@@ -1,4 +1,4 @@
-$bg-color = #EAEAEA;
+bg-color : #EAEAEA;
 
 body {
 	margin: 0;
@@ -34,7 +34,7 @@ nav ul a {
 .nav {
 	width: 100%;
 	position: fixed;
-	
+	background-image: url(images/header-img);
 }
 
 //***********SLIDESHOW***********//
@@ -79,7 +79,7 @@ nav ul a {
 
 /* Caption text */
 .text {
-  color: #$bg-color;
+  color: $bg-color;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
