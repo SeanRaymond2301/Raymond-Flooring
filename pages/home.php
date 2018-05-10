@@ -11,6 +11,9 @@
     <img src="http://via.placeholder.com/300x300" style="width:100%">
     <div class="text">Vinyl Plank
     <p>Vinyl plank is waterproof, and the easiest of the three to maintain. Hardly ever creeks when stepped on.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
     </div>
   </div>
 
@@ -19,6 +22,9 @@
     <img src="http://via.placeholder.com/300x300" style="width:100%">
     <div class="text">Engineered Hardwood
     <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
     </div>
   </div>
 
@@ -27,6 +33,9 @@
     <img src="http://via.placeholder.com/300x300" style="width:100%">
     <div class="text">Laminate
     <p>A hard surface, that mimics the look of real wood, but creeks the loudest of the three.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
     </div>
   </div>
 
