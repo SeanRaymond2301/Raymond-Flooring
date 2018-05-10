@@ -1,8 +1,8 @@
-$bg-color = #EAEAEA;
+$bg-color : #EAEAEA;
 
 body {
 	margin: 0;
-	background-color: #$bg-color;
+	background-color: $bg-color;
 }
 
 //***********NAV***********//
@@ -20,8 +20,6 @@ nav {
 	}
 }
 
-<<<<<<< HEAD
-=======
 nav ul a {
     margin-left: 3px;
     list-style-type: none;
@@ -71,7 +69,7 @@ nav ul a {
 
 /* Caption text */
 .text {
-  color: #$bg-color;
+  color: $bg-color;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -122,4 +120,23 @@ nav ul a {
   from {opacity: .4}
   to {opacity: 1}
 }
->>>>>>> a0b43c6c6177e1f94283277bb7238b2289b2840c
+
+//***********FOOTER***********//
+
+footer {
+        ul {
+            a{
+                li{
+                    list-style-type: none;
+                    display: inline-block;
+                    text-decoration: none;
+                }
+            }
+        }
+}
+
+footer ul a {
+            list-style-type: none;
+            display: inline-block;
+            text-decoration: none;
+}
