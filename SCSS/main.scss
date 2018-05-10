@@ -1,8 +1,16 @@
+
 $bg-color : #EAEAEA;
+
+
 
 body {
 	margin: 0;
 	background-color: $bg-color;
+
+}
+
+.flex {
+	display: flex;
 }
 
 //***********NAV***********//
@@ -27,12 +35,19 @@ nav ul a {
     text-decoration: none;
 }
 
+.nav {
+	z-index: 100;
+	width: 100%;
+	position: fixed;
+	background-image: url(../images/header.png);
+	background-repeat: no-repeat;
+}
+
 //***********SLIDESHOW***********//
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 950px;
-  position: absolute;
+  max-width: 1920px;
   margin: auto;
 }
 
