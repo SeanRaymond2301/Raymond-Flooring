@@ -4,16 +4,19 @@
 		if(file_exists("pages/$page.php"))
 			formPage($page);
 		else {
-			formPage("pages/DNE");
+			formPage("DNE");
 		}
 	} else {
-		formPage("home");
+		formPage("Home");
 	}
 	function formPage($page) {
 		include("header.php");
+		echo "<title>$page</title>";
 		echo "</head>";
-		echo "<body>";
-		include("home.php");
+
+		echo "<body id='$page'>";
+		include("pages/$page.php");
+
 		echo "</body>";
 		include("footer.php");
 	}
