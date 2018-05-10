@@ -1,3 +1,4 @@
+    <img src="../images/laminate-6-fixed.jpg" alt="" height="703px">
     <h2>Vinyl Plank</h2>
     	<p>Pro's</p>
 	    <ul>
