@@ -4,14 +4,17 @@
          <img src="http://via.placeholder.com/50x50" alt="" class="footer-logo">
         <div class="footer-nav">
             <ul>
-                <a href="home.php">
+                <a href="?page=Home">
                     <li>Home</li>
                 </a>
-                <a href="aboutme.php">
+                <a href="?page=About">
                     <li>About </li>
                 </a>
-                <a href="?page=Hardwood">
-                    <li>Hardwood</li>
+                <a href="?page=EngineeredHardwood">
+                    <li>Engineered Hardwood</li>
+                </a>
+                <a href="?page=Laminate">
+                    <li>Laminate</li>
                 </a>
                 <a href="?page=VinylPlank">
                     <li>Vinyl Plank</li>
