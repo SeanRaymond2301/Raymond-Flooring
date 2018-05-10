@@ -78,13 +78,3 @@ fs.readdir(sassFolder + "/", function (err, items) {
         }
     }
 });
-
-
-//Watch the directory
-fs.watch(sassFolder + "/", {
-    recursive: true,
-    encoding: "utf8"
-}, fileChanged);
-
-//Tell the user that it has started watching
-console.log("Watching all files in " + sassFolder);

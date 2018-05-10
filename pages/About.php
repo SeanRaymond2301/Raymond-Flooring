@@ -1,4 +1,4 @@
-</head>
+
 <body>
 
     <img src="http://via.placeholder.com/600x600" alt="">
@@ -11,3 +11,5 @@
     <p>Since then the market has shifted; vinyl plank or waterproof core flooring has become more popular. Vinyl plank installs just like laminate flooring so it was a natural fit for me. Today, my business is all about being honest and doing it right the first time. Unlike other labor shops that subcontract from retailers, I pride myself in getting the customer first. I educate them on the best choices for their home instead of selling them something they don't need. You won't just get a price, but also a description of what it will take to do the job.</p>
 
     <p>The future is all about keeping my business going in a positive direction, and my customers satisfaction.</p>
+
+</body>

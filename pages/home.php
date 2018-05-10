@@ -1,52 +1,56 @@
-    <h2>Vinyl Plank</h2>
-    	<p>Pro's</p>
-	    <ul>
-	        <li>Waterproof</li>
-	        <li>Easiest to maintain</li>
-	    </ul>
-    	<p>Con's</p>
-	    <ul>
-	        <li>Soft</li>
-	        <li>Easy to scratch</li>
-	    </ul>
-    <h2>Engineered Hardwood</h2>
-    	<p>Pro's</p>
-	    <ul>
-	        <li>Realistic</li>
-	        <li>Can be glued down or free-floating</li>
-	    </ul>
-	    <p>Con's</p>
-	    <ul>
-			<li>Soft like vinyl plank</li>
-	        <li>Susceptible to water damage</li>
-	        <li>If glued down, may be difficult to replace or repair the board</li>
-	        <li>Most expensive to install</li>
-	        <li>Hardest to install (if glued) </li>
-	        <li>Require molding around outside doors, flooring changes,etc...</li>
-	        <li>Expands and contracts in different temperatures and humidities</li>
-	    </ul>
-    <h2>Laminate</h2>
-	    <p>Pro's</p>
-	    <ul>
-	        <li>Hard surface</li>
-	        <li>Has the appearance of real wood</li>
-	    </ul>
-	    <p>Con's</p>
-	    <ul>
-	        <li>Hard to gouge</li>
-	        <li>Susceptible to water damage</li>
-	        <li>Requires more molding</li>
-	        <li>Expands and contracts in different temperatures and humidities</li>
-	    </ul>
-    <h2>Carpet</h2>
-	    <nav>
-	        <ul>
-	            <li>Read More</li>
-	            <li>Read More</li>
-	            <li>Read More</li>
-	            <li>Read More</li>
-	        </ul>
-	    </nav>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../compilescss.js">
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="http://via.placeholder.com/300x300" style="width:100%">
+    <div class="text">Vinyl Plank
+    <p>Vinyl plank is waterproof, and the easiest of the three to maintain. Hardly ever creeks when stepped on.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="http://via.placeholder.com/300x300" style="width:100%">
+    <div class="text">Engineered Hardwood
+    <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="http://via.placeholder.com/300x300" style="width:100%">
+    <div class="text">Laminate
+    <p>A hard surface, that mimics the look of real wood, but creeks the loudest of the three.</p>
+    <ul>
+        <li><a href="#">Read More</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
     <h2>About Me</h2>
     	<p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry... </p>
     <h2>Questionaire</h2>

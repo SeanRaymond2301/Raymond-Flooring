@@ -14,19 +14,19 @@
 				<a href="?page=Home">
                     <li>Home</li>
                 </a>
-                <a href="?page=about">
+                <a href="?page=About">
                     <li>About</li>
                 </a>
-                <a href="?page=hardwood">
+                <a href="?page=Hardwood">
                     <li>Hardwood</li>
                 </a>
-                <a href="?page=laminate">
+                <a href="?page=Laminate">
                     <li>Laminate</li>
                 </a>
-                <a href="?page=vinylP">
+                <a href="?page=VinylPlank">
                     <li>Vinyl Plank</li>
                 </a>
-                <a href="?page=contact">
+                <a href="?page=Contact">
                     <li>Contact</li>
                 </a>
             </ul>
