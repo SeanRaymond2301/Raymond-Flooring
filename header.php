@@ -8,7 +8,7 @@
 <header>
     <nav class="flex">
         <div class="nav">
-            <img src="http://via.placeholder.com/100x100" alt="">
+            <img src="images/raymond-flooring.png" alt="">
             <h1>Flooring Made Simple</h1>
             <div class="shrug">
                 <ul>
