@@ -1,3 +1,4 @@
+//Made for node.js
 var sass = require('node-sass');
 var fs = require('fs');
 const cssFolder = "css";
@@ -25,8 +26,6 @@ function compile(file) {
         });
     });
 }
-
-//TODO: Make the watcher that checks for new files and file changes better
 
 function fileChanged(eventType, fileName) {
     if (!fsTimeout) {
@@ -78,3 +77,13 @@ fs.readdir(sassFolder + "/", function (err, items) {
         }
     }
 });
+
+
+//Watch the directory
+fs.watch(sassFolder + "/", {
+    recursive: true,
+    encoding: "utf8"
+}, fileChanged);
+
+//Tell the user that it has started watching
+console.log("Watching all files in " + sassFolder);

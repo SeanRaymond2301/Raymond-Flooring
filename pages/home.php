@@ -5,13 +5,14 @@
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
+
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="http://via.placeholder.com/300x300" style="width:100%">
-    <div class="text">Vinyl Plank
-    <p>Vinyl plank is waterproof, and the easiest of the three to maintain. Hardly ever creeks when stepped on.</p>
+    <img src="http://via.placeholder.com/1920x570" style="width:100%">
+    <div class="text">Engineered Hardwood
+    <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
     <ul>
-        <li><a href="#">Read More</a></li>
+        <li><a href="?page=EngineeredHardwood">Read More</a></li>
     </ul>
     </div>
   </div>
@@ -19,23 +20,23 @@
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="http://via.placeholder.com/300x300" style="width:100%">
-    <div class="text">Engineered Hardwood
-    <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
+    <div class="text">Laminate
+    <p>A hard surface, that mimics the look of real wood, but creeks the loudest of the three.</p>
     <ul>
-        <li><a href="#">Read More</a></li>
+        <li><a href="?page=Laminate">Read More</a></li>
     </ul>
     </div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="http://via.placeholder.com/300x300" style="width:100%">
-    <div class="text">Laminate
-    <p>A hard surface, that mimics the look of real wood, but creeks the loudest of the three.</p>
-    <ul>
-        <li><a href="#">Read More</a></li>
-    </ul>
-    </div>
+	<div class="numbertext">3 / 3</div>
+	<img src="http://via.placeholder.com/300x300" style="width:100%">
+	<div class="text">Vinyl Plank
+	<p>Vinyl plank is waterproof, and the easiest of the three to maintain. Hardly ever creeks when stepped on.</p>
+	<ul>
+		<li><a href="?page=VinylPlank">Read More</a></li>
+	</ul>
+	</div>
   </div>
 
   <!-- Next and previous buttons -->

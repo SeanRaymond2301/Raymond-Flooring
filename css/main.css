@@ -2,6 +2,9 @@ body {
   margin: 0;
   background-color: #EAEAEA; }
 
+.flex {
+  display: flex; }
+
 nav ul a {
   list-style-type: none;
   display: inline-block;
@@ -15,10 +18,13 @@ nav ul a {
   display: inline-block;
   text-decoration: none; }
 
+.nav {
+  width: 100%;
+  position: fixed; }
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 950px;
-  position: absolute;
+  max-width: 1920px;
   margin: auto; }
 
 /* Hide the images by default */
@@ -50,7 +56,7 @@ nav ul a {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #EAEAEA;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -60,7 +66,7 @@ nav ul a {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #EAEAEA;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;

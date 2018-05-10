@@ -1,8 +1,8 @@
-bg-color : #EAEAEA;
+$bg-color: #EAEAEA;
 
 body {
 	margin: 0;
-	background-color: #$bg-color;
+	background-color: $bg-color;
 }
 
 .flex {
@@ -41,8 +41,7 @@ nav ul a {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 950px;
-  position: absolute;
+  max-width: 1920px;
   margin: auto;
 }
 
