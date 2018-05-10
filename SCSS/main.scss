@@ -17,6 +17,7 @@ body {
 
 nav {
 	ul {
+		width: 600px;
 		a{
 			li {
 				margin-left: 15px;
@@ -28,16 +29,9 @@ nav {
 	}
 }
 
-nav ul a {
-    margin-left: 3px;
-    list-style-type: none;
-    display: inline-block;
-    text-decoration: none;
-}
-
 .nav {
 	z-index: 100;
-	width: 100%;
+	width: 1920px;
 	position: fixed;
 	background-image: url(../images/header.png);
 	background-repeat: no-repeat;
@@ -86,7 +80,7 @@ nav ul a {
 .text {
   color: $bg-color;
   font-size: 15px;
-  padding: 8px 12px;
+  // padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
