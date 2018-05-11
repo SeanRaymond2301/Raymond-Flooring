@@ -10,7 +10,7 @@
 
 <p>Con's</p>
 <ul>
-    <li>Creeks the loudest of the three.</li>
+    <li>Is the loudest of the three.</li>
     <li>Susceptible to water damage.</li>
     <li>Requires more molding than others.</li>
     <li>Expands and contracts the most in different temperatures and humidities.</li>

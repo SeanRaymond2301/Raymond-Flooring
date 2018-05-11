@@ -6,11 +6,11 @@
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="SCSS/main.scss">
 <header>
-	<img class= "logo" src="images/raymond-flooring-installations.png" alt="">
-    <nav class="flex">
+    <nav>
+		<img class= "logo" src="images/raymond-flooring-installations.png" alt="">
         <div class="nav">
 
-            <div class="shrug">
+            <div>
                 <ul>
                     <a href="?page=Home">
                         <li>Home</li>

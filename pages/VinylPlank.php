@@ -3,7 +3,7 @@
 <p>Pro's</p>
 <ul>
     <li>Waterproof.</li>
-    <li>Hardly creeks.</li>
+    <li>Very quiet.</li>
     <li>Easiest to maintain.</li>
     <li>Really soft.</li>
 </ul>

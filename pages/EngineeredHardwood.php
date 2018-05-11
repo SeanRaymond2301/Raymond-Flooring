@@ -2,7 +2,7 @@
 
 <p>Pro's</p>
 <ul>
-    <li>Makes a slight creek sound when stepping on it.</li>
+    <li>Is almost as silent as Vinyl Plank</li>
     <li>Very similar looking to real wood.</li>
     <li>Soft like vinyl plank</li>
 </ul>
