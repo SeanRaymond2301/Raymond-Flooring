@@ -4,12 +4,12 @@
   	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="SCSS/main.scss">
 <header>
     <nav class="flex">
         <div class="nav">
-            <img src="images/raymond-flooring.png" alt="">
-            <h1>Flooring Made Simple</h1>
+            <img class= "logo" src="images/raymond-flooring-installations.png" alt="">
+   
             <div class="shrug">
                 <ul>
                             <a href="?page=Home">
