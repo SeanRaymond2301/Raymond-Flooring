@@ -16,3 +16,18 @@
 
 <h3>Phone Number:</h3>
 <p>(559) 355-0321</p>
+
+<!-- for contact box messaging system -->
+<h2>Contact Me!</h2>
+
+
+<h3>Name:</h3>
+
+
+<h3>Email:</h3>
+
+
+<h3>Phone Number:</h3>
+
+
+<h3>Message:</h3>
