@@ -9,8 +9,8 @@
     <nav class="flex">
         <div class="nav">
             <img class= "logo" src="images/raymond-flooring-installations.png" alt="">
-   
-            <div class="shrug">
+
+            <div class="lists">
                 <ul>
                             <a href="?page=Home">
                         <li>Home</li>

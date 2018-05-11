@@ -27,17 +27,3 @@ var i,
 	slides[slideIndex - 1].style.display = "block";
 	dots[slideIndex - 1].classList.add("active");
 }
-
-// function showSlide(n) {
-// 		//Instantiate the variables
-// 	var slides = document.getElementsByClassName("mySlides"),
-// 		curSlide = slides[n],
-// 		dots = document.getElementsByClassName("dot");
-//
-// 		//Begin creating cases for showing cards
-//
-// 		if (n >= 0) {
-// 			curSlide.style.dipsplay = "block";
-// 		}
-//
-// }
