@@ -1,8 +1,3 @@
-
-<link rel="stylesheet" href="../SCSS/main.scss">
-
-<link rel="stylesheet" href="../header.php">
-<link rel="stylesheet" href="../footer.php">
 <h2>Vinyl Plank</h2>
 
 <p>Pro's</p>

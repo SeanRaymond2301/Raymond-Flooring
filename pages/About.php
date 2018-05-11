@@ -1,7 +1,3 @@
-<link rel="stylesheet" href="../SCSS/main.scss">
-   <link rel="stylesheet" href="../header.php">
-    <link rel="stylesheet" href="../footer.php">
-
     <img src="http://via.placeholder.com/600x600" alt="">
 
     <h1>About Me: Matthew Raymond</h1>
@@ -14,5 +10,3 @@
 
 
   <p>The future is all about keeping my business going in a positive direction, and my customers' satisfaction.</p>
-
-

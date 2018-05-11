@@ -6,13 +6,13 @@
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="SCSS/main.scss">
 <header>
+	<img class= "logo" src="images/raymond-flooring-installations.png" alt="">
     <nav class="flex">
         <div class="nav">
-            <img class= "logo" src="images/raymond-flooring-installations.png" alt="">
-   
+
             <div class="shrug">
                 <ul>
-                            <a href="?page=Home">
+                    <a href="?page=Home">
                         <li>Home</li>
                     </a>
                     <a href="?page=About">
@@ -31,8 +31,10 @@
                         <li>Contact</li>
                     </a>
                 </ul>
-                <p class="lic-info">Matthew Raymond</p>
-                   <p class="lic-info">License #768883</p>
+                <div class="wrapper2">
+                	<p class="lic-info">Matthew Raymond</p>
+                	<p class="lic-info">License #768883</p>
+                </div>
             </div>
         </div>
     </nav>
