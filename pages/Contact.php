@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../header.php">
+<link rel="stylesheet" href="../footer.php">
 <h2>Matthew Raymond</h2>
 
 
