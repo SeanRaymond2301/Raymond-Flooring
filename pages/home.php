@@ -1,5 +1,7 @@
 
     <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="../footer.php">
+    <link rel="stylesheet" href="../header.php">
 
     <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -56,3 +58,5 @@
     <h2>Questionaire</h2>
     	<p>This is a questionaire to help determine what type of flooring is a best fit for your situation based on my knowledge of flooring and what each type is used for.</p>
 	<script src="js/slides.js"></script>
+	
+	
