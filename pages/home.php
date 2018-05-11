@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../SCSS/main.scss">
 <link rel="stylesheet" href="../footer.php">
     <link rel="stylesheet" href="../header.php">
 
@@ -12,7 +12,7 @@
     <div class="numbertext">1 / 3</div>
     <img src="http://via.placeholder.com/1920x570" style="width:100%">
     <div class="text">Engineered Hardwood
-    <p>This is a realistic looking type of flooring to real wood, and doesn't creak too loudly.</p>
+    <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
     <ul>
         <li><a href="?page=EngineeredHardwood">Read More</a></li>
     </ul>
