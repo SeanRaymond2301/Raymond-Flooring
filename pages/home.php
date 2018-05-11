@@ -1,5 +1,7 @@
 
     <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="../footer.php">
+    <link rel="stylesheet" href="../header.php">
 
     <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -10,7 +12,7 @@
     <div class="numbertext">1 / 3</div>
     <img src="http://via.placeholder.com/1920x570" style="width:100%">
     <div class="text">Engineered Hardwood
-    <p>This is a realistic looking type of flooring to real wood, and doesn't creek to loudly.</p>
+    <p>This is a realistic looking type of flooring to real wood, and doesn't creak too loudly.</p>
     <ul>
         <li><a href="?page=EngineeredHardwood">Read More</a></li>
     </ul>
@@ -56,3 +58,5 @@
     <h2>Questionaire</h2>
     	<p>This is a questionaire to help determine what type of flooring is a best fit for your situation based on my knowledge of flooring and what each type is used for.</p>
 	<script src="js/slides.js"></script>
+	
+	
