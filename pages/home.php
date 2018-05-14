@@ -4,7 +4,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="http://via.placeholder.com/1920x570" style="width:100%">
+    <img src="images/hardwood3.jpg">
     <div class="text">Engineered Hardwood
     <p>This is a realistic looking type of flooring to real wood, and is fairly quiet.</p>
     <ul>
@@ -15,7 +15,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="http://via.placeholder.com/1920x570" style="width:100%">
+    <img src="images/laminate-6.jpg">
     <div class="text">Laminate
     <p>A hard surface, that mimics the look of real wood, but is the loudest of the three</p>
     <ul>

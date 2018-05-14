@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="SCSS/main.scss">
 <header>
     <nav>
-		<img class= "logo" src="images/raymond-flooring-installations.png" alt="">
+		<img class= "logo" src="images/raymond-flooring-installations.png" alt="Raymond Flooring Installations">
         <div class="nav">
+         
 
             <div>
                 <ul>

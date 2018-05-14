@@ -1,4 +1,4 @@
-$bg-color: #EAEAEA;
+$bg-color: #eaeaea;
 
 body {
     margin: 0;
@@ -32,6 +32,7 @@ body {
 
 nav {
     width: 100vw;
+    box-shadow: 0 4px 2px -2px gray;
 	ul {
 		margin: 50px 0 50px 325px;
 		list-style-type: none;
@@ -50,6 +51,7 @@ nav {
 			margin-right: 10px;
 			li {
 				margin: 0;
+                
 			}
 		}
 	}
@@ -85,7 +87,7 @@ ul {
     z-index: 100;
     width: 100vw;
     position: fixed;
-    background-image: url(../images/header.png);
+    background-image: url(../images/header2.jpg);
     background-repeat: no-repeat;
 }
 
