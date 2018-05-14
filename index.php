@@ -11,7 +11,7 @@
 	}
 	function formPage($page) {
 		include("header.php");
-		echo "<title>$page</title>";
+		// echo "<title>$pageTitle</title>";
 		echo "</head>";
 		echo "<body id='$page'>";
 		include("pages/$page.php");

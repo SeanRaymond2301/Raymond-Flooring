@@ -1,13 +1,8 @@
-<link rel="stylesheet" href="../SCSS/main.scss">
-<link rel="stylesheet" href="../header.php">
-
-<link rel="stylesheet" href="../footer.php">
-
 <h2>Engineered Hardwood</h2>
 
 <p>Pro's</p>
 <ul>
-    <li>Makes a slight creek sound when stepping on it.</li>
+    <li>Is almost as silent as Vinyl Plank</li>
     <li>Very similar looking to real wood.</li>
     <li>Soft like vinyl plank</li>
 </ul>
