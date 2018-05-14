@@ -9,9 +9,6 @@
     <nav>
 		<img class= "logo" src="images/raymond-flooring-installations.png" alt="Raymond Flooring Installations">
         <div class="nav">
-         
-
-            <div>
                 <ul>
                     <a href="?page=Home">
                         <li>Home</li>
@@ -36,7 +33,6 @@
                 	<p class="lic-info">Matthew Raymond</p>
                 	<p class="lic-info">License #768883</p>
                 </div>
-            </div>
         </div>
     </nav>
 </header>

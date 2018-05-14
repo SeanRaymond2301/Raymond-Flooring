@@ -7,6 +7,23 @@ body {
 .flex {
   display: flex; }
 
+.black {
+  display: inline-block;
+  color: black;
+  margin: 0 auto; }
+
+.black:hover {
+  color: black;
+  margin: 0 auto; }
+
+.black:active {
+  color: black;
+  margin: 0 auto; }
+
+.black:visited {
+  color: black;
+  margin: 0 auto; }
+
 .logo {
   z-index: 1000000;
   position: fixed; }
@@ -21,9 +38,10 @@ body {
   color: #eaeaea; }
 
 nav {
-  width: 100vw;
+  width: 100%;
   box-shadow: 0 4px 2px -2px gray; }
   nav ul {
+    width: 600px;
     margin: 50px 0 50px 325px;
     list-style-type: none; }
     nav ul a {
@@ -103,7 +121,7 @@ ul {
 /* Caption text */
 .text {
   font-size: 15px;
-  width: 100vw;
+  width: 100%;
   text-align: center; }
 
 .bottomsection {
@@ -147,6 +165,10 @@ ul {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s; }
+
+/* Empty space to push images down */
+.space {
+  height: 100px; }
 
 @-webkit-keyframes fade {
   from {

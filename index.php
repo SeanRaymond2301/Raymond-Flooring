@@ -14,6 +14,7 @@
 		// echo "<title>$pageTitle</title>";
 		echo "</head>";
 		echo "<body id='$page'>";
+		echo "<div class='space'></div>";
 		include("pages/$page.php");
 		echo "</body>";
 		include("footer.php");
