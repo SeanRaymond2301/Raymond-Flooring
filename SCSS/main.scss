@@ -12,6 +12,26 @@ body {
     display: flex;
 }
 
+.black {
+	display: inline-block;
+	color: black;
+	margin: 0 auto;
+}
+
+.black:hover {
+	color: black;
+	margin: 0 auto;
+}
+
+.black:active {
+	color: black;
+	margin: 0 auto;
+}
+
+.black:visited {
+	color: black;
+	margin: 0 auto;
+}
 //***********NAV***********//
 
 .logo {
