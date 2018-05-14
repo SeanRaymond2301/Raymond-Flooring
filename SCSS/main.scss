@@ -247,3 +247,30 @@ footer ul a {
     display: inline-block;
     text-decoration: none;
 }
+
+//***********CONTENT***********//
+
+main.content {
+
+	.wrap {
+		display: flex;
+		justify-content: space-around;
+		.comp {
+			text-align: center;
+			width: 20%;
+			ul {
+				display: block;
+				li {
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+	.headerText {
+		position: absolute;
+		top: 33vh;
+		left: 50%;
+		transform: translateX(-50%);
+		color: $bg-color;
+	}
+}
