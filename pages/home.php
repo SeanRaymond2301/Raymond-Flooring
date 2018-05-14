@@ -8,7 +8,7 @@
     <div class="text">Engineered Hardwood
     <p>This is a realistic looking type of flooring to real wood, and is fairly quiet.</p>
     <ul>
-        <li><a href="?page=EngineeredHardwood" class="black">Read More</a></li>
+        <li class="black"><a href="?page=EngineeredHardwood" style="black">Read More</a></li>
     </ul>
     </div>
   </div>
@@ -19,7 +19,7 @@
     <div class="text">Laminate
     <p>A hard surface, that mimics the look of real wood, but is the loudest of the three</p>
     <ul>
-        <li><a href="?page=Laminate" class="black">Read More</a></li>
+        <li class="black"><a href="?page=Laminate">Read More</a></li>
     </ul>
     </div>
   </div>
@@ -30,7 +30,7 @@
 	<div class="text">Vinyl Plank
 		<p>Vinyl plank is waterproof, and the easiest of the three to maintain. It is the quiestest of the three.</p>
 	<ul>
-		<li><a href="?page=VinylPlank" class="black">Read More</a></li>
+		<li class="black"><a href="?page=VinylPlank">Read More</a></li>
 	</ul>
 	</div>
   </div>

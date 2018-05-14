@@ -12,26 +12,6 @@ body {
     display: flex;
 }
 
-.black {
-	display: inline-block;
-	color: black;
-	margin: 0 auto;
-}
-
-.black:hover {
-	color: black;
-	margin: 0 auto;
-}
-
-.black:active {
-	color: black;
-	margin: 0 auto;
-}
-
-.black:visited {
-	color: black;
-	margin: 0 auto;
-}
 //***********NAV***********//
 
 .logo {
@@ -92,15 +72,17 @@ ul {
 	list-style-type: none;
 	a {
 		text-decoration: none;
+        border: 1.5px solid #000;
+        padding: 5px 15px;
 	}
 	a:visited {
-		color: $bg-color;
+		color: black;
 	}
 	a:hover {
-		color: $bg-color;
+		color: black;
 	}
 	a:active {
-		color: $bg-color;
+		color: black;
 	}
 }
 
@@ -161,6 +143,10 @@ ul {
 
 .text {
     font-size: 15px; // padding: 8px 12px;
+    text-align: center;
+}
+
+.black {
     width: 100%;
     text-align: center;
 }
