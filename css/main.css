@@ -181,7 +181,7 @@ ul {
     opacity: .4; }
   to {
     opacity: 1; } }
-
+/* Footer */
 footer {
   background-color: #aaaaaa; }
   footer ul a li {
@@ -193,4 +193,5 @@ footer {
 footer ul a {
   list-style-type: none;
   display: inline-block;
-  text-decoration: none; }
+  text-decoration: none;
+}
