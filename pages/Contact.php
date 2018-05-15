@@ -1,4 +1,5 @@
-<h2>Matthew Raymond</h2>
+<div class="contact-info">
+    <h2>Matthew Raymond</h2>
 
 
 <h2>License #768883</h2>
@@ -15,7 +16,8 @@
 <p>(559) 355-0321</p>
 
 <!-- for contact box messaging system -->
-<h2>Contact Me!</h2>
+<div class="contact-form">
+    <h2>Contact Me!</h2>
 
 
 <h3>Name:</h3>
@@ -28,3 +30,7 @@
 
 
 <h3>Message:</h3>
+</div>
+
+
+</div>

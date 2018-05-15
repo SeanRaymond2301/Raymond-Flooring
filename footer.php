@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/main.css">
     <footer>
         <p>&copy; 2018 Matthew Raymond</p>
-         <img src="http://via.placeholder.com/50x50" alt="" class="footer-logo">
+         <img src="images/favicon.png" alt="" class="footer-logo" width="50px" height="50px">
         <div class="footer-nav">
            
             <ul>
