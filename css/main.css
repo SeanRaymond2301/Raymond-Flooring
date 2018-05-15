@@ -159,13 +159,13 @@ ul li.black a {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4; }
+    opacity: .7; }
   to {
     opacity: 1; } }
 
 @keyframes fade {
   from {
-    opacity: .3; }
+    opacity: .7; }
   to {
     opacity: 1; } }
 
