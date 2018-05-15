@@ -13,6 +13,14 @@ body {
 
 .wrapper2 {
   position: fixed;
+<<<<<<< HEAD
+  top: 30px;
+  left: 85vw; }
+
+    position: fixed;
+    top: 20px;
+    left: 85vw;
+}
   top: 10px;
   left: 85vw; }
 
@@ -172,7 +180,14 @@ ul li.black a {
     opacity: .4; }
   to {
     opacity: 1; } }
-
+/* Footer */
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
 footer {
   background-color: #aaaaaa; }
   footer ul a li {
@@ -184,6 +199,13 @@ footer {
 footer ul a {
   list-style-type: none;
   display: inline-block;
+  text-decoration: none;
+}
+  text-decoration: none; }
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+}
   text-decoration: none; }
 
 main.content .wrap {
@@ -203,6 +225,13 @@ main.content .headerText {
   left: 50%;
   transform: translateX(-50%);
   color: #eaeaea; }
+
+    position: absolute;
+    top: 33vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #eaeaea;
+}
 
 /* "About Me" page styling */
 .about-title {
