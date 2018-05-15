@@ -21,10 +21,8 @@ body {
     top: 20px;
     left: 85vw;
 }
-=======
   top: 10px;
   left: 85vw; }
->>>>>>> 94ec0ae0479d424d4c745e5798e961e72c0c9eda
 
 .lic-info {
   z-index: 100000000000;
@@ -179,7 +177,6 @@ ul {
     opacity: .4; }
   to {
     opacity: 1; } }
-<<<<<<< HEAD
 /* Footer */
     from {
         opacity: .4;
@@ -188,9 +185,6 @@ ul {
         opacity: 1;
     }
 }
-=======
->>>>>>> 94ec0ae0479d424d4c745e5798e961e72c0c9eda
-
 footer {
   background-color: #aaaaaa; }
   footer ul a li {
@@ -202,7 +196,6 @@ footer {
 footer ul a {
   list-style-type: none;
   display: inline-block;
-<<<<<<< HEAD
   text-decoration: none;
 }
   text-decoration: none; }
@@ -210,9 +203,7 @@ footer ul a {
     display: inline-block;
     text-decoration: none;
 }
-=======
   text-decoration: none; }
->>>>>>> 94ec0ae0479d424d4c745e5798e961e72c0c9eda
 
 main.content .wrap {
   display: flex;
@@ -231,15 +222,13 @@ main.content .headerText {
   left: 50%;
   transform: translateX(-50%);
   color: #eaeaea; }
-<<<<<<< HEAD
+
     position: absolute;
     top: 33vh;
     left: 50%;
     transform: translateX(-50%);
     color: #eaeaea;
 }
-=======
->>>>>>> 94ec0ae0479d424d4c745e5798e961e72c0c9eda
 
 /* "About Me" page styling */
 .about-title {
