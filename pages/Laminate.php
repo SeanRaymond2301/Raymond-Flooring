@@ -1,5 +1,8 @@
 <main class="content">
-	<h2>Laminate</h2>
+	<div>
+		<img src="images/hardwood3.jpg" alt="" style="width:100%;">
+		<h2 style="text-align:center;" class="headerText">Laminate</h2>
+	</div>
 
 	<p>Pro's</p>
 	<ul>

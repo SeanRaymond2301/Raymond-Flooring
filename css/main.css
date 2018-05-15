@@ -1,202 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300');
+
 body {
-  margin: 0;
-  background-color: #eaeaea; }
-  body p {
-    text-indent: 33px; }
+    margin: 0;
+    background-color: #eaeaea;
+}
+
+body p {
+    text-indent: 33px;
+    
+}
 
 .flex {
-  display: flex; }
+    display: flex;
+}
 
 .logo {
-  z-index: 1000000;
-  position: fixed; }
+    z-index: 1000000;
+    position: fixed;
+}
 
 .wrapper2 {
-  position: fixed;
-  top: 20px;
-  left: 85vw; }
+    position: fixed;
+    top: 20px;
+    left: 85vw;
+}
 
 .lic-info {
-  z-index: 100000000000;
-  color: #eaeaea; }
+    z-index: 100000000000;
+    color: #eaeaea;
+}
 
 nav {
-  width: 100%;
-  box-shadow: 0 4px 2px -2px gray; }
-  nav ul {
+    width: 100%;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+nav ul {
     width: 600px;
     margin: 50px 0 50px 325px;
-    list-style-type: none; }
-    nav ul a {
-      margin-left: 20px;
-      text-decoration: none;
-      margin-right: 10px; }
-      nav ul a:visited {
-        color: #eaeaea; }
-      nav ul a:hover {
-        color: #eaeaea; }
-      nav ul a:active {
-        color: #eaeaea; }
-      nav ul a li {
-        margin: 0; }
+    list-style-type: none;
+}
+
+nav ul a {
+    margin-left: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav ul a:visited {
+    color: #eaeaea;
+}
+
+nav ul a:hover {
+    color: #eaeaea;
+}
+
+nav ul a:active {
+    color: #eaeaea;
+}
+
+nav ul a li {
+    margin: 0;
+}
 
 .lists {
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none;
-  text-align: left; }
-
-ul {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  list-style-type: none; }
-  ul a {
-    text-decoration: none;
-    border: 1.5px solid #000;
-    padding: 5px 15px; }
-  ul a:visited {
-    color: black; }
-  ul a:hover {
-    color: black; }
-  ul a:active {
-    color: black; }
-
-.nav {
-  z-index: 100;
-  width: 100vw;
-  position: fixed;
-  background-image: url(../images/header2.jpg);
-  background-repeat: no-repeat; }
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100vw;
-  margin: auto; }
-
-/* Hide the images by default */
-.mySlides {
-  display: none; }
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0; }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px; }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
-
-/* Caption text */
-.text {
-  font-size: 15px;
-  text-align: center; }
-
-.black {
-  width: 100%;
-  text-align: center; }
-
-.bottomsection {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
-  .bottomsection .wrapper {
-    background-color: #aaaaaa;
-    padding: 15px;
-    width: 35%; }
-    .bottomsection .wrapper h2 {
-      text-align: center; }
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #eaeaea;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0; }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease; }
-
-.active,
-.dot:hover {
-  background-color: #717171; }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s; }
-
-/* Empty space to push images down */
-.space {
-  height: 100px; }
-
-@-webkit-keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
-
-@keyframes fade {
-  from {
-    opacity: .4; }
-  to {
-    opacity: 1; } }
-
-footer {
-  background-color: #aaaaaa; }
-  footer ul a li {
     list-style-type: none;
     display: inline-block;
     text-decoration: none;
-    margin: 0 20px; }
+    text-align: left;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color:white;
+ 
+}
+
+ul a:visited {
+    color: black;
+}
+
+ul a:hover {
+    color: black;
+}
+
+ul a:active {
+    color: black;
+}
+
+.nav {
+    z-index: 100;
+    width: 100vw;
+    position: fixed;
+    background-image: url(../images/header2.jpg);
+    background-repeat: no-repeat;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 100vw;
+    margin: auto;
+
+
+}
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+
+}
+
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.text {
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+.black {
+    width: 100%;
+    text-align: center;
+}
+
+.bottomsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottomsection .wrapper {
+    background-color: #aaaaaa;
+    padding: 40px;
+    width: 35%;
+}
+
+.bottomsection .wrapper h2 {
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #eaeaea;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* Empty space to push images down */
+
+.space {
+    height: 100px;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: #aaaaaa;
+}
+
+footer ul a li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 20px;
+}
 
 footer ul a {
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none; }
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+}
 
 main.content .wrap {
-  display: flex;
-  justify-content: space-around; }
-  main.content .wrap .comp {
+    display: flex;
+    justify-content: space-around;
+}
+
+main.content .wrap .comp {
     text-align: center;
-    width: 20%; }
-    main.content .wrap .comp ul {
-      display: block; }
-      main.content .wrap .comp ul li {
-        margin-top: 15px; }
+    width: 20%;
+}
+
+main.content .wrap .comp ul {
+    display: block;
+}
+
+main.content .wrap .comp ul li {
+    margin-top: 15px;
+}
 
 main.content .headerText {
-  position: absolute;
-  top: 33vh;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #eaeaea; }
+    position: absolute;
+    top: 33vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #eaeaea;
+}
+
+/* "About Me" page styling */
+
+.about-title {
+    text-align: center;
+}
+
+.about-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top:5%;
+
+}
+
+.about-p {
+    line-height: 1.6;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.about-wrap-p {
+    margin-left:40px;
+}
+
+.about-header {
+
+    font-size:60px;
+    font-family: 'Anton', sans-serif;
+    color: #4a2602;
+
+}
+
+
+
