@@ -112,6 +112,9 @@ ul {
   width: 100%;
   text-align: center; }
 
+ul li.black a {
+  border: 1.5px solid #000; }
+
 .bottomsection {
   display: flex;
   flex-direction: row;
