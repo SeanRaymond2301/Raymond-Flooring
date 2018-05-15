@@ -1,5 +1,15 @@
 <!-- Slideshow container -->
 <div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/hardwoodhome.jpg" style="width:100%">
+    <div class="text">Engineered Hardwood
+    <p>This is a realistic looking type of flooring to real wood, and is fairly quiet.</p>
+    <ul>
+        <li class="black"><a href="?page=EngineeredHardwood" style="black">Read More</a></li>
+    </ul>
     <!-- Full-width images with number and caption text -->
 
     <div class="mySlides fade">
@@ -23,17 +33,7 @@
             </ul>
         </div>
     </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="http://via.placeholder.com/1920x570" style="width:100%">
-        <div class="text">Vinyl Plank
-            <p>Vinyl plank is waterproof, and the easiest of the three to maintain. It is the quiestest of the three.</p>
-            <ul>
-                <li class="black"><a href="?page=VinylPlank">Read More</a></li>
-            </ul>
-        </div>
-    </div>
+  </div>
 
     <!-- Next and previous buttons -->
 
