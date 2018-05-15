@@ -55,9 +55,5 @@
         <h2>About Me</h2>
         <p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry... </p>
     </div>
-    <div class="wrapper">
-        <h2>Questionaire</h2>
-        <p>This is a questionaire to help determine what type of flooring is a best fit for your situation based on my knowledge of flooring and what each type is used for.</p>
-    </div>
 </div>
 <script src="js/slides.js"></script>
