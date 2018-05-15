@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="css/main.css">
     <footer>
-        <p>&copy; 2018 Matthew Raymond</p>
         <div class="footer-nav">
 			<img src="http://via.placeholder.com/100x100" alt="" class="footer-logo">
+            <p id="cr">&copy; 2018 Matthew Raymond</p>
             <ul>
                 <a href="?page=Home">
                     <li>Home</li>

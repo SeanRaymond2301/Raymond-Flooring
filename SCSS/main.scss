@@ -262,6 +262,12 @@ footer ul a {
 	transform: translateX(70%);
 }
 
+#cr {
+    position: absolute;
+    z-index: 1000000000000000;
+    padding-top: 55px;
+}
+
 //***********CONTENT***********//
 
 main.content {

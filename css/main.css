@@ -191,6 +191,11 @@ footer ul a {
   left: 0;
   transform: translateX(70%); }
 
+#cr {
+  position: absolute;
+  z-index: 1000000000000000;
+  padding-top: 55px; }
+
 main.content .wrap {
   display: flex;
   justify-content: space-around; }
