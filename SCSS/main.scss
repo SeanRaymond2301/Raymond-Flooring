@@ -21,7 +21,7 @@ body {
 
 .wrapper2 {
 	position: fixed;
-	top: 20px;
+	top: 10px;
 	left: 85vw;
 }
 
@@ -34,8 +34,8 @@ nav {
     width: 100%;
     box-shadow: 0 4px 2px -2px gray;
 	ul {
-		width: 600px;
-		margin: 50px 0 50px 325px;
+		width: 1400px;
+		margin: 43px 0 43px 325px;
 		list-style-type: none;
 		a {
 			margin-left: 20px;
@@ -51,8 +51,8 @@ nav {
 			text-decoration: none;
 			margin-right: 10px;
 			li {
+				width: 100%;
 				margin: 0;
-
 			}
 		}
 	}
@@ -205,7 +205,7 @@ ul {
 /* Empty space to push images down */
 
 .space {
-	height: 100px;
+	height: 114px;
 }
 
 @-webkit-keyframes fade {
@@ -278,4 +278,34 @@ main.content {
 		transform: translateX(-50%);
 		color: $bg-color;
 	}
+}
+
+/* "About Me" page styling */
+
+.about-title {
+    text-align: center;
+}
+
+.about-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top:5%;
+}
+
+.about-p {
+    line-height: 1.6;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.about-wrap-p {
+    margin-left:40px;
+}
+
+.about-header {
+
+    font-size:60px;
+    font-family: 'Anton', sans-serif;
+    color: #4a2602;
 }
