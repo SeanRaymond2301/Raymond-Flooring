@@ -7,30 +7,13 @@ body {
 .flex {
   display: flex; }
 
-.black {
-  display: inline-block;
-  color: black;
-  margin: 0 auto; }
-
-.black:hover {
-  color: black;
-  margin: 0 auto; }
-
-.black:active {
-  color: black;
-  margin: 0 auto; }
-
-.black:visited {
-  color: black;
-  margin: 0 auto; }
-
 .logo {
   z-index: 1000000;
   position: fixed; }
 
 .wrapper2 {
   position: fixed;
-  top: 20px;
+  top: 30px;
   left: 85vw; }
 
 .lic-info {
@@ -69,13 +52,15 @@ ul {
   display: flex;
   list-style-type: none; }
   ul a {
-    text-decoration: none; }
+    text-decoration: none;
+    border: 1.5px solid #000;
+    padding: 5px 15px; }
   ul a:visited {
-    color: #eaeaea; }
+    color: black; }
   ul a:hover {
-    color: #eaeaea; }
+    color: black; }
   ul a:active {
-    color: #eaeaea; }
+    color: black; }
 
 .nav {
   z-index: 100;
@@ -121,6 +106,9 @@ ul {
 /* Caption text */
 .text {
   font-size: 15px;
+  text-align: center; }
+
+.black {
   width: 100%;
   text-align: center; }
 
@@ -193,5 +181,27 @@ footer {
 footer ul a {
   list-style-type: none;
   display: inline-block;
+<<<<<<< HEAD
   text-decoration: none;
 }
+=======
+  text-decoration: none; }
+
+main.content .wrap {
+  display: flex;
+  justify-content: space-around; }
+  main.content .wrap .comp {
+    text-align: center;
+    width: 20%; }
+    main.content .wrap .comp ul {
+      display: block; }
+      main.content .wrap .comp ul li {
+        margin-top: 15px; }
+
+main.content .headerText {
+  position: absolute;
+  top: 33vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #eaeaea; }
+>>>>>>> da426820429a336aa258396cee97ff845e96079a
