@@ -50,6 +50,7 @@ nav {
 		list-style-type: none;
 		a {
 			margin-left: 20px;
+            color: $bg-color;
 			&:visited {
 				color: $bg-color;
 			}
@@ -272,7 +273,7 @@ footer ul a {
 
 #cr {
     position: absolute;
-    z-index: 1000000000000000;
+    z-index: 10000000000;
     padding-top: 55px;
 }
 
