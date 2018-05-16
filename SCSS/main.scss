@@ -244,6 +244,7 @@ ul {
 //***********FOOTER***********//
 footer {
 	color: $bg-color;
+	bottom: 0;
 	div.footer-nav {
 		display: flex;
 		justify-content: space-around;
@@ -301,9 +302,25 @@ main.content {
 
 	.headerText {
 		position: absolute;
-		top: 33vh;
+		top: 13vh;
 		left: 50%;
 		transform: translateX(-50%);
+		color: $bg-color;
+	}
+
+	.headerText2 {
+		position: absolute;
+		top: 30vh;
+		left: 40%;
+		transform: translateX(-40%);
+		color: $bg-color;
+	}
+
+	.headerText3 {
+		position: absolute;
+		top: 30vh;
+		left: 60%;
+		transform: translateX(-60%);
 		color: $bg-color;
 	}
 
@@ -331,7 +348,6 @@ main.content {
 }
 
 .about-header {
-
     font-size:60px;
     font-family: 'Anton', sans-serif;
     color: #4a2602;

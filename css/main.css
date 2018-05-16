@@ -180,7 +180,8 @@ ul li.black a {
     opacity: 1; } }
 
 footer {
-  color: #FAF8F4; }
+  color: #FAF8F4;
+  bottom: 0; }
   footer div.footer-nav {
     display: flex;
     justify-content: space-around;
@@ -219,9 +220,23 @@ main.content .wrap {
 
 .headerText {
   position: absolute;
-  top: 33vh;
+  top: 13vh;
   left: 50%;
   transform: translateX(-50%);
+  color: #FAF8F4; }
+
+.headerText2 {
+  position: absolute;
+  top: 30vh;
+  left: 40%;
+  transform: translateX(-40%);
+  color: #FAF8F4; }
+
+.headerText3 {
+  position: absolute;
+  top: 30vh;
+  left: 60%;
+  transform: translateX(-60%);
   color: #FAF8F4; }
 
 /* "About Me" page styling */
