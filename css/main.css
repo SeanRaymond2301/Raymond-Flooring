@@ -1,22 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Allan|Open+Sans+Condensed:300');
-
+@import url('https://fonts.googleapis.com/css?family=Athiti|Oswald');
 body {
     margin: 0;
-    background-color: #eaeaea;
+    background-color: #FAF8F4;
 }
 
 body p {
     text-indent: 33px;
 }
+h3 {
+    font-size: 40px;
+     font-family: 'Oswald', sans-serif;
+}
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     font-size: 40px;
 }
+
+.headerText {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+
 
 .flex {
     display: flex;
@@ -44,6 +55,7 @@ nav {
     position: fixed;
     background-image: url(../images/header2.jpg);
     background-repeat: no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .15);
 }
 
 nav ul {
@@ -323,7 +335,7 @@ main.content .headerText {
 .about-p {
     line-height: 1.6;
     font-size: 25px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Athiti', sans-serif;
 }
 
 .about-wrap-p {
@@ -332,6 +344,10 @@ main.content .headerText {
 
 .about-header {
     font-size: 60px;
-    font-family: 'Allan', cursive;
+    font-family: 'Oswald', sans-serif;
     color: #4a2602;
+}
+
+.portrait {
+    vertical-align: bottom;
 }

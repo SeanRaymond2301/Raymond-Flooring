@@ -1,6 +1,6 @@
 <div class="about-container">
 
- <div>
+ <div class="portrait">
    <img src="http://via.placeholder.com/600x600" alt="A portrait of Matthew Raymond">
  </div>
    <div class="about-wrap-p">

@@ -1,6 +1,6 @@
 <main class="content">
 	<div>
-		<img src="images/hardwood3.jpg" alt="" style="width:100%;">
+		<img src="images/laminate-2-4.jpg" alt="" style="width:100%;">
 		<h2 style="text-align:center;" class="headerText">Laminate</h2>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
