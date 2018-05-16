@@ -3,9 +3,14 @@ body {
   margin: 0;
   background-color: #FAF8F4; }
   body p {
-    text-indent: 33px; }
+    text-indent: 33px;
+    font-size: 23px; }
+  body li {
+    font-size: 23px; }
 
-h1,
+h1 {
+  font-size: 50px; }
+
 h2,
 h3,
 h4,
@@ -15,6 +20,10 @@ h6 {
 
 .flex {
   display: flex; }
+
+.w50ma {
+  width: 50%;
+  margin: 100px auto; }
 
 .logo {
   z-index: 1000000;
@@ -228,14 +237,14 @@ main.content .wrap {
 
 .headerText2 {
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   left: 40%;
   transform: translateX(-40%);
   color: #FAF8F4; }
 
 .headerText3 {
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   left: 60%;
   transform: translateX(-60%);
   color: #FAF8F4; }

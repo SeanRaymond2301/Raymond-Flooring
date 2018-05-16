@@ -6,9 +6,17 @@ body {
     background-color: $bg-color;
 	p {
 		text-indent: 33px;
+		font-size: 23px;
+	}
+	li {
+		font-size: 23px;
 	}
 }
-h1,
+
+h1 {
+	font-size: 50px;
+}
+
 h2,
 h3,
 h4,
@@ -19,6 +27,11 @@ h6 {
 
 .flex {
     display: flex;
+}
+
+.w50ma {
+	width: 50%;
+	margin: 100px auto;
 }
 
 //***********NAV***********//
@@ -283,7 +296,6 @@ footer ul a {
 //***********CONTENT***********//
 
 main.content {
-
 	.wrap {
 		display: flex;
 		justify-content: space-around;
@@ -295,11 +307,10 @@ main.content {
 				li {
 					margin-top: 15px;
 				}
-
-                    }
-                }
-			}
-		}
+            }
+        }
+	}
+}
 
 	.headerText {
 		position: absolute;
@@ -311,7 +322,7 @@ main.content {
 
 	.headerText2 {
 		position: absolute;
-		top: 30vh;
+		top: 25vh;
 		left: 40%;
 		transform: translateX(-40%);
 		color: $bg-color;
@@ -319,7 +330,7 @@ main.content {
 
 	.headerText3 {
 		position: absolute;
-		top: 30vh;
+		top: 25vh;
 		left: 60%;
 		transform: translateX(-60%);
 		color: $bg-color;
