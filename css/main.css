@@ -179,6 +179,9 @@ ul li.black a {
   to {
     opacity: 1; } }
 
+.contactinfo {
+  margin-left: 40%; }
+
 footer {
   color: #FAF8F4; }
   footer div.footer-nav {

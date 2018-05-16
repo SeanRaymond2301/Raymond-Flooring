@@ -1,4 +1,4 @@
-<div class="contact-info">
+<div class="contactinfo">
     <h2>Matthew Raymond</h2>
 
 
@@ -15,8 +15,9 @@
 <h3>Phone Number:</h3>
 <p>(559) 355-0321</p>
 
+</div>
 <!-- for contact box messaging system -->
-<div class="contact-form">
+<div class="contactform">
     <h2>Contact Me!</h2>
 
 
@@ -33,4 +34,3 @@
 </div>
 
 
-</div>
