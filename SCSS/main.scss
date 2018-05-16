@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti|Oswald');
 $bg-color: #FAF8F4;
 
 body {
@@ -280,7 +281,7 @@ footer ul a {
 //***********CONTENT***********//
 
 main.content {
-    
+
 	.wrap {
 		display: flex;
 		justify-content: space-around;
@@ -292,7 +293,7 @@ main.content {
 				li {
 					margin-top: 15px;
 				}
-                        
+
                     }
                 }
 			}
@@ -305,7 +306,6 @@ main.content {
 		transform: translateX(-50%);
 		color: $bg-color;
 	}
-}
 
 /* "About Me" page styling */
 
