@@ -271,7 +271,7 @@ footer ul a {
 //***********CONTENT***********//
 
 main.content {
-
+    
 	.wrap {
 		display: flex;
 		justify-content: space-around;
@@ -283,9 +283,12 @@ main.content {
 				li {
 					margin-top: 15px;
 				}
+                        
+                    }
+                }
 			}
 		}
-	}
+
 	.headerText {
 		position: absolute;
 		top: 33vh;
