@@ -125,7 +125,8 @@ ul li.black a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  margin: 50px 0; }
   .bottomsection .wrapper {
     background-color: #bebebe;
     padding: 15px;
