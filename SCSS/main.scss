@@ -340,8 +340,8 @@ footer ul a {
 
 main.content {
 	.wrap {
-		display: flex;
-		justify-content: space-around;
+		float:right;
+        background-color:yellow;
 		.comp {
 			text-align: center;
 			width: 20%;
