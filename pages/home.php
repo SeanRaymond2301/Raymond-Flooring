@@ -26,7 +26,7 @@
     </div>
 
   <div class="mySlides fade">
-	  <img src="http://via.placeholder.com/1920x570" style="width:100%">
+	  <img src="images/vinylplank3" style="width:100%">
 	  <div class="text">
 		  <h2>Vinyl Plank</h2>
 		  <p>Vinyl plank is the easiest to maintain, and the quietest of the three.</p>
