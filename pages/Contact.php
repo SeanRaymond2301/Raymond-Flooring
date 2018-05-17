@@ -14,23 +14,26 @@
 
 <h3>Phone Number:</h3>
 <p>(559) 355-0321</p>
-
 </div>
-<!-- for contact box messaging system -->
-<div class="contactform">
-    <h2>Contact Me!</h2>
 
+<div class="boxes">
+  <form action="Contact.php">
 
-<h3>Name:</h3>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name..">
 
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+    
+    <label for="mail">Email</label>
+    <input type="text" id="mail" name="email" placeholder="Email..">
 
-<h3>Email:</h3>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Feedback/Order" style="height:200px"></textarea>
 
+    <input type="submit" value="Submit">
 
-<h3>Phone Number:</h3>
-
-
-<h3>Message:</h3>
+  </form>
 </div>
 
 
