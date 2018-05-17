@@ -1,26 +1,25 @@
 <main class="content">
-	<div>
-		<img src="images/laminate-2-4.jpg" alt="" style="width:100%;">
+	<div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/laminate-2-4.jpg); width: 1920px; height: 570px;">
 		<h2 style="text-align:center;" class="headerText">Laminate</h2>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
 	<div class="wrap">
 <div class="comp headerText2">
-	<h3>Pro's</h3>
+	<h3>Pros</h3>
 	<ul>
-	    <li>Hard surface</li>
-	    <li>Hard to gouge</li>
-	    <li>Mimics look of real wood.</li>
+	    <li>Hard Surface</li>
+	    <li>Hard to Damage</li>
+	    <li>Looks Real</li>
 	</ul>
     </div>
-	
+
 <div class="comp headerText3">
-	<h3>Con's</h3>
+	<h3>Cons</h3>
 	<ul>
-	    <li>Is the loudest of the three.</li>
+	    <li>Loudest of the Three</li>
 	    <li>Susceptible to water damage.</li>
-	    <li>Requires more molding than others.</li>
-	    <li>Expands and contracts the most in different temperatures and humidities.</li>
+	    <li>Moldings</li>
+	    <li>Expands and Contracts</li>
 	</ul>
         </div>
     </div>

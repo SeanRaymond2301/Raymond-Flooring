@@ -1,10 +1,9 @@
 <main class="content">
-	<div>
-		<img src="images/hardwood4.png" alt="" style="width:100%;">
-		<h1 style="text-align:center;" class="headerText">Engineered Hardwood</h1>
+	<div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/hardwood4.png); width: 1920px; height: 570px;">
+	<h1 style="text-align:center;" class="headerText">Engineered Hardwood</h1>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
-	
+
 		<div class="wrap">
 			<div class="comp headerText2">
 				<div>
@@ -18,7 +17,7 @@
 				</div>
 			</div>
 			<div class="comp headerText3">
-				
+
 					<h2>Cons</h2>
 					<ul>
 					    <li>Susceptible to Water Damage</li>
@@ -28,7 +27,7 @@
 					    <li>Expands and Contracts</li>
 						<li>Easy to Damage</li>
 					</ul>
-				
+
 			</div>
 		</div>
 	</div>
