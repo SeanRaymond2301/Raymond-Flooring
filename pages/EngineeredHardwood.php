@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<div class="comp headerText3">
-				<div>
+				
 					<h2>Cons</h2>
 					<ul>
 					    <li>Susceptible to Water Damage</li>
@@ -27,7 +27,7 @@
 					    <li>Expands and Contracts</li>
 						<li>Easy to Damage</li>
 					</ul>
-				</div>
+				
 			</div>
 		</div>
 	</div>

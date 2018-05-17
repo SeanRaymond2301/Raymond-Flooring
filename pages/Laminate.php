@@ -5,15 +5,16 @@
 	</div>
 	<div style="width:40%; margin: 0 auto;">
 	<div class="wrap">
-<div class="comp">
+<div class="comp headerText2">
 	<h3>Pro's</h3>
 	<ul>
-	    <li>Hard surface, hard to gouge (an indention or groove made by a cut or blunt object).</li>
-	    <li>Mimics the appearance to real wood.</li>
+	    <li>Hard surface</li>
+	    <li>Hard to gouge</li>
+	    <li>Mimics look of real wood.</li>
 	</ul>
     </div>
 	
-<div class="comp">
+<div class="comp headerText3">
 	<h3>Con's</h3>
 	<ul>
 	    <li>Is the loudest of the three.</li>
@@ -23,5 +24,13 @@
 	</ul>
         </div>
     </div>
+    </div>
+    <div class="w50ma">
+        <p>
+           Laminate flooring has grown significantly in popularity, probably because it may be easier to install and maintain than more traditional surfaces such as hardwood flooring. It also costs less and requires less skill to install than other alternative flooring types. It's very durable, hygienic, and relatively easy to maintain.
+        </p>
+        <p>
+            Laminate flooring which is also known as floating wood tile. Laminate is a multi-layer synthetic flooring product fused together with a lamination process. Laminate flooring can have the appearance of wood or sometimes stone.
+        </p>
     </div>
 </main>
