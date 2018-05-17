@@ -5,7 +5,7 @@
 <div style="width:40%; margin: 0 auto;">
    <div class="wrap">
    <div class="comp headerText2">
-    <h3>Pro's</h3>
+    <h3>Pros</h3>
     <ul>
         <li>Waterproof.</li>
         <li>Very quiet.</li>
@@ -14,7 +14,7 @@
        </div>
 
 <div class="comp headerText3">
-    <h3>Con's</h3>
+    <h3>Cons</h3>
     <ul>
         <li>Easy to scratch.</li>
         <li>Really soft.</li>
