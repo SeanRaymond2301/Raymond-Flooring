@@ -256,7 +256,8 @@ footer ul a {
 
 main.content .wrap {
   float: right;
-  background-color: yellow; }
+  display: flex;
+  justify-content: space-around; }
   main.content .wrap .comp {
     text-align: center;
     width: 20%; }
@@ -285,6 +286,11 @@ main.content .wrap {
   left: 60%;
   transform: translateX(-60%);
   color: #FAF8F4; }
+
+.testimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), url(../images/vinyl-plank-3-edit.png);
+  width: 1920px;
+  height: 570px; }
 
 /* "About Me" page styling */
 .about-title {

@@ -1,6 +1,5 @@
 <main class="content">
-	<div>
-		<img src="images/laminate-2-4.jpg" alt="" style="width:100%;">
+	<div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/laminate-2-4.jpg); width: 1920px; height: 570px;">
 		<h2 style="text-align:center;" class="headerText">Laminate</h2>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
@@ -13,7 +12,7 @@
 	    <li>Mimics look of real wood.</li>
 	</ul>
     </div>
-	
+
 <div class="comp headerText3">
 	<h3>Con's</h3>
 	<ul>
