@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/main.css">
     <footer>
         <div class="footer-nav">
-			<img src="images/favicon.png" alt="flogo" style="width: 100px; height: 100px;" class="footer-logo">
+			<img src="images/diamond-logo.png" alt="flogo" class="footer-logo">
             <p id="cr">&copy; 2018 Matthew Raymond</p>
             <ul>
                 <a href="?page=Home">
