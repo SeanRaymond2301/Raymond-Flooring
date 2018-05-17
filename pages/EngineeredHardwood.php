@@ -4,6 +4,7 @@
 		<h1 style="text-align:center;" class="headerText">Engineered Hardwood</h1>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
+	
 		<div class="wrap">
 			<div class="comp headerText2">
 				<div>

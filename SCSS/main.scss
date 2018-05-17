@@ -63,6 +63,7 @@ nav {
 		margin: 43px 0 43px 325px;
 		list-style-type: none;
 		a {
+            font-family: 'Oswald', sans-serif;
 			margin-left: 20px;
             color: $bg-color;
 			&:visited {
@@ -92,6 +93,7 @@ nav {
 }
 
 ul {
+    font-family: 'Oswald', sans-serif;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -255,11 +257,11 @@ ul {
 //********Contact Page********//
 .contactinfo {
    margin-left: 46%;
-    
+
 }
 
 .contactform {
-    
+
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -338,6 +340,7 @@ footer ul a {
 
 main.content {
 	.wrap {
+        float: right;
 		display: flex;
 		justify-content: space-around;
 		.comp {
@@ -376,7 +379,7 @@ main.content {
 		transform: translateX(-60%);
 		color: $bg-color;
 	}
-    
+
 /* "About Me" page styling */
 
 .about-title {
@@ -393,7 +396,7 @@ main.content {
 .about-p {
     line-height: 1.6;
     font-size: 25px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Athiti', sans-serif;
 }
 
 .about-wrap-p {
@@ -402,6 +405,6 @@ main.content {
 
 .about-header {
     font-size:60px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #4a2602;
 }
