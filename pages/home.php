@@ -4,8 +4,9 @@
 
 <div class="mySlides fade">
     <img src="images/hardwoodhome.jpg" style="width:100%">
-    <div class="text">Engineered Hardwood
-	    <p>This is a realistic looking type of flooring to real wood, and is fairly quiet.</p>
+    <div class="text">
+		<h2>Engineered Hardwood</h2>
+	    <p>Engineered hardwood is real wood flooring, and very quiet.</p>
 	    <ul>
 	        <li class="black"><a href="?page=EngineeredHardwood" class="black">Read More</a></li>
 	    </ul>
@@ -15,7 +16,8 @@
 
     <div class="mySlides fade">
         <img src="images/laminate-6.jpg" style="width:100%">
-        <div class="text">Laminate
+        <div class="text">
+			<h2>Laminate</h2>
             <p>A hard surface, that mimics the look of real wood, but is the loudest of the three</p>
             <ul>
                 <li class="black"><a href="?page=Laminate" class="black">Read More</a></li>
@@ -25,7 +27,8 @@
 
   <div class="mySlides fade">
 	  <img src="http://via.placeholder.com/1920x570" style="width:100%">
-	  <div class="text">Vinyl Plank
+	  <div class="text">
+		  <h2>Vinyl Plank</h2>
 		  <p>Vinyl plank is the easiest to maintain, and the quietest of the three.</p>
 		  <ul>
 			  <li class="black"><a href="?page=EngineeredHardwood" class="black">Read More</a></li>
