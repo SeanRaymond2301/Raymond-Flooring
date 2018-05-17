@@ -256,7 +256,8 @@ footer ul a {
 
 main.content .wrap {
   float: right;
-  background-color: yellow; }
+  display: flex;
+  justify-content: space-around; }
   main.content .wrap .comp {
     text-align: center;
     width: 20%; }

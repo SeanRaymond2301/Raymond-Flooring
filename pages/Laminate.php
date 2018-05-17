@@ -6,21 +6,21 @@
 	<div style="width:40%; margin: 0 auto;">
 	<div class="wrap">
 <div class="comp headerText2">
-	<h3>Pro's</h3>
+	<h3>Pros</h3>
 	<ul>
-	    <li>Hard surface</li>
-	    <li>Hard to gouge</li>
-	    <li>Mimics look of real wood.</li>
+	    <li>Hard Surface</li>
+	    <li>Hard to Damage</li>
+	    <li>Looks Real</li>
 	</ul>
     </div>
-	
+
 <div class="comp headerText3">
-	<h3>Con's</h3>
+	<h3>Cons</h3>
 	<ul>
-	    <li>Is the loudest of the three.</li>
+	    <li>Loudest of the Three</li>
 	    <li>Susceptible to water damage.</li>
-	    <li>Requires more molding than others.</li>
-	    <li>Expands and contracts the most in different temperatures and humidities.</li>
+	    <li>Moldings</li>
+	    <li>Expands and Contracts</li>
 	</ul>
         </div>
     </div>

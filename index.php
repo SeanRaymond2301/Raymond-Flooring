@@ -7,7 +7,7 @@
 			formPage("DNE");
 		}
 	} else {
-		formPage("Home");
+		formPage("home");
 	}
 	function formPage($page) {
 		include("header.php");
