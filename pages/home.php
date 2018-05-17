@@ -31,7 +31,7 @@
 		  <h2>Vinyl Plank</h2>
 		  <p>Vinyl plank is the easiest to maintain, and the quietest of the three.</p>
 		  <ul>
-			  <li class="black"><a href="?page=EngineeredHardwood" class="black">Read More</a></li>
+			  <li class="black"><a href="?page=VinylPlank" class="black">Read More</a></li>
 		  </ul>
 	  </div>
   </div>
@@ -55,6 +55,9 @@
     <div class="wrapper">
         <h2>About Me</h2>
         <p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry. In 1995 I left his business and started working for various companies. In 1995 I left his business and started... </p>
+        <ul>
+            <li class="black"><a href="?page=About" class="black">Read More</a></li>
+        </ul>
     </div>
 </div>
 <script src="js/slides.js"></script>
