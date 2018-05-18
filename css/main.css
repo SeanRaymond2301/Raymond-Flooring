@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Athiti|Oswald");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300");
 body {
   margin: 0;
   background-color: #FAF8F4; }
@@ -313,4 +313,5 @@ main.content .wrap {
 .about-header {
   font-size: 60px;
   font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   color: #4a2602; }

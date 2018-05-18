@@ -1,5 +1,5 @@
 <main class="content">
-    <div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/vinyl-plank-3-edit.png); width: 1920px; height: 570px;">
+    <div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/vinyl-plank-3-edit.png); width: 100%; height: 570px;">
         <h2 style="text-align:center;" class="headerText">Vinyl Plank</h2>
     </div>
 <div style="width:40%; margin: 0 auto;">
