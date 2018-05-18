@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Athiti|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
 $bg-color: #FAF8F4;
 
 body {
@@ -262,7 +262,7 @@ ul {
 
 .contactform {
 
-}
+} 
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -412,5 +412,6 @@ main.content {
 .about-header {
     font-size:60px;
     font-family: 'Oswald', sans-serif;
+    font-weight:bold;
     color: #4a2602;
 }

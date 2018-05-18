@@ -24,7 +24,7 @@
     <input type="text" id="mail" name="email" placeholder="Email..">
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Feedback/Order" style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Feedback/Question" style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
 
