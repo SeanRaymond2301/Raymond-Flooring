@@ -27,7 +27,10 @@ h6 {
 
 .logo {
   z-index: 1000000;
-  position: fixed; }
+  position: fixed;
+  background: url(images/raymond-flooring-installations.png);
+  width: 100px;
+  height: auto; }
 
 .wrapper2 {
   position: fixed;
@@ -287,11 +290,6 @@ main.content .wrap {
   transform: translateX(-60%);
   color: #FAF8F4; }
 
-.testimg {
-  background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), url(../images/vinyl-plank-3-edit.png);
-  width: 1920px;
-  height: 570px; }
-
 /* "About Me" page styling */
 .about-title {
   text-align: center; }
@@ -315,3 +313,33 @@ main.content .wrap {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: #4a2602; }
+
+/* Media Query's */
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background-image: url(../images/header2.jpg);
+    background-repeat: no-repeat; }
+    nav ul {
+      width: 1400px;
+      margin: 43px 0 43px 250px;
+      list-style-type: none; }
+      nav ul a {
+        font-family: 'Oswald', sans-serif;
+        margin-left: 20px;
+        color: #FAF8F4;
+        text-decoration: none; }
+        nav ul a:visited {
+          color: #FAF8F4; }
+        nav ul a:hover {
+          color: #FAF8F4; }
+        nav ul a:active {
+          color: #FAF8F4; }
+        nav ul a li {
+          width: 90%;
+          margin: 0;
+          font-size: 18px; }
+  .lic-info {
+    font-size: 18px; } }
