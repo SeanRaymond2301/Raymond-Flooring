@@ -139,6 +139,9 @@ ul {
 ul li.black a {
   border: 1.5px solid #000; }
 
+.procon {
+  font-family: 'Oswald', sans-serif; }
+
 .bottomsection {
   display: flex;
   flex-direction: row;
@@ -146,7 +149,7 @@ ul li.black a {
   align-items: center;
   margin: 50px 0; }
   .bottomsection .wrapper {
-    background-color: #bebebe;
+    background-color: #dbdbdb;
     padding: 15px;
     width: 55%; }
     .bottomsection .wrapper h2 {
@@ -256,10 +259,8 @@ footer ul a {
   left: 0;
   transform: translateX(70%); }
 
-#cr {
-  position: absolute;
-  z-index: 10000000000;
-  padding-top: 55px; }
+.cr {
+  color: #717171; }
 
 main.content .wrap {
   float: right;
@@ -320,33 +321,3 @@ main.content .wrap {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: #4a2602; }
-
-/* Media Queries */
-@media screen and (max-width: 1024px) {
-  nav {
-    width: 100%;
-    z-index: 100;
-    position: fixed;
-    background-image: url(../images/header2.jpg);
-    background-repeat: no-repeat; }
-    nav ul {
-      width: 1400px;
-      margin: 43px 0 43px 250px;
-      list-style-type: none; }
-      nav ul a {
-        font-family: 'Oswald', sans-serif;
-        margin-left: 20px;
-        color: #FAF8F4;
-        text-decoration: none; }
-        nav ul a:visited {
-          color: #FAF8F4; }
-        nav ul a:hover {
-          color: #FAF8F4; }
-        nav ul a:active {
-          color: #FAF8F4; }
-        nav ul a li {
-          width: 90%;
-          margin: 0;
-          font-size: 18px; }
-  .lic-info {
-    font-size: 18px; } }
