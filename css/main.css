@@ -1,29 +1,33 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:300");
+@import url("https://fonts.googleapis.com/css?family=Athiti|Oswald:300");
 body {
   margin: 0;
   background-color: #FAF8F4; }
   body p {
     text-indent: 33px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: 'Athiti', sans-serif; }
   body li {
     font-size: 23px; }
 
 h1 {
-  font-size: 50px; }
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif; }
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif; }
 
 .flex {
   display: flex; }
 
 .w50ma {
   width: 50%;
-  margin: 100px auto; }
+  margin: 100px auto;
+  font-family: 'Athiti', sans-serif; }
 
 .logo {
   z-index: 1000000;
@@ -274,21 +278,24 @@ main.content .wrap {
   top: 13vh;
   left: 50%;
   transform: translateX(-50%);
-  color: #FAF8F4; }
+  color: #FAF8F4;
+  font-family: 'Oswald', sans-serif; }
 
 .headerText2 {
   position: absolute;
   top: 25vh;
   left: 40%;
   transform: translateX(-40%);
-  color: #FAF8F4; }
+  color: #FAF8F4;
+  font-family: 'Oswald', sans-serif; }
 
 .headerText3 {
   position: absolute;
   top: 25vh;
   left: 60%;
   transform: translateX(-60%);
-  color: #FAF8F4; }
+  color: #FAF8F4;
+  font-family: 'Oswald', sans-serif; }
 
 /* "About Me" page styling */
 .about-title {
@@ -314,7 +321,7 @@ main.content .wrap {
   font-weight: bold;
   color: #4a2602; }
 
-/* Media Query's */
+/* Media Queries */
 @media screen and (max-width: 1024px) {
   nav {
     width: 100%;
