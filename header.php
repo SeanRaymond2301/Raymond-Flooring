@@ -14,7 +14,9 @@
     <meta name="theme-color" content="#ffffff">
 <header>
     <nav>
-		<div class="logo"></div>
+		<div class="logo">
+		    <img src="images/raymond-flooring-installations.png" alt="">
+		</div>
         <div class="nav">
                 <ul>
                     <a href="?page=Home">

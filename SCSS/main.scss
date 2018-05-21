@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+@import url('https://fonts.googleapis.com/css?family=Athiti|Oswald:300');
+
 $bg-color: #FAF8F4;
 
 body {
@@ -7,14 +8,17 @@ body {
 	p {
 		text-indent: 33px;
 		font-size: 23px;
+        font-family: 'Athiti', sans-serif;
 	}
 	li {
 		font-size: 23px;
 	}
 }
 
+
 h1 {
 	font-size: 50px;
+     font-family: 'Oswald', sans-serif;
 }
 
 h2,
@@ -23,6 +27,7 @@ h4,
 h5,
 h6 {
 	font-size: 40px;
+     font-family: 'Oswald', sans-serif;
 }
 
 .flex {
@@ -32,6 +37,8 @@ h6 {
 .w50ma {
 	width: 50%;
 	margin: 100px auto;
+    font-family: 'Athiti', sans-serif;
+
 }
 
 //***********NAV***********//
@@ -365,6 +372,7 @@ main.content {
 		left: 50%;
 		transform: translateX(-50%);
 		color: $bg-color;
+        font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText2 {
@@ -373,6 +381,7 @@ main.content {
 		left: 40%;
 		transform: translateX(-40%);
 		color: $bg-color;
+        font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText3 {
@@ -381,6 +390,7 @@ main.content {
 		left: 60%;
 		transform: translateX(-60%);
 		color: $bg-color;
+        font-family: 'Oswald', sans-serif;
 	}
 
 /* "About Me" page styling */
@@ -413,7 +423,7 @@ main.content {
     color: #4a2602;
 }
 
-/* Media Query's */
+/* Media Queries */
 
 @media screen and (max-width: 1024px) {
     nav {
