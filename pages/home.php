@@ -61,3 +61,45 @@
     </div>
 </div>
 <script src="js/slides.js"></script>
+
+<style>
+@media screen and (max-width: 1024px) {
+       nav {
+        background-image: url(../images/header2.jpg);
+        
+           
+    }
+    .nav {
+        display: none;
+        ul {
+            width: 50%;
+            
+            list-style-type: none;
+            
+            a {
+                font-family: 'Oswald', sans-serif;
+                margin-left: 20px;
+                color: $bg-color;
+                &:visited {
+                    color: $bg-color;
+                }
+                &:hover {
+                    color: $bg-color;
+                }
+                &:active {
+                    color: $bg-color;
+                }
+                text-decoration: none;
+                li {
+                    width: 90%;
+                    margin: 0;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .lic-info {
+        font-size: 18px;
+}
+ 
+</style>
