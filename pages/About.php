@@ -1,7 +1,8 @@
-<div class="about-container">
+
+ <div class="about-container">
 
  <div class="portrait">
-   <img src="http://via.placeholder.com/600x600" alt="A portrait of Matthew Raymond">
+  
  </div>
    <div class="about-wrap-p">
    <h2 class="about-header" aria-atomic=""style="text-align:center;">About Me: Matthew Raymond</h2>

@@ -26,3 +26,11 @@
             <p class="cr">&copy; 2018 Matthew Raymond</p>
         </div>
     </footer>
+    
+<style>
+    @media screen and (max-width: 480px){
+        .footer-logo {
+            float: left;
+        }
+            
+</style>

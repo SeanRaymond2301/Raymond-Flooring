@@ -34,3 +34,16 @@
         </p>
     </div>
 </main>
+
+<style>
+@media screen and (max-width: 480px) {
+    
+    
+    .procon {
+        text-decoration-color: black;
+    }
+    .w50ma {
+        float: inherit;
+        text-align: center;
+    }
+</style>
