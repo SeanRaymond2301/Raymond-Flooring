@@ -56,14 +56,14 @@ function deletePage($ContentID) {
 
 function doLogin($un,$pw){
     $adminun = "us3r"; // this is not a secure way to handle login! The is bad and lazy for demo purposes...
-    $adminpw = ; // do not do this for a production website
+    $adminpw = "passw0rd"; // do not do this for a production website
     if( $un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: data-list.php');
+        header('Location: pages/data-list.php');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;
-        header('Location: login.php');
+        header('Location: pages/login.php');
         echo "Login Failed";
     }
 

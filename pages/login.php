@@ -7,7 +7,6 @@
         doLogin($_POST['un'],$_POST['pw']);
     }
 ?>
-<body id="login">
   <div class="row">
     <div class="large-4 small-centered columns">
         <form method="post" action="login.php">
@@ -18,6 +17,4 @@
         </form>
     </div>
 </div>
-</body>
-</html>
 <?php $conn->close(); ?>

@@ -24,22 +24,13 @@
     }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DB Demos</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
   <?php require('modules/nav.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
     <h1>Pages to Edit</h1>
     <?php
-        $sql = "SELECT ContentID, Nav_Name FROM content";
+        $sql = "SELECT ID, NavTitle FROM `floor-web-content`";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -57,6 +48,4 @@
 
     </div>
 </div>
-</body>
-</html>
 <?php $conn->close(); ?>
