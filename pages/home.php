@@ -54,7 +54,7 @@
 <div class="bottomsection">
     <div class="wrapper">
         <h2>About Me</h2>
-        <p>I started in the flooring busniness with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry. In 1995 I left his business and started working for various companies. In 1995 I left his business and started... </p>
+        <p>I started in the flooring business with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry. In 1995 I left his business and started working for various companies. In 1995 I left his business and started... </p>
         <ul>
             <li class="black"><a href="?page=About" class="black">Read More</a></li>
         </ul>

@@ -350,3 +350,25 @@ main.content .wrap {
           font-size: 18px; }
   .lic-info {
     font-size: 18px; } }
+
+@media screen and (max-width: 480px) {
+  nav {
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background-image: url(../images/header2.jpg);
+    background-repeat: no-repeat; }
+    nav ul {
+      width: 300px;
+      margin: 17px; } }
+
+.logo {
+  width: 50px; }
+
+.comp {
+  margin-right: 70px;
+  margin-left: 5px;
+  font-size: 18px; }
+
+.lic-info {
+  font-size: 12px; }
