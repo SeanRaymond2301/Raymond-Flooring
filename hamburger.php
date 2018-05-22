@@ -2,16 +2,15 @@
 
 
 <header class="ham">
-  <button><i class="fas fa-bars"></i></button>
-   <button><i class="fas fa-times"></i></button>
+	<button onclick="nav();"><i class="fas fa-bars"></i></button>
 </header>
 
 <div class="menu">
-  <ul>
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>About</li></a>
-    <a href="#"><li>Engineered Hardwood</li></a>
-    <a href="#"><li>Laminate</li></a>
-    <a href="#"><li>Vinyl Plank</li></a>
-  </ul>
-</div> 
+  	<ul id="list" style="display: none;">
+    	<a href="?page=home"><li>Home</li></a>
+    	<a href="?page=about"><li>About</li></a>
+    	<a href="?page=engineeredhardwood"><li>Engineered Hardwood</li></a>
+    	<a href="?page=laminate"><li>Laminate</li></a>
+    	<a href="?vinylplank"><li>Vinyl Plank</li></a>
+  	</ul>
+</div>

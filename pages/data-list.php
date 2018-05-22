@@ -1,5 +1,5 @@
 <?php
-    require('db_conn.php');
+    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
 
 
@@ -10,11 +10,12 @@
                 }
                 if (isset($_POST['Title'])){
                     updatePage(
-                    $_POST['HTML'],
-                    $_POST['Keywords'], $_POST['Description'],
-                    $_POST['Title'],
-                    $_POST['Nav_Name'],
-                    $_POST['ContentID']);
+                    $_POST['Cons'],
+                    $_POST['Pros'],
+					$_POST['Content'],
+                    $_POST['PageTitle'],
+                    $_POST['NavTitle'],
+                    $_POST['ID']);
                 }
 
 
@@ -23,22 +24,13 @@
     }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DB Demos</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
   <?php require('modules/nav.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
     <h1>Pages to Edit</h1>
     <?php
-        $sql = "SELECT ContentID, Nav_Name FROM content";
+        $sql = "SELECT ID, NavTitle FROM `floor-web-content`";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -51,17 +43,9 @@
         }
     ?>
     <br>
-    <a href="db_insert.php" class="button">Add a Page</a>
+    <a href="data-insert.php" class="button">Add a Page</a>
     <a href="login.php?logout" class="button alert">Logout</a>
 
     </div>
 </div>
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
 <?php $conn->close(); ?>

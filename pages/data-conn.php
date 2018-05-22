@@ -1,5 +1,6 @@
 <?php
 session_start();
+echo password_hash("7aD421859DH12C9n");
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -18,7 +19,7 @@ if ($conn->connect_error) {
 /* ---------- Add (create) a page ---------- */
 function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
     global $conn;
-    $sql = "INSERT INTO content (HTML, Keywords, Description, Title, Nav_Name) VALUES ('$HTML', '$Keywords', '$Description', '$Title', '$Nav_Name')";
+    $sql = "INSERT INTO `floor-web-content` (Pros, Cons, Content, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$Content', '$PageTitle', '$NavTitle')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New page created.";
@@ -30,7 +31,7 @@ function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
 /* ---------- Edit (update) a page ---------- */
 function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
     global $conn;
-    $sql = "UPDATE content SET HTML='$HTML', Keywords='$Keywords', Description='$Description', Title='$Title', Nav_Name='$Nav_Name' WHERE ContentID=$pid";
+    $sql = "UPDATE content SET HTML='$Cons', Keywords='$Pros', Description='$Content', Title='$PageTitle', NavTitle='$NavTitle' WHERE ID=$id";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page updated.";
@@ -42,7 +43,7 @@ function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
 /* ---------- Delete a page ---------- */
 function deletePage($ContentID) {
     global $conn;
-    $sql = "DELETE FROM content WHERE ContentID=$ContentID LIMIT 1";
+    $sql = "DELETE FROM content WHERE ID=$ID LIMIT 1";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page deleted";
@@ -58,12 +59,12 @@ function doLogin($un,$pw){
     $adminpw = "passw0rd"; // do not do this for a production website
     if( $un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: db_list.php');
+        header('Location: pages/data-list.php');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;
-        header('Location: login.php');
-        //echo "Login Fail";
+        header('Location: pages/login.php');
+        echo "Login Failed";
     }
 
 }
