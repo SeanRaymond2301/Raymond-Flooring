@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-nav">
 			<img src="images/diamond-logo.png" alt="flogo" class="footer-logo">
-            <p id="cr">&copy; 2018 Matthew Raymond</p>
+            
             <ul>
                 <a href="?page=Home">
                     <li>Home</li>
@@ -23,9 +23,6 @@
                     <li>Contact</li>
                 </a>
             </ul>
+            <p class="cr">&copy; 2018 Matthew Raymond</p>
         </div>
     </footer>
-<<<<<<< HEAD
-=======
-	
->>>>>>> 1bc0a06f31b2c7fe68a84c4c302ef261a5cf6012

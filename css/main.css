@@ -139,6 +139,9 @@ ul {
 ul li.black a {
   border: 1.5px solid #000; }
 
+.procon {
+  font-family: 'Oswald', sans-serif; }
+
 .bottomsection {
   display: flex;
   flex-direction: row;
@@ -146,7 +149,7 @@ ul li.black a {
   align-items: center;
   margin: 50px 0; }
   .bottomsection .wrapper {
-    background-color: #bebebe;
+    background-color: #dbdbdb;
     padding: 15px;
     width: 55%; }
     .bottomsection .wrapper h2 {
@@ -256,10 +259,8 @@ footer ul a {
   left: 0;
   transform: translateX(70%); }
 
-#cr {
-  position: absolute;
-  z-index: 10000000000;
-  padding-top: 55px; }
+.cr {
+  color: #FAF8F4; }
 
 main.content .wrap {
   float: right;
@@ -321,6 +322,7 @@ main.content .wrap {
   font-weight: bold;
   color: #4a2602; }
 
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   nav {
@@ -372,3 +374,4 @@ main.content .wrap {
 
 .lic-info {
   font-size: 12px; }
+
