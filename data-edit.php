@@ -35,7 +35,7 @@
 
            <input type="hidden" name="ID" value="<?php echo $row['ID'];?>" >
 
-           <label for="PageTitle">Title</label>
+           <label for="PageTitle">Page Title</label>
            <input name="PageTitle" id="PageTitle" type="text" required value="<?php echo $row['PageTitle'];?>">
 
            <label for="NavTitle">Navigation Name</label>

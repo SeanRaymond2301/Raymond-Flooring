@@ -1,5 +1,5 @@
 <?php
-    require('db_conn.php');
+    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
 
 
@@ -10,11 +10,12 @@
                 }
                 if (isset($_POST['Title'])){
                     updatePage(
-                    $_POST['HTML'],
-                    $_POST['Keywords'], $_POST['Description'],
-                    $_POST['Title'],
-                    $_POST['Nav_Name'],
-                    $_POST['ContentID']);
+                    $_POST['Cons'],
+                    $_POST['Pros'],
+					$_POST['Content'],
+                    $_POST['PageTitle'],
+                    $_POST['NavTitle'],
+                    $_POST['ID']);
                 }
 
 
@@ -51,17 +52,11 @@
         }
     ?>
     <br>
-    <a href="db_insert.php" class="button">Add a Page</a>
+    <a href="data-insert.php" class="button">Add a Page</a>
     <a href="login.php?logout" class="button alert">Logout</a>
 
     </div>
 </div>
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
 </body>
 </html>
 <?php $conn->close(); ?>

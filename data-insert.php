@@ -1,8 +1,8 @@
 <?php
-    require('db_conn.php');
+    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
-        if (isset($_POST['Title'])){
-            addPage($_POST['HTML'], $_POST['Keywords'], $_POST['Description'], $_POST['Title'], $_POST['Nav_Name']);
+        if (isset($_POST['PageTitle'])){
+            addPage($_POST['Pros'], $_POST['Cons'], $_POST['Content'], $_POST['PageTitle'], $_POST['NavTitle']);
         }
     } else {
         header('Location: login.php');
@@ -19,32 +19,28 @@
 
   <div class="row">
     <div class="large-12 columns">
-        <form action="db_insert.php" method="post">
-           <label for="Title">Title</label>
-           <input name="Title" id="Title" type="text" required>
+        <form action="data-insert.php" method="post">
 
-           <label for="Nav_Name">Navigation Name</label>
-           <input name="Nav_Name" id="Nav_Name" type="text" required>
+              <label for="PageTitle">Page Title</label>
+              <input name="PageTitle" id="PageTitle" type="text" required value="<?php echo $row['PageTitle'];?>">
 
-           <label for="Keywords">Keywords</label>
-           <input name="Keywords" id="Keywords" type="text" required>
+              <label for="NavTitle">Navigation Name</label>
+              <input name="NavTitle" id="NavTitle" type="text" required value="<?php echo $row['NavTitle'];?>">
 
-           <label for="Description">Description</label>
-           <input name="Description" id="Description" type="text" required>
+              <label for="Page Content">Page Content</label>
+              <input name="Page Content" id="Page Content" type="text" required value="<?php echo $row['Page Content'];?>">
 
-           <label for="HTML">HTML</label>
-           <textarea name="HTML" id="HTML" cols="30" rows="20" required></textarea>
+              <label for="Pros">Pros</label>
+              <input name="Pros" id="Pros" type="text" required value="<?php echo $row['Pros'];?>">
 
-           <input type="submit"> <input type="reset">
+              <label for="Cons">Cons</label>
+              <textarea name="Cons" id="Cons" type="text" required><?php echo $row['Cons'];?></textarea>
+
+              <input type="submit"><input type="reset">
         </form>
     </div>
 </div>
 
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
 </body>
 </html>
 <?php $conn->close(); ?>

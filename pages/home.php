@@ -7,9 +7,8 @@
         <img src="images/hardwoodhome.jpg" style="width:100%">
         <div class="text">
             <h2>Engineered Hardwood</h2>
-            <p>Engineered hardwood is real wood flooring, and very quiet.</p>
             <ul>
-                <li class="black"><a href="?page=EngineeredHardwood" class="black">Read More</a></li>
+                <li class="black"><a href="?page=EngineeredHardwood" class="black">About This Floor</a></li>
             </ul>
         </div>
     </div>
@@ -19,9 +18,8 @@
         <img src="images/laminate-6.jpg" style="width:100%">
         <div class="text">
             <h2>Laminate</h2>
-            <p>A hard surface, that mimics the look of real wood, but is the loudest of the three</p>
             <ul>
-                <li class="black"><a href="?page=Laminate" class="black">Read More</a></li>
+                <li class="black"><a href="?page=Laminate" class="black">About This Floor</a></li>
             </ul>
         </div>
     </div>
@@ -30,9 +28,8 @@
         <img src="images/vinylplank3.jpg" style="width:100%">
         <div class="text">
             <h2>Vinyl Plank</h2>
-            <p>Vinyl plank is the easiest to maintain, and the quietest of the three.</p>
             <ul>
-                <li class="black"><a href="?page=VinylPlank" class="black">Read More</a></li>
+                <li class="black"><a href="?page=VinylPlank" class="black">About This Floor</a></li>
             </ul>
         </div>
     </div>
@@ -63,20 +60,20 @@
 </div>
 <script src="js/slides.js"></script>
 <?php
-        require hamburger.php
-        ?>
+    require ("hamburger.php");
+?>
 <style>
     @media screen and (max-width: 1024px) {
-       
+
 
         .nav {
             display: none;
         }
-        
-      
+
+
 
         .ham {
-            
+
             height: 60px;
             line-height: 60px;
             border-bottom: 1px solid #dddddd;
@@ -99,7 +96,7 @@
             outline: none;
             z-index: 10000000000000;
         }
-    
+
         .fa-times {
             background: none;
             position: absolute;
@@ -111,8 +108,8 @@
             color: #000000;
             border: 0;
             font-size: 3em;
-        
-          
+
+
         }
 
         .menu {
@@ -134,13 +131,13 @@
         .menu li {
             display: block;
             padding: 15px 0 15px 0;
-        
+
         }
         .menu li:hover {
             display: block;
             background: #ffffff;
             padding: 15px 0 15px 0;
-            
+
         }
         .menu ul li a {
             text-decoration: none;
@@ -151,6 +148,6 @@
             color: #666;
             text-decoration: none;
         }
-       
+
 
 </style>
