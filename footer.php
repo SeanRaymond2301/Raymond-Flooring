@@ -26,4 +26,3 @@
             <p class="cr">&copy; 2018 Matthew Raymond</p>
         </div>
     </footer>
-	

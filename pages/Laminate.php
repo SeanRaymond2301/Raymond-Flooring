@@ -28,8 +28,9 @@
         <p>
            Laminate flooring has grown significantly in popularity, probably because it may be easier to install and maintain than more traditional surfaces such as hardwood flooring. It also costs less and requires less skill to install than other alternative flooring types. It's very durable, hygienic, and relatively easy to maintain.
         </p>
+        
         <p>
-            Laminate flooring which is also known as floating wood tile. Laminate is a multi-layer synthetic flooring product fused together with a lamination process. Laminate flooring can have the appearance of wood or sometimes stone.
+            Laminate flooring which is also known as floating wood tile. Laminate is a multi-layer synthetic flooring product fused together with a lamination process. The material is made of fiberboard core, it provides stability and surface covering.  Laminate flooring can have the appearance of wood or sometimes stone.
         </p>
     </div>
 </main>
