@@ -72,7 +72,7 @@ nav {
 		width: 1400px;
 		margin: 43px 0 43px 325px;
 		list-style-type: none;
-      
+
 		a {
             font-family: 'Oswald', sans-serif;
 			margin-left: 20px;
@@ -350,7 +350,7 @@ footer ul a {
 }
 
 .cr {
-   
+
     color: lightgray;
     font-size: 20px;
     padding-top: 1.5%;
@@ -393,7 +393,7 @@ main.content {
 	}
 
 	.headerText3 {
-		
+
 		transform: translateX(-60%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
@@ -440,6 +440,23 @@ main.content {
     display:none;
 }
 
+/* Media Queries */
+@media (max-width: 1024px) {
+    footer {
+        display: none;
+    }
+
+     .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    
 
 
 
+
+
+
+
+}
