@@ -294,7 +294,8 @@ main.content .wrap {
   left: 40%;
   transform: translateX(-40%);
   color: #FAF8F4;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px; }
 
 .headerText3 {
   position: absolute;
@@ -302,7 +303,8 @@ main.content .wrap {
   top: 25vh;
   transform: translateX(-60%);
   color: #FAF8F4;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px; }
 
 /* "About Me" page styling */
 .about-title {
@@ -335,9 +337,31 @@ main.content .wrap {
   display: none; }
 
 /* Media Queries */
+@media (max-width: 1260px) {
+  .headerText2 {
+    margin-right: 50px; }
+  .headerText3 {
+    margin-left: 50px; } }
+
 @media (max-width: 1024px) {
   footer {
     display: none; }
   .logo {
     width: 50px;
     height: 50px; } }
+
+@media (max-width: 755px) {
+  .headerText {
+    width: 100%;
+    margin-left: 35px; } }
+
+@media (max-width: 433px) {
+  .headerText2 {
+    transform: translateX(-70%);
+    top: 20vh;
+    font-size: 17px; }
+  .headerText3 {
+    top: 20vh;
+    font-size: 17px; }
+  .headerText {
+    transform: translateX(-59%); } }
