@@ -26,3 +26,10 @@
             <h3 class="cr">&copy; 2018 Matthew Raymond</h3>
         </div>
     </footer>
+    
+<style>
+    @media (min-width: 768px) and (max-width: 1024px) {
+        footer {
+            display: none;
+        }   
+</style>
