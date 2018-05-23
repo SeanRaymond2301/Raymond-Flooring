@@ -339,6 +339,9 @@ footer ul a {
     text-decoration: none;
 }
 
+.franxx {
+    padding-left: 20%;
+}
 .footer-logo {
 	position: absolute;
 	left: 0;
@@ -347,7 +350,9 @@ footer ul a {
 
 .cr {
    
-    color: $bg-color;
+    color: lightgray;
+    font-size: 20px;
+    padding-top: 1.5%;
 }
 
 //***********CONTENT***********//
@@ -371,27 +376,23 @@ main.content {
 }
 
 	.headerText {
-		position: absolute;
-		top: 13vh;
-		left: 50%;
+		text-align: center;
+        float: right;
+        padding-right: 8%;
 		transform: translateX(-50%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText2 {
-		position: absolute;
-		top: 25vh;
-		left: 40%;
+
 		transform: translateX(-40%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText3 {
-		position: absolute;
-		top: 25vh;
-		left: 60%;
+		
 		transform: translateX(-60%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;

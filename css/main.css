@@ -254,13 +254,18 @@ footer ul a {
   display: inline-block;
   text-decoration: none; }
 
+.franxx {
+  padding-left: 20%; }
+
 .footer-logo {
   position: absolute;
   left: 0;
   transform: translateX(70%); }
 
 .cr {
-  color: #FAF8F4; }
+  color: lightgray;
+  font-size: 20px;
+  padding-top: 1.5%; }
 
 main.content .wrap {
   float: right;
@@ -275,25 +280,19 @@ main.content .wrap {
         margin-top: 15px; }
 
 .headerText {
-  position: absolute;
-  top: 13vh;
-  left: 50%;
+  text-align: center;
+  float: right;
+  padding-right: 8%;
   transform: translateX(-50%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }
 
 .headerText2 {
-  position: absolute;
-  top: 25vh;
-  left: 40%;
   transform: translateX(-40%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }
 
 .headerText3 {
-  position: absolute;
-  top: 25vh;
-  left: 60%;
   transform: translateX(-60%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }

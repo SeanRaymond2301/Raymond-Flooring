@@ -3,7 +3,7 @@
         <div class="footer-nav">
 			<img class="footer-logo" src="images/diamond-logo.png" alt="flogo">
             
-            <ul>
+            <ul class="franxx">
                 <a href="?page=Home">
                     <li>Home</li>
                 </a>
@@ -23,7 +23,7 @@
                     <li>Contact</li>
                 </a>
             </ul>
-            <h1 class="cr">&copy; 2018 Matthew Raymond</h1>
+            <h3 class="cr">&copy; 2018 Matthew Raymond</h3>
         </div>
     </footer>
     
