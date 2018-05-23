@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/main.css">
     <footer>
         <div class="footer-nav">
-			<img src="images/diamond-logo.png" alt="flogo" class="footer-logo">
+			<img class="footer-logo" src="images/diamond-logo.png" alt="flogo">
             
             <ul>
                 <a href="?page=Home">
@@ -23,14 +23,14 @@
                     <li>Contact</li>
                 </a>
             </ul>
-            <p class="cr">&copy; 2018 Matthew Raymond</p>
+            <h1 class="cr">&copy; 2018 Matthew Raymond</h1>
         </div>
     </footer>
     
 <style>
-    @media screen and (max-width: 480px){
-        .footer-logo {
-            float: left;
+    @media (min-width: 768px) and (max-width: 1024px) {
+        footer {
+            display: none;
         }
             
 </style>
