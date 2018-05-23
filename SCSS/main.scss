@@ -72,7 +72,7 @@ nav {
 		width: 1400px;
 		margin: 43px 0 43px 325px;
 		list-style-type: none;
-      
+
 		a {
             font-family: 'Oswald', sans-serif;
 			margin-left: 20px;
@@ -250,7 +250,7 @@ ul {
 /* Empty space to push images down */
 
 .space {
-	height: 114px;
+	height: 130px;
 }
 
 @-webkit-keyframes fade {
@@ -350,7 +350,7 @@ footer ul a {
 }
 
 .cr {
-   
+
     color: lightgray;
     font-size: 20px;
     padding-top: 1.5%;
@@ -377,23 +377,27 @@ main.content {
 }
 
 	.headerText {
-		text-align: center;
-        float: right;
-        padding-right: 8%;
+		top: 13vh;
+		position: absolute;
+    	left: 50%;
 		transform: translateX(-50%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText2 {
-
+		position: absolute;
+		top: 25vh;
+		left: 40%;
 		transform: translateX(-40%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
 	}
 
 	.headerText3 {
-		
+		position: absolute;
+		left: 60%;
+		top: 25vh;
 		transform: translateX(-60%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
@@ -439,7 +443,3 @@ main.content {
 .hide-home {
     display:none;
 }
-
-
-
-

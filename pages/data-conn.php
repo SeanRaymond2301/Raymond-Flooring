@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo password_hash("7aD421859DH12C9n");
+echo password_hash("7aD421859DH12C9n", PASSWORD_DEFAULT);
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -55,8 +55,9 @@ function deletePage($ContentID) {
 /* ---------- Login ---------- */
 
 function doLogin($un,$pw){
-    $adminun = "us3r"; // this is not a secure way to handle login! The is bad and lazy for demo purposes...
-    $adminpw = "passw0rd"; // do not do this for a production website
+    $adminun = "matthew";
+    $adminpw = "";
+	$current_link = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}" . "data-list.php";
     if( $un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
         header('Location: data-list.php');

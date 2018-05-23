@@ -58,25 +58,22 @@
     </div>
 </div>
 <script src="js/slides.js"></script>
-<?php
-    require 'hamburger.php';
-?>
     <style>
         @media screen and (max-width: 1024px) {
 
 
-           
+
             .imglogo {
                 width:200px;
-                
+
             }
 
-            
+
             ul {
                margin: 0px !important;
                 width:100%;
             }
-            
+
             .nav {
                 text-align:left;
                 float:left;
@@ -85,25 +82,25 @@
                 width:50px;
                 height:50px;
             }
-            
-          
+
+
             .space {
                 display:none;
             }
-            
+
             .hide {
                 display:none;
 
             }
-            
+
             .hide-home {
                 visibility: visible;
-                
+
             }
-            
-            
-            
-            
+
+
+
+
         }
 
     </style>

@@ -107,10 +107,11 @@ ul {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 52%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
+  background: #5d5858ba;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -187,7 +188,7 @@ ul li.black a {
 
 /* Empty space to push images down */
 .space {
-  height: 114px; }
+  height: 130px; }
 
 @-webkit-keyframes fade {
   from {
@@ -280,19 +281,25 @@ main.content .wrap {
         margin-top: 15px; }
 
 .headerText {
-  text-align: center;
-  float: right;
-  padding-right: 8%;
+  top: 13vh;
+  position: absolute;
+  left: 50%;
   transform: translateX(-50%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }
 
 .headerText2 {
+  position: absolute;
+  top: 25vh;
+  left: 40%;
   transform: translateX(-40%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }
 
 .headerText3 {
+  position: absolute;
+  left: 60%;
+  top: 25vh;
   transform: translateX(-60%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif; }

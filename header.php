@@ -28,11 +28,7 @@
                     <a href="?page=EngineeredHardwood">
                         <li class="hide">Engineered Hardwood</li>
                     </a>
-                    
-                      <a href="?page=EngineeredHardwood">
-                        <li class="hide-home">Flooring Types</li>
-                    </a>
-                    
+
                     <a href="?page=Laminate">
                         <li class="hide">Laminate</li>
                     </a>
