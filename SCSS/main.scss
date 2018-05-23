@@ -10,9 +10,10 @@ body {
 		font-size: 23px;
         font-family: 'Athiti', sans-serif;
 	}
-	li {
-		font-size: 23px;
-	}
+
+    li {
+        font-size: 23px;
+    }
 }
 
 
@@ -392,6 +393,7 @@ main.content {
 		transform: translateX(-40%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
+        font-size: 23px;
 	}
 
 	.headerText3 {
@@ -401,6 +403,7 @@ main.content {
 		transform: translateX(-60%);
 		color: $bg-color;
         font-family: 'Oswald', sans-serif;
+        font-size: 23px;
 	}
 
 /* "About Me" page styling */
@@ -443,10 +446,18 @@ main.content {
 .hide-home {
     display:none;
 }
-<<<<<<< HEAD
-=======
 
 /* Media Queries */
+@media (max-width: 1260px) {
+    .headerText2 {
+        margin-right: 50px;
+    }
+
+    .headerText3 {
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 1024px) {
     footer {
         display: none;
@@ -456,14 +467,28 @@ main.content {
         width: 50px;
         height: 50px;
     }
-
-
-
-
-
-
-
-
-
 }
->>>>>>> cdbc8a0d731b44f5bcbabe17738d763184e15575
+
+@media (max-width: 755px) {
+    .headerText {
+        width: 100%;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 433px) {
+    .headerText2 {
+        transform: translateX(-70%);
+        top: 20vh;
+        font-size: 17px;
+    }
+
+    .headerText3 {
+        top: 20vh;
+        font-size: 17px;
+    }
+
+    .headerText {
+        transform: translateX(-59%);
+    }
+}

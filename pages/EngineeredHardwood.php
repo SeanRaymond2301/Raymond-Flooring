@@ -33,7 +33,7 @@
 	</div>
 	<div class="w50ma">
 		<p>Engineered hardwood is a very popular choice for those who enjoy a much more natural looking floor. This type of floor is real wood. It can be glued down or layed down on underlayement. Although the latter is less common, it is not any lesser of an option. The only difference functionally is underlayement will not be as quiet as glued down hardwood. Glued down is generally more expensive, and harder to install/repair as well.</p>
-		
+
 		<p>However engineered hardwood is generally used to raise the value of a house. It is one of the more expensive aspects of retailing, as it can be very expensive to install large areas. The wood is also vulnerable to moister and humidity, also pets and heavy boots can leave dents and scratches on the wood. It is also commonly chosen in retailing as it is the most appealing of the three looks wise.  </p>
 	</div>
 </main>
