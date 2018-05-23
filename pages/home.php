@@ -58,6 +58,3 @@
     </div>
 </div>
 <script src="js/slides.js"></script>
-<?php
-    require 'hamburger.php';
-?>

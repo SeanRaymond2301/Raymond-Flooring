@@ -6,13 +6,6 @@
     }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Data-Edit </title>
-</head>
-<body>
   <?php require('header.php'); ?>
 
   <div class="row">
@@ -59,6 +52,4 @@
         </form>
     </div>
 </div>
-</body>
-</html>
 <?php $conn->close(); ?>
