@@ -2,15 +2,27 @@
 
 
 <header class="ham">
-	<button onclick="nav();"><i class="fas fa-bars"></i></button>
+    <div id="brand">NAV</div>
 </header>
+<input type="checkbox" id="menuToggle">
+<label for="menuToggle" class="menu-icon">$#9776</label>
 
 <div class="menu">
-  	<ul id="list" style="display: none;">
-    	<a href="?page=home"><li>Home</li></a>
-    	<a href="?page=about"><li>About</li></a>
-    	<a href="?page=engineeredhardwood"><li>Engineered Hardwood</li></a>
-    	<a href="?page=laminate"><li>Laminate</li></a>
-    	<a href="?vinylplank"><li>Vinyl Plank</li></a>
-  	</ul>
+    <ul id="list">
+        <a class="a-ham" href="?page=home">
+            <li>Home</li>
+        </a>
+        <a class="a-ham" href="?page=about">
+            <li>About</li>
+        </a>
+        <a class="a-ham" href="?page=engineeredhardwood">
+            <li>Engineered Hardwood</li>
+        </a>
+        <a class="a-ham" href="?page=laminate">
+            <li>Laminate</li>
+        </a>
+        <a class="a-ham" href="?vinylplank">
+            <li>Vinyl Plank</li>
+        </a>
+    </ul>
 </div>

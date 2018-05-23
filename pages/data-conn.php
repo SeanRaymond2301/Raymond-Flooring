@@ -43,7 +43,7 @@ function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
 /* ---------- Delete a page ---------- */
 function deletePage($ContentID) {
     global $conn;
-    $sql = "DELETE FROM content WHERE ID=$ID LIMIT 1";
+    $sql = "DELETE FROM `floor-web-content` WHERE ID=$ID LIMIT 1";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page deleted";
@@ -59,11 +59,11 @@ function doLogin($un,$pw){
     $adminpw = "passw0rd"; // do not do this for a production website
     if( $un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: pages/data-list.php');
+        header('Location: data-list.php');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;
-        header('Location: pages/login.php');
+        header('Location: login.php');
         echo "Login Failed";
     }
 

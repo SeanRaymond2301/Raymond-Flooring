@@ -117,7 +117,7 @@ ul {
 		color: black;
 	}
 	a:hover {
-		color: black;
+		color: #ff0000;
 	}
 	a:active {
 		color: black;
@@ -433,6 +433,10 @@ main.content {
         font-size: 20px;
     }
 
+
+.hide-home {
+    display:none;
+}
 
 
 

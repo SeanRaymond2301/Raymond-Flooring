@@ -1,4 +1,3 @@
-
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
@@ -60,94 +59,51 @@
 </div>
 <script src="js/slides.js"></script>
 <?php
-    require ("hamburger.php");
+    require 'hamburger.php';
 ?>
-<style>
-    @media screen and (max-width: 1024px) {
+    <style>
+        @media screen and (max-width: 1024px) {
 
 
-        .nav {
-            display: none;
+           
+            .imglogo {
+                width:200px;
+                
+            }
+
+            
+            ul {
+               margin: 0px !important;
+                width:100%;
+            }
+            
+            .nav {
+                text-align:left;
+                float:left;
+            }
+             .logo {
+                width:50px;
+                height:50px;
+            }
+            
+          
+            .space {
+                display:none;
+            }
+            
+            .hide {
+                display:none;
+
+            }
+            
+            .hide-home {
+                visibility: visible;
+                
+            }
+            
+            
+            
+            
         }
 
-
-
-        .ham {
-
-            height: 60px;
-            line-height: 60px;
-            border-bottom: 1px solid #dddddd;
-            width: 100%;
-             background-image: url(../images/header2.jpg)
-        }
-
-        .fa-bars {
-            background: none;
-            position: absolute;
-
-            padding: 5px 15px 0px 15px;
-            color: #000000;
-            border: 0;
-            font-size: 1.4em;
-
-            top: 0;
-            right: 0;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-        }
-
-        .fa-times {
-            background: none;
-            position: absolute;
-            top: 0px;
-            right: 0;
-            cursor: pointer;
-            outline: none;
-            z-index: 10000000000000;
-            color: #000000;
-            border: 0;
-            font-size: 3em;
-
-
-        }
-
-        .menu {
-            z-index: 1000000;
-            font-weight: bold;
-            font-size: 0.8em;
-            width: 100%;
-            background: #f1f1f1;
-            position: absolute;
-            text-align: center;
-            font-size: 12px;
-        }
-        .menu ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            list-style-image: none;
-        }
-        .menu li {
-            display: block;
-            padding: 15px 0 15px 0;
-
-        }
-        .menu li:hover {
-            display: block;
-            background: #ffffff;
-            padding: 15px 0 15px 0;
-
-        }
-        .menu ul li a {
-            text-decoration: none;
-            margin: 0px;
-            color: #666;
-        }
-        .menu ul li a:hover {
-            color: #666;
-            text-decoration: none;
-        }
-
-
-</style>
+    </style>

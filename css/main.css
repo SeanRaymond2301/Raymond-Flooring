@@ -89,7 +89,7 @@ ul {
   ul a:visited {
     color: black; }
   ul a:hover {
-    color: black; }
+    color: #ff0000; }
   ul a:active {
     color: black; }
 
@@ -324,3 +324,6 @@ main.content .wrap {
 
 .lic-info {
   font-size: 20px; }
+
+.hide-home {
+  display: none; }

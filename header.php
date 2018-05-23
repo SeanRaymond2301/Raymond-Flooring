@@ -15,7 +15,7 @@
 <header>
     <nav>
 		<div class="logo">
-		    <img src="images/raymond-flooring-installations.png" alt="">
+		    <img class="imglogo" src="images/raymond-flooring-installations.png" alt="">
 		</div>
         <div class="nav">
                 <ul>
@@ -26,13 +26,18 @@
                         <li>About</li>
                     </a>
                     <a href="?page=EngineeredHardwood">
-                        <li>Engineered Hardwood</li>
+                        <li class="hide">Engineered Hardwood</li>
                     </a>
+                    
+                      <a href="?page=EngineeredHardwood">
+                        <li class="hide-home">Flooring Types</li>
+                    </a>
+                    
                     <a href="?page=Laminate">
-                        <li>Laminate</li>
+                        <li class="hide">Laminate</li>
                     </a>
                     <a href="?page=VinylPlank">
-                        <li>Vinyl Plank</li>
+                        <li class="hide">Vinyl Plank</li>
                     </a>
                     <a href="?page=Contact">
                         <li>Contact</li>
