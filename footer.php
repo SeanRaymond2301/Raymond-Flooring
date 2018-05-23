@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-nav">
 			<img class="footer-logo" src="images/diamond-logo.png" alt="flogo">
-            
+
             <ul class="franxx">
                 <a href="?page=Home">
                     <li>Home</li>
