@@ -17,9 +17,9 @@ if ($conn->connect_error) {
 /* ---------- DB functions ---------- */
 
 /* ---------- Add (create) a page ---------- */
-function addPage($HTML, $Keywords, $Description, $Title, $Nav_Name) {
+function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
     global $conn;
-    $sql = "INSERT INTO `floor-web-content` (Pros, Cons, Content, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$Content', '$PageTitle', '$NavTitle')";
+    $sql = "INSERT INTO `floor-web-content` (Pros, Cons, PageContent, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$PageContent', '$PageTitle', '$NavTitle')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New page created.";
@@ -43,7 +43,7 @@ function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
 /* ---------- Delete a page ---------- */
 function deletePage($ContentID) {
     global $conn;
-    $sql = "DELETE FROM `floor-web-content` WHERE ID=$ID LIMIT 1";
+    $sql = "DELETE FROM `floor-web-content` WHERE ID=$ContentID LIMIT 1";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page deleted";
@@ -55,16 +55,15 @@ function deletePage($ContentID) {
 /* ---------- Login ---------- */
 
 function doLogin($un,$pw){
-    $adminun = "matthew";
-    $adminpw = "";
-	$current_link = "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}" . "data-list.php";
-    if( $un == $adminun && $pw == $adminpw){
+    $adminun = "1";
+    $adminpw = "1";
+    if($un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: data-list.php');
+        header('Location: pages/data-list.php');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;
-        header('Location: login.php');
+        header('Location: ?page=login');
         echo "Login Failed";
     }
 

@@ -6,11 +6,11 @@
     }
 
 ?>
-  <?php require('header.php'); ?>
+  <?php require('../header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
-        <form action="db_list.php" method="post">
+        <form action="data-list.php" method="post">
           <?php
             if (isset($_GET['pid'])) {
                 $ContentID = $_GET['pid'];
@@ -18,7 +18,7 @@
             } else {
                 echo "No record set";
             }
-            $sql = "SELECT * FROM content WHERE ContentID=$ContentID LIMIT 1";
+            $sql = "SELECT * FROM `floor-web-content` WHERE ID=$ContentID LIMIT 1";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -34,14 +34,14 @@
            <label for="NavTitle">Navigation Name</label>
            <input name="NavTitle" id="NavTitle" type="text" required value="<?php echo $row['NavTitle'];?>">
 
-           <label for="Page Content">Page Content</label>
-           <input name="Page Content" id="Page Content" type="text" required value="<?php echo $row['Page Content'];?>">
+           <label for="PageContent">Page Content</label>
+           <textarea name="PageContent" id="PageContent" type="text" required rows="30"><?php echo $row['PageContent'];?></textarea>
 
            <label for="Pros">Pros</label>
-           <input name="Pros" id="Pros" type="text" required value="<?php echo $row['Pros'];?>">
+           <textarea name="Pros" id="Pros" type="text" required rows="30"><?php echo $row['Pros'];?></textarea>
 
            <label for="Cons">Cons</label>
-           <textarea name="Cons" id="Cons" type="text" required><?php echo $row['Cons'];?></textarea>
+           <textarea name="Cons" id="Cons" type="text" required rows="30"><?php echo $row['Cons'];?></textarea>
 
            <input type="submit"><input type="reset">
            <?php }

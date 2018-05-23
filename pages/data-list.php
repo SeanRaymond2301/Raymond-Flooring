@@ -24,7 +24,7 @@
     }
 
 ?>
-  <?php require('modules/nav.php'); ?>
+  <?php require('../header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
@@ -36,7 +36,7 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "<a href='db_edit.php?pid=".$row['ContentID']."'>".$row['Nav_Name']."</a> | <a style='color:red;' href='?del=".$row['ContentID']."'>(del)</a><br>";
+                echo "<a href='data-edit.php?pid=".$row['ID']."'>".$row['NavTitle']."</a> | <a style='color:red;' href='?del=".$row['ID']."'>(del)</a><br>";
             }
         } else {
             echo "Failed to load content.";

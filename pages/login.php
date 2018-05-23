@@ -9,7 +9,7 @@
 ?>
   <div class="row">
     <div class="large-4 small-centered columns">
-        <form method="post" action="login.php">
+        <form method="post" action="?page=login">
             <br>
             <input name="un" type="text" placeholder="username">
             <input name="pw" type="password" placeholder="password">
