@@ -144,7 +144,7 @@ ul {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 52%;
+    top: 46%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -488,10 +488,16 @@ main.content {
         width: 100%;
         margin-left: 35px;
     }
+    .contactinfo {
+        float:inherit;
+        margin: 0 !important;
+    }
 }
 
 
-/*phone*/
+
+
+/*=======*/
 
 @media (max-width: 433px) {
 
@@ -508,6 +514,7 @@ main.content {
 
     .headerText {
         transform: translateX(-59%);
+        font-size: 20px;
     }
 
     body {
