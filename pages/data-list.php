@@ -8,11 +8,11 @@
                 if (isset($_GET['del'])){
                     deletePage($_GET['del']);
                 }
-                if (isset($_POST['Title'])){
+                if (isset($_POST['PageTitle'])){
                     updatePage(
                     $_POST['Cons'],
                     $_POST['Pros'],
-					$_POST['Content'],
+					$_POST['PageContent'],
                     $_POST['PageTitle'],
                     $_POST['NavTitle'],
                     $_POST['ID']);
@@ -24,7 +24,7 @@
     }
 
 ?>
-  <?php require('../header.php'); ?>
+  <?php require('header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">

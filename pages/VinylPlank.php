@@ -23,11 +23,17 @@
     </div>
     </div>
     <div class="w50ma">
-        <p>
-            Vinyl plank is designed to resemble hardwood, and it comes in strips. You can find this product in any number of styles, each mimicking a specific style of wood matching color or type of wood. The surface texture often includes the look of scraping or embossing, which dramatically heightens the realism.
-        </p>
-        <p>
-            This is very affordable to make it a good choice when compared to other flooring types. This is also very easy to install because you can glue this type of flooring down to install it. Vinyl plank is also very low maintenance making it easier on the owner so they don't have to clean it as often. Unlike carpet this creates no static when friction is applied. To top it all off this type of flooring is 100% moisture resistant.
-        </p>
+		<?php
+		require('data-conn.php');
+		$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Vinyl Plank'";
+		$result = mysqli_query($conn, $content);
+		while($row = mysqli_fetch_assoc($result)) {
+			$string = $row['PageContent'];
+			$strings = explode("|", "$string");
+			foreach ($strings as $string) {
+				echo "<p>$string</p>";
+			}
+		}
+		?>
     </div>
 </main>

@@ -1,3 +1,14 @@
+<title>
+	<?php
+	require('data-conn.php');
+	$title = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Laminate'";
+	$result = mysqli_query($conn, $title);
+	while($row = mysqli_fetch_assoc($result)) {
+		echo $row['PageTitle'];
+	}
+	?>
+</title>
+<body>
 <main class="content">
 	<div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/laminate-2-4.jpg); width: 100%; height: 570px;">
 		<h2 style="text-align:center;" class="headerText">Laminate</h2>
@@ -25,25 +36,31 @@
     </div>
     </div>
     <div class="w50ma">
-        <p>
-           Laminate flooring has grown significantly in popularity, probably because it may be easier to install and maintain than more traditional surfaces such as hardwood flooring. It also costs less and requires less skill to install than other alternative flooring types. It's very durable, hygienic, and relatively easy to maintain.
-        </p>
-        
-        <p>
-            Laminate flooring which is also known as floating wood tile. Laminate is a multi-layer synthetic flooring product fused together with a lamination process. The material is made of fiberboard core, it provides stability and surface covering.  Laminate flooring can have the appearance of wood or sometimes stone.
-        </p>
+		<?php
+		$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Laminate'";
+		$result = mysqli_query($conn, $content);
+		while($row = mysqli_fetch_assoc($result)) {
+			$string = $row['PageContent'];
+			$strings = explode("|", "$string");
+			foreach ($strings as $string) {
+				echo "<p>$string</p>";
+			}
+		}
+		?>
     </div>
-</main>
 
+</main>
 <style>
 @media screen and (max-width: 480px) {
-    
-    
-    .procon {
-        text-decoration-color: black;
-    }
-    .w50ma {
-        float: inherit;
-        text-align: center;
-    }
+
+
+	.procon {
+		text-decoration-color: black;
+	}
+	.w50ma {
+		float: inherit;
+		text-align: center;
+	}
+}
 </style>
+</body>

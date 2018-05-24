@@ -6,7 +6,7 @@
     }
 
 ?>
-  <?php require('../header.php'); ?>
+  <?php require('header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
@@ -31,7 +31,7 @@
            <label for="PageTitle">Page Title</label>
            <input name="PageTitle" id="PageTitle" type="text" required value="<?php echo $row['PageTitle'];?>">
 
-           <label for="NavTitle">Navigation Name</label>
+           <label for="NavTitle">Navigation Title</label>
            <input name="NavTitle" id="NavTitle" type="text" required value="<?php echo $row['NavTitle'];?>">
 
            <label for="PageContent">Page Content</label>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo password_hash("7aD421859DH12C9n", PASSWORD_DEFAULT);
+//echo password_hash("7aD421859DH12C9n", PASSWORD_DEFAULT);
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -29,16 +29,16 @@ function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
 ;}
 
 /* ---------- Edit (update) a page ---------- */
-function updatePage($HTML, $Keywords, $Description, $Title, $Nav_Name, $pid) {
+function updatePage($Cons, $Pros, $PageContent, $PageTitle, $NavTitle, $ID) {
     global $conn;
-    $sql = "UPDATE content SET HTML='$Cons', Keywords='$Pros', Description='$Content', Title='$PageTitle', NavTitle='$NavTitle' WHERE ID=$id";
+    $sql = "UPDATE `floor-web-content` SET Cons='$Cons', Pros='$Pros', PageContent='$PageContent', PageTitle='$PageTitle', NavTitle='$NavTitle' WHERE ID=$ID";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Page updated.";
+        die("Page updated.");
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        die("Error: " . $sql . "<br>" . $conn->error);
     }
-;}
+}
 
 /* ---------- Delete a page ---------- */
 function deletePage($ContentID) {
@@ -59,7 +59,7 @@ function doLogin($un,$pw){
     $adminpw = "1";
     if($un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: pages/data-list.php');
+        header('Location: data-list.php');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;

@@ -10,13 +10,13 @@
 		formPage("home");
 	}
 	function formPage($page) {
-		include("header.php");
+		include("pages/header.php");
 		// echo "<title>$PageTitle</title>";
 		echo "</head>";
 		echo "<body id='$page'>";
 		echo "<div class='space'></div>";
 		include("pages/$page.php");
 		echo "</body>";
-		include("footer.php");
+		include("pages/footer.php");
 	}
 ?>
