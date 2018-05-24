@@ -474,10 +474,15 @@ main.content {
         width: 100%;
         margin-left: 35px;
     }
+    .contactinfo {
+        float:inherit;
+        margin: 0 !important;
+        text-align: center !important;
+    }
 }
 
 
-=======
+/*=======*/
 @media (max-width: 433px) {
     .headerText2 {
         transform: translateX(-70%);

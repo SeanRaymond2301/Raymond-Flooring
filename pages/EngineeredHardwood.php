@@ -22,10 +22,8 @@
 					<ul>
 					    <li>Susceptible to Water Damage</li>
 					    <li>Most Expensive</li>
-						<li>Hard to Install/Repair</li>
-					    <li>Moldings</li>
-					    <li>Expands and Contracts</li>
 						<li>Easy to Damage</li>
+					    <li>Expands and Contracts</li>
 					</ul>
 
 			</div>
