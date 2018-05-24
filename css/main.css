@@ -30,11 +30,12 @@ h6 {
   font-family: 'Athiti', sans-serif; }
 
 .logo {
-  z-index: 1000000;
+  z-index: 100000000000;
   position: fixed;
-  background: url(images/raymond-flooring-installations.png);
-  width: 100px;
-  height: auto; }
+  background-image: url(../images/raymond-flooring-installations.png);
+  width: 400px;
+  height: 350px;
+  background-repeat: no-repeat; }
 
 .wrapper2 {
   position: fixed;
@@ -43,13 +44,19 @@ h6 {
 
 .lic-info {
   z-index: 100000000000;
-  color: #FAF8F4; }
+  color: #FAF8F4;
+  font-size: 20px; }
+
+.lic-info2 {
+  z-index: 100000000000;
+  color: #FAF8F4;
+  font-size: 20px; }
 
 nav {
   width: 100%;
   z-index: 100;
   position: fixed;
-  background-image: url(../images/header2.jpg);
+  background-image: url("../images/header2.jpg");
   background-repeat: no-repeat; }
   nav ul {
     width: 1400px;
@@ -107,7 +114,7 @@ ul {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 52%;
+  top: 46%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -332,9 +339,6 @@ main.content .wrap {
   font-weight: bold;
   color: #4a2602; }
 
-.lic-info {
-  font-size: 20px; }
-
 .hide-home {
   display: none; }
 
@@ -353,7 +357,7 @@ main.content .wrap {
   footer {
     display: none; }
   .imglogo {
-    width: 50px; } }
+    width: 200px; } }
 
 /*phone*/
 @media (max-width: 755px) {
@@ -362,14 +366,8 @@ main.content .wrap {
     margin-left: 35px; }
   .contactinfo {
     float: inherit;
-    margin: 0 !important;
-    text-align: center !important; } }
+    margin: 0 !important; } }
 
-<<<<<<< HEAD
-/*phone*/
-=======
-/*=======*/
->>>>>>> acccec4d4903dd1f2db99ea4846bfef7de71ae21
 @media (max-width: 433px) {
   .headerText2 {
     transform: translateX(-70%);
@@ -379,11 +377,21 @@ main.content .wrap {
     top: 20vh;
     font-size: 17px; }
   .headerText {
-    transform: translateX(-59%); }
+    transform: translateX(-59%);
+    font-size: 20px; }
   body {
     background-color: white; }
   ul {
     margin: 60px !important; }
+  .imglogo {
+    background-image: url("../images/diamond-logo.png");
+    width: 85px !important;
+    height: 85px !important;
+    background-repeat: no-repeat;
+    z-index: 100000000000;
+    top: 15px;
+    left: 5px;
+    background-size: cover; }
   .black {
     width: 100%;
     text-align: center; }
@@ -395,12 +403,20 @@ main.content .wrap {
     width: 100% !important; }
   .imglogo {
     width: 150px; }
-  .hide {
-    position: absolute !important;
-    top: -9999px !important;
-    z-index: -100000;
-    left: -9999px !important; }
   .lic-info {
+    bottom: 15px;
+    font-size: 15px;
+    position: relative;
+    right: 290px; }
+  .lic-info2 {
+    bottom: 54px;
+    font-size: 15px;
+    position: relative;
+    right: 160px; }
+  .wrapper2 {
+    right: 100px;
+    width: 100%; }
+  .hide {
     display: none; }
   /*show element in phone only*/
   .show-mq {
