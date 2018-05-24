@@ -18,50 +18,38 @@
 
 
 <header>
+        <nav>
+            <div class="logo imglogo"></div>
+            <div class="nav">
+                <ul>
+                    <a href="?page=Home">
+                        <li>Home</li>
+                    </a>
+                    <a href="?page=About">
+                        <li>About</li>
+                    </a>
+                    <a class="hide" href="?page=EngineeredHardwood">
+                        <li class="hide">Engineered Hardwood</li>
+                    </a>
 
+                    <a class="hide" href="?page=Laminate">
+                        <li class="hide">Laminate</li>
+                    </a>
+                    <a class="hide" href="?page=VinylPlank">
+                        <li class="hide">Vinyl Plank</li>
+                    </a>
 
-    <nav>
-        <div class="logo">
-            <img class="imglogo" src="images/raymond-flooring-installations.png" alt="">
-        </div>
-        <div class="nav">
-            <ul>
-                <a href="?page=Home">
-                    <li>Home</li>
-                </a>
-                <a href="?page=About">
-                    <li>About</li>
-                </a>
-                <a class="hide" href="?page=EngineeredHardwood">
-                    <li class="hide">Engineered Hardwood</li>
-                </a>
-
-                <a class="hide" href="?page=Laminate">
-                    <li class="hide">Laminate</li>
-                </a>
-                <a class="hide" href="?page=VinylPlank">
-                    <li class="hide">Vinyl Plank</li>
-                </a>
-
-                <a class="show-mq" href="">
-                    <li class="show-mq">Flooring Types</li>
-                </a>
-
-                <a href="?page=Contact">
-                    <li>Contact</li>
-                </a>
-            </ul>
-
-            <div class="wrapper2">
-                            
-                	<p class=" lic-info ">Matthew Raymond</p>
-                	
-                	<p class="lic-info ">License #768883</p>
-                                       
-
-                	
+                    <a class="show-mq" href="">
+                        <li class="show-mq">Flooring Types</li>
+                    </a>
+                    <a href="?page=Contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+                <div class="wrapper2">
+                    <p class="lic-info">Matthew Raymond</p>
+                    <p class="lic-info2">License #768883</p>
                 </div>
-        </div>
-    </nav>
-    
+            </div>
+        </nav>
 </header>

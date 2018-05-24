@@ -44,11 +44,12 @@ h6 {
 
 //***********NAV***********//
 .logo {
-    z-index: 1000000;
+    z-index: 100000000000;
     position: fixed;
-    background: url(images/raymond-flooring-installations.png);
-    width: 100px;
-    height: auto;
+    background-image: url(../images/raymond-flooring-installations.png);
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
 }
 
 .wrapper2 {
@@ -60,13 +61,20 @@ h6 {
 .lic-info {
     z-index: 100000000000;
     color: $bg-color;
+    font-size: 20px;
+}
+
+.lic-info2 {
+    z-index: 100000000000;
+    color: $bg-color;
+    font-size: 20px;
 }
 
 nav {
     width: 100%;
     z-index: 100;
     position: fixed;
-    background-image: url(../images/header2.jpg);
+    background-image: url("../images/header2.jpg");
     background-repeat: no-repeat;
     ul {
         width: 1400px;
@@ -442,13 +450,6 @@ main.content {
     color: #4a2602;
 }
 
-
-
-.lic-info {
-    font-size: 20px;
-}
-
-
 .hide-home {
     display: none;
 }
@@ -476,7 +477,7 @@ main.content {
     }
 
     .imglogo {
-        width: 50px;
+        width: 200px;
 
     }
 }
@@ -493,11 +494,6 @@ main.content {
         margin: 0 !important;
     }
 }
-
-
-
-
-/*=======*/
 
 @media (max-width: 433px) {
 
@@ -523,10 +519,18 @@ main.content {
 
     ul {
         margin: 60px !important;
-
     }
 
-
+    .imglogo {
+        background-image: url('../images/diamond-logo.png');
+        width: 85px !important;
+        height: 85px !important;
+        background-repeat: no-repeat;
+        z-index: 100000000000;
+        top: 15px;
+        left: 5px;
+        background-size: cover;
+    }
 
     .black {
         width: 100%;
@@ -538,39 +542,43 @@ main.content {
     }
 
     a {
-
         margin: 0px !important;
     }
 
     .wrapper {
-
         width: 100% !important;
     }
 
     .imglogo {
-
         width: 150px;
-
-    }
-
-    .hide {
-        position: absolute !important;
-        top: -9999px !important;
-        z-index: -100000;
-        left: -9999px !important;
     }
 
     .lic-info {
-        display:none;
+        bottom: 15px;
+        font-size: 15px;
+        position: relative;
+        right: 290px;
     }
 
-    
+    .lic-info2 {
+        bottom: 54px;
+        font-size: 15px;
+        position: relative;
+        right: 160px;
+    }
+
+    .wrapper2 {
+        right: 100px;
+        width: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
+
     /*show element in phone only*/
     .show-mq {
-      display: block !important;
-   visibility: visible;
-        
-
+        display: block !important;
+        visibility: visible;
     }
-
 }
