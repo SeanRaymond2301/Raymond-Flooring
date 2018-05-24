@@ -11,7 +11,6 @@
 					<ul>
 					    <li>Quiet</li>
 					    <li>Real Wood</li>
-						<li>Best Looking of the 3</li>
 						<li>Most Valuable of the 3</li>
 					</ul>
 				</div>
@@ -21,7 +20,6 @@
 					<h2>Cons</h2>
 					<ul>
 					    <li>Susceptible to Water Damage</li>
-					    <li>Most Expensive</li>
 						<li>Easy to Damage</li>
 					    <li>Expands and Contracts</li>
 					</ul>

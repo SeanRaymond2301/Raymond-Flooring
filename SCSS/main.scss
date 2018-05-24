@@ -477,7 +477,6 @@ main.content {
     .contactinfo {
         float:inherit;
         margin: 0 !important;
-        text-align: center !important;
     }
 }
 
@@ -497,6 +496,7 @@ main.content {
 
     .headerText {
         transform: translateX(-59%);
+        font-size: 20px;
     }
 }
 
