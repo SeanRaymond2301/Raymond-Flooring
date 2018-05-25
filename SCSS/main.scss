@@ -46,7 +46,7 @@ h6 {
 .logo {
     z-index: 100000000000;
     position: fixed;
-    background-image: url(../images/raymond-flooring-installations.png);
+    background-image: url('../images/raymond-flooring-installations.png');
     width: 400px;
     height: 350px;
     background-repeat: no-repeat;
@@ -472,10 +472,6 @@ main.content {
     .headerText3 {
         margin-left: 50px;
     }
-    .headerTexta {
-        margin: 0; 
-        color: white;
-    }
     .contactinfo {
         transform: translateX(-50px);
     }
@@ -613,7 +609,7 @@ main.content {
         color: white;
         margin: 10px;
     }
-    
+
 
     body {
         background-color: white;
@@ -623,12 +619,8 @@ main.content {
     ul {
         margin: 30px !important;
         text-align: center;
-        
-    }
 
-   
-    nav {
-        
+    }
 
     .perfect {
         margin: 0 !important;
@@ -637,7 +629,7 @@ main.content {
         transform: translateX(15%);
         margin: 0 !important;
     }
-    
+
     .navul {
         margin: 60px !important;
 
@@ -645,21 +637,20 @@ main.content {
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
-        width: 60px !important;
-        height: 60px !important;
         background-repeat: no-repeat;
-    
-        top: 10px;
         background-size:cover;
+        height: 85px !important;
         left: 5px;
+        top: 10px;
+        width: 85px !important;
 
     }
 
     .black {
-        width: 100%;
         text-align: center;
+        width: 100%;
     }
-    
+
     .nav {
         text-align:left;
     }
@@ -702,12 +693,12 @@ main.content {
     .hide {
         display: none;
     }
-    
-    
+
+
     .showmq:hover, .drop-item {
         display:inline-block;
     }
-    
+
 
 .drop-item:hover {
     display:inline-block;
@@ -718,13 +709,13 @@ main.content {
     min-width: 160px;
     z-index: 1;
 }
-    
+
     .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-  
+
 
     /*show element in phone only*/
     .show-mq {
