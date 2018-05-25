@@ -8,7 +8,7 @@
 			<div class="comp headerText2">
 				<div>
 					<h2>Pros</h2>
-					<ul>
+					<ul class="perfect">
 					    <li>Quiet</li>
 					    <li>Real Wood</li>
 						<li>Most Valuable of the 3</li>
@@ -18,7 +18,7 @@
 			<div class="comp headerText3">
 
 					<h2>Cons</h2>
-					<ul>
+					<ul class="perfect">
 					    <li>Susceptible to Water Damage</li>
 						<li>Easy to Damage</li>
 					    <li>Expands and Contracts</li>

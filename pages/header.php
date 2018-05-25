@@ -21,7 +21,7 @@
         <nav>
             <div class="logo imglogo"></div>
             <div class="nav">
-                <ul>
+                <ul class="navul">
                     <a href="?page=Home">
                         <li>Home</li>
                     </a>
