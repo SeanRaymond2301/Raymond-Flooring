@@ -80,6 +80,7 @@ nav {
         width: 1400px;
         margin: 43px 0 43px 325px;
         list-style-type: none;
+        transform: translateX(20px);
 
         a {
             font-family: 'Oswald', sans-serif;
@@ -455,9 +456,16 @@ main.content {
 }
 
 /*show in phone, hide in desktop*/
+
 .show-mq {
     display: none;
 }
+
+.dropdown,
+.drop-item {
+    display:none;
+}
+
 
 /* Media Queries */
 
@@ -490,7 +498,7 @@ main.content {
         margin-left: 35px;
     }
     .contactinfo {
-        float:inherit;
+        float: inherit;
         margin: 0 !important;
     }
 }
@@ -518,23 +526,35 @@ main.content {
     }
 
     ul {
-        margin: 60px !important;
+        margin: 30px !important;
+        text-align: center;
+        
+    }
+
+   
+    nav {
+        
     }
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
-        width: 85px !important;
-        height: 85px !important;
+        width: 60px !important;
+        height: 60px !important;
         background-repeat: no-repeat;
-        z-index: 100000000000;
-        top: 15px;
+    
+        top: 10px;
+        background-size:cover;
         left: 5px;
-        background-size: cover;
+
     }
 
     .black {
         width: 100%;
         text-align: center;
+    }
+    
+    .nav {
+        text-align:left;
     }
 
     li {
@@ -575,6 +595,29 @@ main.content {
     .hide {
         display: none;
     }
+    
+    
+    .showmq:hover, .drop-item {
+        display:inline-block;
+    }
+    
+
+.drop-item:hover {
+    display:inline-block;
+    background-color: pink;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+    
+    .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
 
     /*show element in phone only*/
     .show-mq {
