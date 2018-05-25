@@ -40,7 +40,7 @@
                 </a>
 
                 <a class="show-mq" href="">
-                    <li class="show-mq">Flooring Types</li>
+                    <li class="show-mq">Flooring</li>
                 </a>
                 <ul class="dropdown">
                     <li class="drop-item"><a href="">**********</a></li>

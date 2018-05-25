@@ -32,7 +32,7 @@ h6 {
 .logo {
   z-index: 100000000000;
   position: fixed;
-  background-image: url(../images/raymond-flooring-installations.png);
+  background-image: url("../images/raymond-flooring-installations.png");
   width: 400px;
   height: 350px;
   background-repeat: no-repeat; }
@@ -354,9 +354,6 @@ main.content .wrap {
     margin-right: 50px; }
   .headerText3 {
     margin-left: 50px; }
-  .headerTexta {
-    margin: 0;
-    color: white; }
   .contactinfo {
     transform: translateX(-50px); }
   .prev, .next {
@@ -459,11 +456,9 @@ main.content .wrap {
     margin: 10px; }
   body {
     background-color: white; }
-<<<<<<< HEAD
   ul {
     margin: 30px !important;
     text-align: center; }
-=======
   .perfect {
     margin: 0 !important; }
   .contactinfo {
@@ -471,18 +466,17 @@ main.content .wrap {
     margin: 0 !important; }
   .navul {
     margin: 60px !important; }
->>>>>>> adf8c65b1ee1a67219ecdbf012fdcea9ca43bf92
   .imglogo {
     background-image: url("../images/diamond-logo.png");
-    width: 60px !important;
-    height: 60px !important;
     background-repeat: no-repeat;
-    top: 10px;
     background-size: cover;
-    left: 5px; }
+    height: 85px !important;
+    left: 5px;
+    top: 10px;
+    width: 85px !important; }
   .black {
-    width: 100%;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
   .nav {
     text-align: left; }
   li {
