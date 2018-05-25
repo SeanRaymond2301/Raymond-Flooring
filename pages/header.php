@@ -18,22 +18,7 @@
 
 
 <header>
-<<<<<<< HEAD
     <nav>
-        <div class="logo imglogo">
-        </div>
-        <div class="nav">
-            <ul>
-                <a href="?page=Home">
-                    <li>Home</li>
-                </a>
-                <a href="?page=About">
-                    <li>About</li>
-                </a>
-                <a class="hide" href="?page=EngineeredHardwood">
-                    <li class="hide">Engineered Hardwood</li>
-                </a>
-=======
         <nav>
             <div class="logo imglogo"></div>
             <div class="nav">
@@ -47,8 +32,6 @@
                     <a class="hide" href="?page=EngineeredHardwood">
                         <li class="hide">Engineered Hardwood</li>
                     </a>
->>>>>>> adf8c65b1ee1a67219ecdbf012fdcea9ca43bf92
-
                 <a class="hide" href="?page=Laminate">
                     <li class="hide">Laminate</li>
                 </a>
@@ -59,13 +42,11 @@
                 <a class="show-mq" href="">
                     <li class="show-mq">Flooring Types</li>
                 </a>
-                
                 <ul class="dropdown">
                     <li class="drop-item"><a href="">**********</a></li>
                     <li class="drop-item"><a href="">**********</a></li>
                     <li class="drop-item"><a href="">**********</a></li>
                 </ul>
-             
                 <a href="?page=Contact">
                     <li>Contact</li>
                 </a>
