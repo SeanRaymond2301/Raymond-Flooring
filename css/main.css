@@ -396,6 +396,9 @@ main.content .wrap {
     margin: 0 !important;
     transform: translateX(35%); } }
 
+@media (max-width: 829px) {
+  margin-left: 20px; }
+
 /*phone*/
 @media (max-width: 755px) {
   .headerText {
