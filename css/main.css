@@ -447,13 +447,8 @@ main.content .wrap {
   .headerText {
     text-align: inherit !important;
     font-size: 45px !important;
-    transform: translateX(-45%); }
+    transform: translateX(-40%); }
   /* vinyl plank */
-  .headerTexta {
-    text-align: center !important;
-    font-size: 45px;
-    color: white;
-    margin: 10px; }
   body {
     background-color: white; }
   ul {
