@@ -1,8 +1,10 @@
 <?php
+require("pages/data-conn.php");
 	if (isset($_GET['page'])) {
 		$page = $_GET['page'];
-		if(file_exists("pages/$page.php"))
+		if(file_exists("pages/$page.php")) {
 			formPage($page);
+		}
 		else {
 			formPage("DNE");
 		}
@@ -10,6 +12,7 @@
 		formPage("home");
 	}
 	function formPage($page) {
+
 		include("pages/header.php");
 		// echo "<title>$PageTitle</title>";
 		echo "</head>";

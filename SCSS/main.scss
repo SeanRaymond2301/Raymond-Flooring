@@ -31,6 +31,10 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h2 {
+	margin: 0 auto;
+}
+
 .flex {
     display: flex;
 }
@@ -47,8 +51,8 @@ h6 {
     z-index: 100000000000;
     position: fixed;
     background-image: url(../images/raymond-flooring-installations.png);
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 130px;
     background-repeat: no-repeat;
 }
 
@@ -473,7 +477,7 @@ main.content {
         margin-left: 50px;
     }
     .headerTexta {
-        margin: 0; 
+        margin: 0;
         color: white;
     }
     .contactinfo {
@@ -495,12 +499,6 @@ main.content {
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
-    }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
     }
     .perfect {
         text-align: center !important;
@@ -531,13 +529,6 @@ main.content {
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
-    }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
-         transform: translateX(20px);
     }
     .perfect {
         text-align: center !important;
@@ -572,13 +563,6 @@ main.content {
         font-size: 17px;
         text-align: center !important;
     }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
-         transform: translateX(20px);
-    }
     .perfect {
         text-align: center !important;
     }
@@ -607,13 +591,6 @@ main.content {
         transform: translateX(-45%);
     }
     /* vinyl plank */
-    .headerTexta {
-        text-align: center !important;
-        font-size: 45px;
-        color: white;
-        margin: 10px;
-    }
-    
 
     body {
         background-color: white;
@@ -623,12 +600,8 @@ main.content {
     ul {
         margin: 30px !important;
         text-align: center;
-        
-    }
 
-   
-    nav {
-        
+    }
 
     .perfect {
         margin: 0 !important;
@@ -637,7 +610,7 @@ main.content {
         transform: translateX(15%);
         margin: 0 !important;
     }
-    
+
     .navul {
         margin: 60px !important;
 
@@ -648,7 +621,7 @@ main.content {
         width: 60px !important;
         height: 60px !important;
         background-repeat: no-repeat;
-    
+
         top: 10px;
         background-size:cover;
         left: 5px;
@@ -659,7 +632,7 @@ main.content {
         width: 100%;
         text-align: center;
     }
-    
+
     .nav {
         text-align:left;
     }
@@ -702,12 +675,12 @@ main.content {
     .hide {
         display: none;
     }
-    
-    
+
+
     .showmq:hover, .drop-item {
         display:inline-block;
     }
-    
+
 
 .drop-item:hover {
     display:inline-block;
@@ -718,13 +691,13 @@ main.content {
     min-width: 160px;
     z-index: 1;
 }
-    
+
     .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-  
+
 
     /*show element in phone only*/
     .show-mq {

@@ -1,16 +1,14 @@
 <?php
-    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
     } else {
-        header('Location: login.php');
+        header('Location: ?page=login');
     }
 
 ?>
-  <?php require('header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
-        <form action="data-list.php" method="post">
+        <form action="?page=data-list" method="post">
           <?php
             if (isset($_GET['pid'])) {
                 $ContentID = $_GET['pid'];

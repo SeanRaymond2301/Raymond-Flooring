@@ -11,7 +11,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    echo("Connection failed: " . $conn->connect_error);
 }
 
 /* ---------- DB functions ---------- */
@@ -19,6 +19,7 @@ if ($conn->connect_error) {
 /* ---------- Add (create) a page ---------- */
 function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
     global $conn;
+
     $sql = "INSERT INTO `floor-web-content` (Pros, Cons, PageContent, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$PageContent', '$PageTitle', '$NavTitle')";
 
     if ($conn->query($sql) === TRUE) {
@@ -26,17 +27,16 @@ function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
-;}
+}
 
 /* ---------- Edit (update) a page ---------- */
 function updatePage($Cons, $Pros, $PageContent, $PageTitle, $NavTitle, $ID) {
     global $conn;
     $sql = "UPDATE `floor-web-content` SET Cons='$Cons', Pros='$Pros', PageContent='$PageContent', PageTitle='$PageTitle', NavTitle='$NavTitle' WHERE ID=$ID";
-
     if ($conn->query($sql) === TRUE) {
-        die("Page updated.");
+        echo("Page updated.");
     } else {
-        die("Error: " . $sql . "<br>" . $conn->error);
+        echo("Error: " . $sql . "<br>" . $conn->error);
     }
 }
 
@@ -55,11 +55,11 @@ function deletePage($ContentID) {
 /* ---------- Login ---------- */
 
 function doLogin($un,$pw){
-    $adminun = "1";
-    $adminpw = "1";
+    $adminun = "mattray67";
+    $adminpw = "thing";
     if($un == $adminun && $pw == $adminpw){
         $_SESSION['isadmin'] = 1;
-        header('Location: data-list.php');
+        header('Location: ?page=data-list');
         //echo "Login Success";
     } else {
         $_SESSION['isadmin'] = 0;

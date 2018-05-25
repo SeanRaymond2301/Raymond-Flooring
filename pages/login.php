@@ -1,5 +1,4 @@
 <?php
-    require('data-conn.php');
     if(isset($_GET['logout'])){
         doLogout();
     }
@@ -13,7 +12,7 @@
             <br>
             <input name="un" type="text" placeholder="username">
             <input name="pw" type="password" placeholder="password">
-            <input class="button" type="submit"  value="Login">
+            <input class="button" type="submit" value="Login">
         </form>
     </div>
 </div>

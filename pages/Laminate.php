@@ -1,17 +1,15 @@
-<title>
-	<?php
-	require('data-conn.php');
-	$title = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Laminate'";
-	$result = mysqli_query($conn, $title);
+<?php
+	$content = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Laminate'";
+	$result = mysqli_query($conn, $content);
 	while($row = mysqli_fetch_assoc($result)) {
-		echo $row['PageTitle'];
+		$string = $row['PageTitle'];
+			echo "<title>$string</title>";
 	}
 	?>
-</title>
 <body>
 <main class="content">
 	<div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/laminate-2-4.jpg); width: 100%; height: 570px;">
-		<h2 style="text-align:center;" class="headerText">Laminate</h2>
+		<h2 class="headerText">Laminate</h2>
 	</div>
 	<div style="width:40%; margin: 0 auto;">
 	<div class="wrap">
@@ -41,7 +39,7 @@
 		$result = mysqli_query($conn, $content);
 		while($row = mysqli_fetch_assoc($result)) {
 			$string = $row['PageContent'];
-			$strings = explode("|", "$string");
+			$strings = explode(":", "$string");
 			foreach ($strings as $string) {
 				echo "<p>$string</p>";
 			}

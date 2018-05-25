@@ -1,5 +1,4 @@
 <?php
-    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
 
 
@@ -20,11 +19,10 @@
 
 
     } else {
-        header('Location: login.php');
+        header('Location: ?page=login');
     }
 
 ?>
-  <?php require('header.php'); ?>
 
   <div class="row">
     <div class="large-12 columns">
@@ -36,15 +34,15 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "<a href='data-edit.php?pid=".$row['ID']."'>".$row['NavTitle']."</a> | <a style='color:red;' href='?del=".$row['ID']."'>(del)</a><br>";
+                echo "<a href='?page=data-edit&pid=".$row['ID']."'>".$row['NavTitle']."</a> | <a style='color:red;' href='?del=".$row['ID']."'>(del)</a><br>";
             }
         } else {
             echo "Failed to load content.";
         }
     ?>
     <br>
-    <a href="data-insert.php" class="button">Add a Page</a>
-    <a href="login.php?logout" class="button alert">Logout</a>
+    <a href="pages/data-insert.php" class="button">Add a Page</a>
+    <a href="?page=login" class="button alert">Logout</a>
 
     </div>
 </div>

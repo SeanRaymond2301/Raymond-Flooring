@@ -22,34 +22,20 @@
         <nav>
             <div class="logo imglogo"></div>
             <div class="nav">
-                <ul class="navul">
-                    <a href="?page=Home">
-                        <li>Home</li>
-                    </a>
-                    <a href="?page=About">
-                        <li>About</li>
-                    </a>
-                    <a class="hide" href="?page=EngineeredHardwood">
-                        <li class="hide">Engineered Hardwood</li>
-                    </a>
-                <a class="hide" href="?page=Laminate">
-                    <li class="hide">Laminate</li>
-                </a>
-                <a class="hide" href="?page=VinylPlank">
-                    <li class="hide">Vinyl Plank</li>
-                </a>
+				<ul class="navul">
+				<?php
+				$content = "SELECT NavTitle FROM `floor-web-content`";
+				$result = mysqli_query($conn, $content);
+				while($row = mysqli_fetch_assoc($result)) {
+					$string = $row['NavTitle'];
+					$strings = explode("|", "$string");
+					foreach ($strings as $string) {
+						$nav = str_replace(' ', '', $string);
+						echo "<a href='?page=$nav'><li>$string</li></a>";
+					}
+				}
+				?>
 
-                <a class="show-mq" href="">
-                    <li class="show-mq">Flooring Types</li>
-                </a>
-                <ul class="dropdown">
-                    <li class="drop-item"><a href="">**********</a></li>
-                    <li class="drop-item"><a href="">**********</a></li>
-                    <li class="drop-item"><a href="">**********</a></li>
-                </ul>
-                <a href="?page=Contact">
-                    <li>Contact</li>
-                </a>
             </ul>
             <div class="wrapper2">
                 <p class="lic-info">Matthew Raymond</p>

@@ -21,6 +21,9 @@ h6 {
   font-size: 40px;
   font-family: 'Oswald', sans-serif; }
 
+h2 {
+  margin: 0 auto; }
+
 .flex {
   display: flex; }
 
@@ -33,8 +36,8 @@ h6 {
   z-index: 100000000000;
   position: fixed;
   background-image: url(../images/raymond-flooring-installations.png);
-  width: 400px;
-  height: 350px;
+  width: 300px;
+  height: 130px;
   background-repeat: no-repeat; }
 
 .wrapper2 {
@@ -371,11 +374,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0; }
   .perfect {
     text-align: center !important; } }
 
@@ -397,12 +395,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0;
-    transform: translateX(20px); }
   .perfect {
     text-align: center !important; }
   .contactinfo {
@@ -426,12 +418,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0;
-    transform: translateX(20px); }
   .perfect {
     text-align: center !important; } }
 
@@ -452,18 +438,11 @@ main.content .wrap {
     font-size: 45px !important;
     transform: translateX(-45%); }
   /* vinyl plank */
-  .headerTexta {
-    text-align: center !important;
-    font-size: 45px;
-    color: white;
-    margin: 10px; }
   body {
     background-color: white; }
-<<<<<<< HEAD
   ul {
     margin: 30px !important;
     text-align: center; }
-=======
   .perfect {
     margin: 0 !important; }
   .contactinfo {
@@ -471,7 +450,6 @@ main.content .wrap {
     margin: 0 !important; }
   .navul {
     margin: 60px !important; }
->>>>>>> adf8c65b1ee1a67219ecdbf012fdcea9ca43bf92
   .imglogo {
     background-image: url("../images/diamond-logo.png");
     width: 60px !important;

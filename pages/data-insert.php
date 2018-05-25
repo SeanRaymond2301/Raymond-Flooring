@@ -1,5 +1,4 @@
 <?php
-    require('data-conn.php');
     if ($_SESSION['isadmin'] == 1){
         if (isset($_POST['PageTitle'])){
             addPage($_POST['Pros'], $_POST['Cons'], $_POST['PageContent'], $_POST['PageTitle'], $_POST['NavTitle']);
@@ -9,7 +8,6 @@
     }
 ?>
 
-  <?php require('header.php'); ?>
   <div class="row">
     <div class="large-12 columns">
         <form action="data-insert.php" method="post">

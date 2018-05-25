@@ -1,3 +1,11 @@
+<?php
+$content = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Home'";
+$result = mysqli_query($conn, $content);
+while($row = mysqli_fetch_assoc($result)) {
+	$string = $row['PageTitle'];
+		echo "<title>$string</title>";
+}
+?>
 <!-- Slideshow container -->
 <div class="slideshow-container">
     <!-- Full-width images with number and caption text -->
@@ -6,7 +14,7 @@
         <img src="images/hardwoodhome.jpg" style="width:100%">
         <div class="text">
             <h2>Engineered Hardwood</h2>
-            <ul>
+			<ul>
                 <li class="black"><a href="?page=EngineeredHardwood" class="black">About This Floor</a></li>
             </ul>
         </div>
@@ -51,7 +59,19 @@
 <div class="bottomsection">
     <div class="wrapper">
         <h2>About Me</h2>
-        <p>I started in the flooring business with my dad installing carpet in 1985. I installed carpet with him until we opened a very small store. There I learned the supply and sales aspect of the flooring industry. In 1995 I left his business and started working for various companies. In 1995 I left his business and started... </p>
+        <p>
+			<?php
+		$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Home'";
+		$result = mysqli_query($conn, $content);
+		while($row = mysqli_fetch_assoc($result)) {
+			$string = $row['PageContent'];
+			$strings = explode("|", "$string");
+			foreach ($strings as $string) {
+				echo "<p>$string</p>";
+			}
+		}
+		?>
+	</p>
         <ul class="readmore-button">
             <li class="black"><a href="?page=About" class="black">Read More</a></li>
         </ul>
