@@ -430,9 +430,11 @@ main.content .wrap {
     text-align: inherit !important; }
   /* engineered hardwood */
   .headerText {
-    text-align: inherit !important;
     font-size: 45px !important;
-    transform: translateX(-45%); }
+    margin: 10px 0 auto auto;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 80vw; }
   /* vinyl plank */
   body {
     background-color: white; }
