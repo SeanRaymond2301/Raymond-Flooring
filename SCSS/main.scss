@@ -491,13 +491,7 @@ main.content {
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
-    }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
-    }
+
     .perfect {
         text-align: center !important;
     }
@@ -528,13 +522,7 @@ main.content {
         font-size: 17px;
         text-align: center !important;
     }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
-         transform: translateX(20px);
-    }
+
     .perfect {
         text-align: center !important;
     }
@@ -550,6 +538,7 @@ main.content {
     .headerText {
         width: 100%;
         transform: translateX(-35%);
+        margin-left: 30px;
     }
     .contactinfo {
         float: inherit;
@@ -567,13 +556,6 @@ main.content {
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
-    }
-     .headerTexta {
-        text-align: center !important;
-        font-size: 55px;
-        color: white;
-        margin: 0;
-         transform: translateX(20px);
     }
     .perfect {
         text-align: center !important;
@@ -607,11 +589,9 @@ main.content {
         background-color: white;
     }
 
-
     ul {
         margin: 30px !important;
         text-align: center;
-
     }
 
     .perfect {
@@ -713,4 +693,3 @@ main.content {
         display: block !important;
         visibility: visible;
     }
-}
