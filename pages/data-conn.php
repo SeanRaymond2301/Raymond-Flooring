@@ -1,9 +1,9 @@
 <?php
 session_start();
 //echo password_hash("7aD421859DH12C9n", PASSWORD_DEFAULT);
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "web01.cart.ads";
+$username = "cartweb";
+$password = "wC4tJ3pRKzvXSn4X";
 $dbname = "floor-web-content";
 
 // Create connection
