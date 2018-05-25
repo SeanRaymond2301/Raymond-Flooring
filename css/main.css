@@ -368,11 +368,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0; }
   .perfect {
     text-align: center !important; } }
 
@@ -394,12 +389,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0;
-    transform: translateX(20px); }
   .perfect {
     text-align: center !important; }
   .contactinfo {
@@ -410,7 +399,8 @@ main.content .wrap {
 @media (max-width: 755px) {
   .headerText {
     width: 100%;
-    transform: translateX(-35%); }
+    transform: translateX(-35%);
+    margin-left: 30px; }
   .contactinfo {
     float: inherit;
     margin: 0 !important; }
@@ -423,12 +413,6 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTexta {
-    text-align: center !important;
-    font-size: 55px;
-    color: white;
-    margin: 0;
-    transform: translateX(20px); }
   .perfect {
     text-align: center !important; } }
 
@@ -447,7 +431,7 @@ main.content .wrap {
   .headerText {
     text-align: inherit !important;
     font-size: 45px !important;
-    transform: translateX(-40%); }
+    transform: translateX(-45%); }
   /* vinyl plank */
   body {
     background-color: white; }

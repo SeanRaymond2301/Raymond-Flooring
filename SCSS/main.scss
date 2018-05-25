@@ -491,12 +491,15 @@ main.content {
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
+    }
 
     .perfect {
         text-align: center !important;
     }
 }
+
 @media (max-width: 1024px) {
+
     footer {
         display: none;
     }
@@ -504,15 +507,18 @@ main.content {
     .imglogo {
         width: 290px;
     }
+
     .prev, .next {
         position: absolute;
         top: 26%;
     }
+
      .headerText {
         text-align: inherit !important;
         font-size: 55px !important;
          transform: translateX(-30%);
     }
+
      .headerText2 {
         font-size: 17px;
         text-align: center !important;
@@ -526,6 +532,7 @@ main.content {
     .perfect {
         text-align: center !important;
     }
+
     .contactinfo {
         margin: 0 !important;
         transform: translateX(35%);
@@ -535,19 +542,23 @@ main.content {
 /*phone*/
 
 @media (max-width: 755px) {
+
     .headerText {
         width: 100%;
         transform: translateX(-35%);
         margin-left: 30px;
     }
+
     .contactinfo {
         float: inherit;
         margin: 0 !important;
     }
+
     .prev, .next {
         position: absolute;
         top:49%;
     }
+
      .headerText2 {
         font-size: 17px;
         text-align: center !important;
@@ -557,6 +568,7 @@ main.content {
         font-size: 17px;
         text-align: center !important;
     }
+
     .perfect {
         text-align: center !important;
     }
@@ -568,6 +580,7 @@ main.content {
         position: absolute;
         top: 42% !important;
     }
+
     .headerText2 {
         font-size: 17px;
         text-align: inherit !important;
@@ -582,7 +595,7 @@ main.content {
     .headerText {
         text-align: inherit !important;
         font-size: 45px !important;
-        transform: translateX(-40%);
+        transform: translateX(-45%);
     }
     /* vinyl plank */
     body {
@@ -597,6 +610,7 @@ main.content {
     .perfect {
         margin: 0 !important;
     }
+
     .contactinfo {
         transform: translateX(15%);
         margin: 0 !important;
@@ -615,7 +629,6 @@ main.content {
         left: 5px;
         top: 10px;
         width: 85px !important;
-
     }
 
     .black {
@@ -693,3 +706,4 @@ main.content {
         display: block !important;
         visibility: visible;
     }
+}
