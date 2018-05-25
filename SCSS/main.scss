@@ -580,11 +580,12 @@ main.content {
 
     .prev, .next {
         position: absolute;
-        top: 55% !important;
+        top: 42% !important;
     }
     .headerText2 {
         font-size: 17px;
         text-align: inherit !important;
+        transform: translateX(-70%);
     }
 
     .headerText3 {
@@ -594,7 +595,8 @@ main.content {
 /* engineered hardwood */
     .headerText {
         text-align: inherit !important;
-        font-size: 45px;
+        font-size: 45px !important;
+        transform: translateX(-45%);
     }
     /* vinyl plank */
     .headerTexta {

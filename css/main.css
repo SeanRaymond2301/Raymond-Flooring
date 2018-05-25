@@ -378,7 +378,7 @@ main.content .wrap {
   footer {
     display: none; }
   .imglogo {
-    width: 200px; }
+    width: 290px; }
   .prev, .next {
     position: absolute;
     top: 26%; }
@@ -433,17 +433,19 @@ main.content .wrap {
 @media (max-width: 433px) {
   .prev, .next {
     position: absolute;
-    top: 55% !important; }
+    top: 42% !important; }
   .headerText2 {
     font-size: 17px;
-    text-align: inherit !important; }
+    text-align: inherit !important;
+    transform: translateX(-70%); }
   .headerText3 {
     font-size: 17px;
     text-align: inherit !important; }
   /* engineered hardwood */
   .headerText {
     text-align: inherit !important;
-    font-size: 45px; }
+    font-size: 45px !important;
+    transform: translateX(-45%); }
   /* vinyl plank */
   .headerTexta {
     text-align: center !important;
