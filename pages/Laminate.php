@@ -17,7 +17,7 @@
 	<div class="wrap">
 <div class="comp headerText2">
 	<h3>Pros</h3>
-	<ul class="procon">
+	<ul class="perfect">
 	    <li>Hard Surface</li>
 	    <li>Hard to Damage</li>
 	    <li>Looks Real</li>
@@ -26,7 +26,7 @@
 
 <div class="comp headerText3">
 	<h3>Cons</h3>
-	<ul class="procon">
+	<ul class="perfect">
 	    <li>Loudest of the Three</li>
 	    <li>Susceptible to water damage.</li>
 	    <li>Moldings</li>
@@ -53,10 +53,6 @@
 <style>
 @media screen and (max-width: 480px) {
 
-
-	.procon {
-		text-decoration-color: black;
-	}
 	.w50ma {
 		float: inherit;
 		text-align: center;

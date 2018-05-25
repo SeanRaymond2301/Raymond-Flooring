@@ -1,12 +1,12 @@
 <main class="content">
     <div style="background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/vinyl-plank-3-edit.png); width: 100%; height: 570px;">
-        <h2 style="text-align:center;" class="headerText">Vinyl Plank</h2>
+        <h2 style="text-align:center;" class="headerTexta">Vinyl Plank</h2>
     </div>
 <div style="width:40%; margin: 0 auto;">
    <div class="wrap">
    <div class="comp headerText2">
     <h3>Pros</h3>
-    <ul>
+    <ul class="perfect">
         <li>Waterproof.</li>
         <li>Very quiet.</li>
         <li>Easiest to maintain.</li>
@@ -15,7 +15,7 @@
 
 <div class="comp headerText3">
     <h3>Cons</h3>
-    <ul>
+    <ul class="perfect">
         <li>Easy to scratch.</li>
         <li>Really soft.</li>
     </ul>

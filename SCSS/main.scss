@@ -199,10 +199,6 @@ ul {
     }
 }
 
-.procon {
-    font-family: 'Oswald', sans-serif;
-}
-
 .bottomsection {
     display: flex;
     flex-direction: row;
@@ -468,7 +464,6 @@ main.content {
 
 
 /* Media Queries */
-
 @media (max-width: 1260px) {
     .headerText2 {
         margin-right: 50px;
@@ -477,16 +472,79 @@ main.content {
     .headerText3 {
         margin-left: 50px;
     }
-}
+    .headerTexta {
+        margin: 0; 
+        color: white;
+    }
+    .contactinfo {
+        transform: translateX(-50px);
+    }
+    .prev, .next {
+        position: absolute;
+        top: 27%;
+    }
+     .headerText {
+        text-align: inherit !important;
+        font-size: 55px !important;
+    }
+    .headerText2 {
+        font-size: 17px;
+        text-align: center !important;
+    }
 
+    .headerText3 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+     .headerTexta {
+        text-align: center !important;
+        font-size: 55px;
+        color: white;
+        margin: 0;
+    }
+    .perfect {
+        text-align: center !important;
+    }
+}
 @media (max-width: 1024px) {
     footer {
         display: none;
     }
 
     .imglogo {
-        width: 200px;
+        width: 290px;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 26%;
+    }
+     .headerText {
+        text-align: inherit !important;
+        font-size: 55px !important;
+         transform: translateX(-30%);
+    }
+     .headerText2 {
+        font-size: 17px;
+        text-align: center !important;
+    }
 
+    .headerText3 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+     .headerTexta {
+        text-align: center !important;
+        font-size: 55px;
+        color: white;
+        margin: 0;
+         transform: translateX(20px);
+    }
+    .perfect {
+        text-align: center !important;
+    }
+    .contactinfo {
+        margin: 0 !important;
+        transform: translateX(35%);
     }
 }
 
@@ -495,35 +553,72 @@ main.content {
 @media (max-width: 755px) {
     .headerText {
         width: 100%;
-        margin-left: 35px;
+        transform: translateX(-35%);
     }
     .contactinfo {
         float: inherit;
         margin: 0 !important;
     }
+    .prev, .next {
+        position: absolute;
+        top:49%;
+    }
+     .headerText2 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+
+    .headerText3 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+     .headerTexta {
+        text-align: center !important;
+        font-size: 55px;
+        color: white;
+        margin: 0;
+         transform: translateX(20px);
+    }
+    .perfect {
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 433px) {
 
+    .prev, .next {
+        position: absolute;
+        top: 42% !important;
+    }
     .headerText2 {
-        transform: translateX(-70%);
-        top: 20vh;
         font-size: 17px;
+        text-align: inherit !important;
+        transform: translateX(-70%);
     }
 
     .headerText3 {
-        top: 20vh;
         font-size: 17px;
+        text-align: inherit !important;
     }
-
+/* engineered hardwood */
     .headerText {
-        transform: translateX(-59%);
-        font-size: 20px;
+        text-align: inherit !important;
+        font-size: 45px !important;
+        transform: translateX(-45%);
     }
+    /* vinyl plank */
+    .headerTexta {
+        text-align: center !important;
+        font-size: 45px;
+        color: white;
+        margin: 10px;
+    }
+    
 
     body {
         background-color: white;
     }
+
 
     ul {
         margin: 30px !important;
@@ -534,6 +629,18 @@ main.content {
    
     nav {
         
+
+    .perfect {
+        margin: 0 !important;
+    }
+    .contactinfo {
+        transform: translateX(15%);
+        margin: 0 !important;
+    }
+    
+    .navul {
+        margin: 60px !important;
+
     }
 
     .imglogo {
