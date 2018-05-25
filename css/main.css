@@ -58,6 +58,7 @@ h2 {
 nav {
   width: 100%;
   z-index: 100;
+  height: 140px;
   position: fixed;
   background-image: url("../images/header2.jpg");
   background-repeat: no-repeat; }
@@ -293,10 +294,11 @@ main.content .wrap {
 .headerText {
   top: 13vh;
   position: absolute;
-  left: 50%;
+  left: 50vw;
   transform: translateX(-50%);
   color: #FAF8F4;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  font-size: 55px; }
 
 .headerText2 {
   position: absolute;
@@ -357,16 +359,12 @@ main.content .wrap {
     margin-right: 50px; }
   .headerText3 {
     margin-left: 50px; }
-  .headerTexta {
-    margin: 0;
-    color: white; }
   .contactinfo {
     transform: translateX(-50px); }
   .prev, .next {
     position: absolute;
     top: 27%; }
   .headerText {
-    text-align: inherit !important;
     font-size: 55px !important; }
   .headerText2 {
     font-size: 17px;
@@ -386,7 +384,6 @@ main.content .wrap {
     position: absolute;
     top: 26%; }
   .headerText {
-    text-align: inherit !important;
     font-size: 55px !important;
     transform: translateX(-30%); }
   .headerText2 {
@@ -401,11 +398,15 @@ main.content .wrap {
     margin: 0 !important;
     transform: translateX(35%); } }
 
+@media (max-width: 829px) {
+  margin-left: 20px; }
+
 /*phone*/
 @media (max-width: 755px) {
   .headerText {
     width: 100%;
-    transform: translateX(-35%); }
+    transform: translateX(-35%);
+    margin-left: 27%; }
   .contactinfo {
     float: inherit;
     margin: 0 !important; }
@@ -428,15 +429,19 @@ main.content .wrap {
   .headerText2 {
     font-size: 17px;
     text-align: inherit !important;
-    transform: translateX(-70%); }
+    transform: translateX(-70%);
+    margin-top: 50px; }
   .headerText3 {
     font-size: 17px;
-    text-align: inherit !important; }
+    text-align: inherit !important;
+    margin-top: 50px; }
   /* engineered hardwood */
   .headerText {
-    text-align: inherit !important;
     font-size: 45px !important;
-    transform: translateX(-45%); }
+    margin: 50px 0 auto auto;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 80vw; }
   /* vinyl plank */
   body {
     background-color: white; }
@@ -452,15 +457,15 @@ main.content .wrap {
     margin: 60px !important; }
   .imglogo {
     background-image: url("../images/diamond-logo.png");
-    width: 60px !important;
-    height: 60px !important;
     background-repeat: no-repeat;
-    top: 10px;
     background-size: cover;
-    left: 5px; }
+    height: 85px !important;
+    left: 5px;
+    top: 10px;
+    width: 85px !important; }
   .black {
-    width: 100%;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
   .nav {
     text-align: left; }
   li {
@@ -504,3 +509,7 @@ main.content .wrap {
   .show-mq {
     display: block !important;
     visibility: visible; } }
+
+@media (max-width: 415px) {
+  .headerText {
+    width: 100%; } }
