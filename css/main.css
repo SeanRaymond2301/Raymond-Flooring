@@ -507,8 +507,18 @@ main.content .wrap {
   /*show element in phone only*/
   .show-mq {
     display: block !important;
-    visibility: visible; } }
+    visibility: visible; }
+  .navul {
+    text-align: right; } }
 
 @media (max-width: 415px) {
   .headerText {
-    width: 100%; } }
+    width: 100%;
+    text-align: center;
+    transform: translateX(9358239%); }
+  .navul {
+    text-align: right; }
+  .w50ma {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Athiti', sans-serif; } }
