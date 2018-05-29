@@ -585,20 +585,15 @@ main.content {
         font-size: 17px;
         text-align: center !important;
     }
-    
+
     .w50ma {
         width: 100%;
         margin: 10px;
         font-family: 'Athiti', sans-serif;
-
     }
-
-
 }
 
 @media (max-width: 433px) {
-    
-    
 
     .prev,
     .next {
@@ -626,15 +621,15 @@ main.content {
         transform: translateX(-50%);
         width: 80vw;
     }
-    
-    
+
+
     .w50ma {
         width: 100%;
         margin: 10px;
         font-family: 'Athiti', sans-serif;
 
     }
-    
+
     /* vinyl plank */
     .vinyl {
         color: white;
