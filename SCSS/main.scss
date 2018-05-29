@@ -757,22 +757,10 @@ main.content {
 }
 
 @media (max-width: 415px) {
-
-    .headerText {
-        width: 100%;
-        text-align: center;
-        transform: translateX(%);
-    }
-
-
-    .navul {
-        text-align: right;
-    }
-
     .w50ma {
         width: 100%;
         margin: 10px;
         font-family: 'Athiti', sans-serif;
-
+        transform: translateX(-53%) !important;
     }
 }

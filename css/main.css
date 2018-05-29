@@ -512,8 +512,11 @@ main.content .wrap {
     text-align: right; } }
 
 @media (max-width: 415px) {
+  .navul {
+    transform: translateX(10px) !important; }
   .headerText {
     width: 100%;
+<<<<<<< HEAD
     text-align: center;
     transform: translateX(9358239%); }
   .navul {
@@ -522,3 +525,6 @@ main.content .wrap {
     width: 100%;
     margin: 10px;
     font-family: 'Athiti', sans-serif; } }
+=======
+    transform: translateX(-53%) !important; } }
+>>>>>>> 9cec2424781114e6f75af00742ca726fdf8c400d
