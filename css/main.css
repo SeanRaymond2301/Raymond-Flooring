@@ -358,7 +358,8 @@ main.content .wrap {
     margin-left: 50px; }
   .contactinfo {
     transform: translateX(-50px); }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 27%; }
   .headerText {
@@ -375,7 +376,8 @@ main.content .wrap {
     display: none; }
   .imglogo {
     width: 290px; }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 26%; }
   .headerText {
@@ -409,7 +411,8 @@ main.content .wrap {
   .contactinfo {
     float: inherit;
     margin: 0 !important; }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 49%; }
   .headerText2 {
@@ -417,10 +420,15 @@ main.content .wrap {
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
-    text-align: center !important; } }
+    text-align: center !important; }
+  .w50ma {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Athiti', sans-serif; } }
 
 @media (max-width: 433px) {
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 42% !important; }
   .headerText2 {
@@ -439,6 +447,10 @@ main.content .wrap {
     text-align: center;
     transform: translateX(-50%);
     width: 80vw; }
+  .w50ma {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Athiti', sans-serif; }
   /* vinyl plank */
   .vinyl {
     color: white; }
@@ -490,7 +502,8 @@ main.content .wrap {
     width: 100%; }
   .hide {
     display: none; }
-  .showmq:hover, .drop-item {
+  .showmq:hover,
+  .drop-item {
     display: inline-block; }
   .drop-item:hover {
     display: inline-block;
@@ -513,18 +526,11 @@ main.content .wrap {
 
 @media (max-width: 415px) {
   .navul {
-    transform: translateX(10px) !important; }
+    transform: translateX(8px) !important; }
   .headerText {
-    width: 100%;
-<<<<<<< HEAD
-    text-align: center;
-    transform: translateX(9358239%); }
-  .navul {
-    text-align: right; }
+    font-size: 45px !important;
+    transform: translateX(-51%) !important; }
   .w50ma {
-    width: 100%;
-    margin: 10px;
+    width: 90%;
+    margin: 5%;
     font-family: 'Athiti', sans-serif; } }
-=======
-    transform: translateX(-53%) !important; } }
->>>>>>> 9cec2424781114e6f75af00742ca726fdf8c400d
