@@ -368,8 +368,6 @@ main.content .wrap {
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
-    text-align: center !important; }
-  .perfect {
     text-align: center !important; } }
 
 @media (max-width: 1024px) {
@@ -382,28 +380,32 @@ main.content .wrap {
     top: 26%; }
   .headerText {
     font-size: 55px !important;
-    transform: translateX(-30%); }
+    transform: translateX(-40%); }
   .headerText2 {
     font-size: 17px;
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .perfect {
-    text-align: center !important; }
   .contactinfo {
     margin: 0 !important;
     transform: translateX(35%); } }
 
 @media (max-width: 829px) {
-  margin-left: 20px; }
+  .headerText {
+    transform: translateX(-60%) !important; }
+  .logo {
+    background-image: url(../images/diamond-logo.png);
+    transform: translateY(3%); }
+  .navul {
+    transform: translateX(-17%); } }
 
 /*phone*/
 @media (max-width: 755px) {
   .headerText {
     width: 100%;
     transform: translateX(-35%);
-    margin-left: 27%; }
+    margin-left: 10%; }
   .contactinfo {
     float: inherit;
     margin: 0 !important; }
@@ -415,8 +417,6 @@ main.content .wrap {
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
-    text-align: center !important; }
-  .perfect {
     text-align: center !important; } }
 
 @media (max-width: 433px) {
@@ -440,6 +440,8 @@ main.content .wrap {
     transform: translateX(-50%);
     width: 80vw; }
   /* vinyl plank */
+  .vinyl {
+    color: white; }
   body {
     background-color: white; }
   ul {

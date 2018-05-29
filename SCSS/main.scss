@@ -495,9 +495,7 @@ main.content {
         text-align: center !important;
     }
 
-    .perfect {
-        text-align: center !important;
-    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -517,7 +515,7 @@ main.content {
 
      .headerText {
         font-size: 55px !important;
-        transform: translateX(-30%);
+        transform: translateX(-40%);
     }
 
      .headerText2 {
@@ -530,9 +528,7 @@ main.content {
         text-align: center !important;
     }
 
-    .perfect {
-        text-align: center !important;
-    }
+    
 
     .contactinfo {
         margin: 0 !important;
@@ -541,7 +537,18 @@ main.content {
 }
 
 @media (max-width: 829px) {
-    
+    .headerText {
+        transform: translateX(-60%) !important;
+    }
+    .logo {
+        background-image: url(../images/diamond-logo.png);
+        transform: translateY(3%);
+    }
+    .navul {
+        transform: translateX(-17%);
+        
+        
+    }
 }
           
 
@@ -552,7 +559,7 @@ main.content {
     .headerText {
         width: 100%;
         transform: translateX(-35%);
-        margin-left: 27%;
+        margin-left: 10%;
     }
 
     .contactinfo {
@@ -575,9 +582,7 @@ main.content {
         text-align: center !important;
     }
 
-    .perfect {
-        text-align: center !important;
-    }
+    
 }
 
 @media (max-width: 433px) {
@@ -609,6 +614,9 @@ main.content {
 
     }
     /* vinyl plank */
+    .vinyl {
+        color: white;
+    }
     body {
         background-color: white;
     }
