@@ -1,5 +1,5 @@
 <?php
-$content = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Vinyl Plank'";
+$content = "SELECT PageTitle FROM `floor_content` WHERE PageTitle='Vinyl Plank'";
 $result = mysqli_query($conn, $content);
 while($row = mysqli_fetch_assoc($result)) {
 	$string = $row['PageTitle'];
@@ -32,11 +32,11 @@ while($row = mysqli_fetch_assoc($result)) {
     </div>
     <div class="w50ma">
 		<?php
-		$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Vinyl Plank'";
+		$content = "SELECT PageContent FROM `floor_content` WHERE PageTitle='Vinyl Plank'";
 		$result = mysqli_query($conn, $content);
 		while($row = mysqli_fetch_assoc($result)) {
 			$string = $row['PageContent'];
-			$strings = explode(":", "$string");
+			$strings = explode("|", "$string");
 			foreach ($strings as $string) {
 				echo "<p>$string</p>";
 			}

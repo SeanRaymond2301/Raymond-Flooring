@@ -24,7 +24,7 @@
             <div class="nav">
 				<ul class="navul">
 				<?php
-				$content = "SELECT NavTitle FROM `floor-web-content`";
+				$content = "SELECT * FROM `floor_content`";
 				$result = mysqli_query($conn, $content);
 				while($row = mysqli_fetch_assoc($result)) {
 					$string = $row['NavTitle'];

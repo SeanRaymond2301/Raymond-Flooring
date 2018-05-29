@@ -1,21 +1,12 @@
-<?php
-$content = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Contact Me'";
-$result = mysqli_query($conn, $content);
-while($row = mysqli_fetch_assoc($result)) {
-	$string = $row['PageTitle'];
-		echo "<title>$string</title>";
-}
-?>
 <div class="contactinfo">
-
 	<?php
-	$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Contact Me'";
+	$content = "SELECT PageContent FROM `floor_content` WHERE PageTitle='Contact Me'";
 	$result = mysqli_query($conn, $content);
 	while($row = mysqli_fetch_assoc($result)) {
 		$string = $row['PageContent'];
 		$strings = explode("|", "$string");
 		foreach ($strings as $string) {
-			echo "<h2>$string</h2>";
+			echo "<h2>$string</h2>" . "<br>";
 		}
 	}
 	?>
@@ -24,8 +15,11 @@ while($row = mysqli_fetch_assoc($result)) {
 <div class="boxes">
   <form action="Contact.php">
 
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Name..">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name..">
 
     <label for="mail">Email</label>
     <input type="text" id="mail" name="email" placeholder="Email..">
