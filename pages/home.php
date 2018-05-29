@@ -1,5 +1,5 @@
 <?php
-$content = "SELECT PageTitle FROM `floor-web-content` WHERE PageTitle='Home'";
+$content = "SELECT PageTitle FROM `floor_content` WHERE PageTitle='Home'";
 $result = mysqli_query($conn, $content);
 while($row = mysqli_fetch_assoc($result)) {
 	$string = $row['PageTitle'];
@@ -61,7 +61,7 @@ while($row = mysqli_fetch_assoc($result)) {
         <h2>About Me</h2>
         <p>
 			<?php
-		$content = "SELECT PageContent FROM `floor-web-content` WHERE PageTitle='Home'";
+		$content = "SELECT PageContent FROM `floor_content` WHERE PageTitle='Home'";
 		$result = mysqli_query($conn, $content);
 		while($row = mysqli_fetch_assoc($result)) {
 			$string = $row['PageContent'];

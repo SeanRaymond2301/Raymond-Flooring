@@ -16,7 +16,7 @@
             } else {
                 echo "No record set";
             }
-            $sql = "SELECT * FROM `floor-web-content` WHERE ID=$ContentID LIMIT 1";
+            $sql = "SELECT * FROM `floor_content` WHERE ID=$ContentID LIMIT 1";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {

@@ -28,7 +28,7 @@
     <div class="large-12 columns">
     <h1>Pages to Edit</h1>
     <?php
-        $sql = "SELECT ID, NavTitle FROM `floor-web-content`";
+        $sql = "SELECT * FROM `floor_content`";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {

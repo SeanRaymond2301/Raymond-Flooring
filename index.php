@@ -12,9 +12,8 @@ require("pages/data-conn.php");
 		formPage("home");
 	}
 	function formPage($page) {
-
+		global $conn;
 		include("pages/header.php");
-		// echo "<title>$PageTitle</title>";
 		echo "</head>";
 		echo "<body id='$page'>";
 		echo "<div class='space'></div>";

@@ -4,7 +4,7 @@ session_start();
 $servername = "web01.cart.ads";
 $username = "cartweb";
 $password = "wC4tJ3pRKzvXSn4X";
-$dbname = "floor-web-content";
+$dbname = "content";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
     global $conn;
 
-    $sql = "INSERT INTO `floor-web-content` (Pros, Cons, PageContent, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$PageContent', '$PageTitle', '$NavTitle')";
+    $sql = "INSERT INTO `floor_content` (Pros, Cons, PageContent, PageTitle, NavTitle) VALUES ('$Pros', '$Cons', '$PageContent', '$PageTitle', '$NavTitle')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New page created.";
@@ -32,7 +32,7 @@ function addPage($Pros, $Cons, $PageContent, $PageTitle, $NavTitle) {
 /* ---------- Edit (update) a page ---------- */
 function updatePage($Cons, $Pros, $PageContent, $PageTitle, $NavTitle, $ID) {
     global $conn;
-    $sql = "UPDATE `floor-web-content` SET Cons='$Cons', Pros='$Pros', PageContent='$PageContent', PageTitle='$PageTitle', NavTitle='$NavTitle' WHERE ID=$ID";
+    $sql = "UPDATE `floor_content` SET Cons='$Cons', Pros='$Pros', PageContent='$PageContent', PageTitle='$PageTitle', NavTitle='$NavTitle' WHERE ID=$ID";
     if ($conn->query($sql) === TRUE) {
         echo("Page updated.");
     } else {
@@ -43,7 +43,7 @@ function updatePage($Cons, $Pros, $PageContent, $PageTitle, $NavTitle, $ID) {
 /* ---------- Delete a page ---------- */
 function deletePage($ContentID) {
     global $conn;
-    $sql = "DELETE FROM `floor-web-content` WHERE ID=$ContentID LIMIT 1";
+    $sql = "DELETE FROM `floor_content` WHERE ID=$ContentID LIMIT 1";
 
     if ($conn->query($sql) === TRUE) {
         echo "Page deleted";
