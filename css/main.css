@@ -510,5 +510,8 @@ main.content .wrap {
     visibility: visible; } }
 
 @media (max-width: 415px) {
+  .navul {
+    transform: translateX(10px) !important; }
   .headerText {
-    width: 100%; } }
+    width: 100%;
+    transform: translateX(-53%) !important; } }
