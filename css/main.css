@@ -282,9 +282,8 @@ footer ul a {
   padding-top: 1.5%; }
 
 main.content .wrap {
-  float: right;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   main.content .wrap .comp {
     text-align: center;
     width: 20%; }
@@ -374,8 +373,6 @@ main.content .wrap {
     font-size: 20px !important; }
   a {
     margin: 0px !important; }
-  .headerText {
-    padding-top: 43px; }
   footer {
     display: none; }
   .imglogo {
@@ -405,8 +402,6 @@ main.content .wrap {
     transform: translateX(35%); } }
 
 @media (max-width: 949px) {
-  .headerText {
-    transform: translateX(-28%) !important; }
   .logo {
     width: 100px;
     height: 100px;
@@ -416,14 +411,13 @@ main.content .wrap {
     margin: 35px 0 0 120px; }
   .wrapper {
     margin: 0 auto; }
-  .headerText3,
-  .headerText2 {
-    width: 32%; }
   .headerbox {
     display: flex;
     margin: 0 auto; }
-  .wrap {
-    display: flex; } }
+  .content h3 {
+    transform: translateY(100px); }
+  .content ul {
+    transform: translateY(70px); } }
 
 /*phone*/
 @media (max-width: 790px) {
@@ -439,9 +433,6 @@ main.content .wrap {
   .lic-info,
   .lic-info2 {
     transform: translateX(-50%); }
-  .headerText3,
-  .headerText2 {
-    width: 32%; }
   .w50ma {
     width: 100%;
     margin: 10px;
@@ -483,8 +474,6 @@ main.content .wrap {
   ul {
     margin: 30px !important;
     text-align: center; }
-  .perfect {
-    margin: 0 !important; }
   .contactinfo {
     transform: translateX(15%);
     margin: 0 !important; }
