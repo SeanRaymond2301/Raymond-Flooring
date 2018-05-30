@@ -442,6 +442,9 @@ main.content .wrap {
   .next {
     position: absolute;
     top: 49%; }
+  .lic-info,
+  .lic-info2 {
+    transform: translateX(-50%); }
   .headerTextEngi {
     width: 60%;
     padding-top: 43px;
@@ -488,7 +491,7 @@ main.content .wrap {
   .vinyl {
     color: white; }
   body {
-    background-color: white; }
+    background-color: #FAF8F4; }
   ul {
     margin: 30px !important;
     text-align: center; }
@@ -550,16 +553,3 @@ main.content .wrap {
     visibility: visible; }
   .navul {
     text-align: right; } }
-
-@media (max-width: 415px) {
-  .navul {
-    transform: translateX(8px) !important; }
-  .headerText {
-    font-size: 45px !important;
-    transform: translateX(-51%) !important; }
-  .w50ma {
-    width: 90%;
-    margin: 5%;
-    font-family: 'Athiti', sans-serif; }
-  .wrapper2 {
-    transform: translateX(5%); } }
