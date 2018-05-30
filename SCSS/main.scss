@@ -481,7 +481,6 @@ main.content {
     .headerText3 {
         margin-left: 50px;
     }
-
     .contactinfo {
         transform: translateX(-50px);
     }
@@ -492,6 +491,8 @@ main.content {
     }
     .headerText {
         font-size: 55px !important;
+        margin-left: 15px;
+        margin-top: 50px;
     }
     .headerText2 {
         font-size: 17px;
@@ -524,7 +525,8 @@ main.content {
 
     .headerText {
         font-size: 55px !important;
-        transform: translateX(-40%);
+        transform: translateX(-30%);
+        margin-left: 0;
     }
 
     .headerText2 {

@@ -38,6 +38,9 @@ h2 {
   background-image: url("../images/raymond-flooring-installations.png");
   width: 300px;
   height: 130px;
+  background-image: url("../images/raymond-flooring-installations.png");
+  width: 400px;
+  height: 350px;
   background-repeat: no-repeat; }
 
 .wrapper2 {
@@ -368,7 +371,9 @@ main.content .wrap {
     position: absolute;
     top: 27%; }
   .headerText {
-    font-size: 55px !important; }
+    font-size: 55px !important;
+    margin-left: 15px;
+    margin-top: 50px; }
   .headerText2 {
     font-size: 17px;
     text-align: center !important; }
@@ -387,7 +392,12 @@ main.content .wrap {
     top: 26%; }
   .headerText {
     font-size: 55px !important;
+<<<<<<< HEAD
+    transform: translateX(-30%);
+    margin-left: 0; }
+=======
     transform: translateX(-40%); }
+>>>>>>> 9c1b34ceb758a87be9b591a5c9c27f63057bfc53
   .headerText2 {
     font-size: 17px;
     text-align: center !important; }
