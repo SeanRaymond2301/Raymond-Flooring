@@ -282,9 +282,8 @@ footer ul a {
   padding-top: 1.5%; }
 
 main.content .wrap {
-  float: right;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   main.content .wrap .comp {
     text-align: center;
     width: 20%; }
@@ -293,7 +292,7 @@ main.content .wrap {
       main.content .wrap .comp ul li {
         margin-top: 15px; }
 
-.headerText, .headerTextEngi {
+.headerText, .headerTextFix {
   top: 16vh;
   position: absolute;
   left: 50vw;
@@ -396,8 +395,6 @@ main.content .wrap {
     font-size: 20px !important; }
   a {
     margin: 0px !important; }
-  .headerText {
-    padding-top: 43px; }
   footer {
     display: none; }
   .imglogo {
@@ -416,7 +413,7 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTextEngi {
+  .headerTextFix {
     width: 60%;
     padding-top: 43px;
     text-align: center;
@@ -429,6 +426,8 @@ main.content .wrap {
 @media (max-width: 1024px) and (max-width: 949px) {
   .headerText {
     transform: translateX(-28%) !important; }
+    
+@media (max-width: 949px) {
   .logo {
     width: 100px;
     height: 100px;
@@ -438,20 +437,13 @@ main.content .wrap {
     margin: 35px 0 0 120px; }
   .wrapper {
     margin: 0 auto; }
-  .headerTextEngi {
-    width: 60%;
-    padding-top: 43px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 55px; }
-  .headerText3,
-  .headerText2 {
-    width: 32%; }
   .headerbox {
     display: flex;
     margin: 0 auto; }
-  .wrap {
-    display: flex; } }
+  .content h3 {
+    transform: translateY(100px); }
+  .content ul {
+    transform: translateY(70px); } }
 
 @media (max-width: 1024px) {
   .imglogo {
@@ -471,15 +463,6 @@ main.content .wrap {
   .lic-info,
   .lic-info2 {
     transform: translateX(-50%); }
-  .headerTextEngi {
-    width: 60%;
-    padding-top: 43px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 55px; }
-  .headerText3,
-  .headerText2 {
-    width: 32%; }
   .w50ma {
     width: 100%;
     margin: 10px;
@@ -493,6 +476,8 @@ main.content .wrap {
   .next {
     position: absolute;
     top: 42% !important; }
+  .headerTextFix {
+    bottom: 10px; }
   .headerText2 {
     font-size: 17px;
     text-align: inherit !important;
@@ -521,8 +506,6 @@ main.content .wrap {
   ul {
     margin: 30px !important;
     text-align: center; }
-  .perfect {
-    margin: 0 !important; }
   .contactinfo {
     transform: translateX(15%);
     margin: 0 !important; }
