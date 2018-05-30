@@ -378,9 +378,7 @@ main.content .wrap {
     font-size: 17px;
     text-align: center !important; } }
 
-@media (max-width: 1024px) {
-
-@media (max-width: 1362px) {
+@media (max-width: 1024px) and (max-width: 1362px) {
   .nav {
     text-align: left; }
   h2 {
@@ -428,9 +426,7 @@ main.content .wrap {
     margin: 0 !important;
     transform: translateX(35%); } }
 
-@media (max-width: 829px) {
-    
-@media (max-width: 949px) {
+@media (max-width: 1024px) and (max-width: 949px) {
   .headerText {
     transform: translateX(-28%) !important; }
   .logo {
@@ -456,6 +452,10 @@ main.content .wrap {
     margin: 0 auto; }
   .wrap {
     display: flex; } }
+
+@media (max-width: 1024px) {
+  .imglogo {
+    width: 20%; } }
 
 /*phone*/
 @media (max-width: 790px) {
