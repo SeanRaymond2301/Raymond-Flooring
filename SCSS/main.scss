@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -283,7 +283,7 @@ ul {
 
 //********Contact Page********//
 .contactinfo {
-    margin-left: 46%;
+    margin-left: 43%;
 }
 
 // .contactform {}
@@ -399,7 +399,6 @@ main.content {
     color: $bg-color;
     font-family: 'Oswald', sans-serif;
     font-size: 55px;
-
 }
 
 .headerText2 {
@@ -468,6 +467,45 @@ main.content {
     display: none;
 }
 
+/* Media Queries */
+
+@media (max-width: 1260px) {
+    .headerText2 {
+        margin-right: 50px;
+    }
+
+    .headerText3 {
+        margin-left: 50px;
+    }
+
+    .contactinfo {
+        transform: translateX(-50px);
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 27%;
+    }
+
+    .headerText {
+        font-size: 55px !important;
+        margin-left: 20px;
+    }
+
+    .headerText2 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+
+    .headerText3 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    
 @media (max-width: 1362px) {
 
     .nav {
@@ -578,7 +616,10 @@ main.content {
 	}
 }
 
-
+    .imglogo {
+        width: 20%;
+    }
+}
 
 /*phone*/
 
