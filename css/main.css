@@ -413,12 +413,8 @@ main.content .wrap {
     top: 26%; }
   .headerText {
     font-size: 55px !important;
-<<<<<<< HEAD
     transform: translateX(-30%);
     margin-left: 0; }
-=======
-    transform: translateX(-40%); }
->>>>>>> 9c1b34ceb758a87be9b591a5c9c27f63057bfc53
   .headerText2 {
     font-size: 17px;
     text-align: center !important; }

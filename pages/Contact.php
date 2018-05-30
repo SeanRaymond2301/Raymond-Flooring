@@ -1,3 +1,11 @@
+<?php
+$content = "SELECT PageTitle FROM `floor_content` WHERE PageTitle='Contact Me'";
+$result = mysqli_query($conn, $content);
+while($row = mysqli_fetch_assoc($result)) {
+	$string = $row['PageTitle'];
+		echo "<title>$string</title>";
+}
+?>
 <div class="contactinfo">
 	<?php
 	$content = "SELECT PageContent FROM `floor_content` WHERE PageTitle='Contact Me'";
