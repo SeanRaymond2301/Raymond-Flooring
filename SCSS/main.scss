@@ -473,44 +473,7 @@ main.content {
     display: none;
 }
 
-
-/* Media Queries */
-
-@media (max-width: 1260px) {
-    .headerText2 {
-        margin-right: 50px;
-    }
-
-    .headerText3 {
-        margin-left: 50px;
-    }
-    .contactinfo {
-        transform: translateX(-50px);
-    }
-    .prev,
-    .next {
-        position: absolute;
-        top: 27%;
-    }
-    .headerText {
-        font-size: 55px !important;
-        margin-left: 20px;
-        margin-top: 25px;
-    }
-    .headerText2 {
-        font-size: 17px;
-        text-align: center !important;
-    }
-
-    .headerText3 {
-        font-size: 17px;
-        text-align: center !important;
-    }
-
-
-}
-
-@media (max-width: 1024px) {
+@media (max-width: 1362px) {
 
     .nav {
         text-align: left;
@@ -598,19 +561,20 @@ main.content {
 }
 
 
-@media (max-width: 829px) {
+@media (max-width: 949px) {
 
     .headerText {
         transform: translateX(-28%) !important;
     }
 
     .logo {
-        background-image: url(../images/diamond-logo.png);
+		width: 100px;
+		height: 100px;
+        background-image: url('../images/diamond-logo.png');
         transform: translateY(3%);
     }
     .navul {
-
-        transform: translateX(-17%)
+		margin: 35px 0 0 120px;
     }
 
     .wrapper {
@@ -638,23 +602,13 @@ main.content {
     .wrap {
         display: flex;
     }
-    .imglogo {
-        width: 20%;
-    }
-
-
-
-        transform: translateX(-17%);
-    }
-
-
 }
 
 
 
 /*phone*/
 
-@media (max-width: 755px) {
+@media (max-width: 790px) {
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
@@ -690,9 +644,14 @@ main.content {
         margin: 10px;
         font-family: 'Athiti', sans-serif;
     }
+
+	nav ul {
+		width: 75%;
+		margin: 30px 0 0 200px;
+	}
 }
 
-@media (max-width: 433px) {
+@media (max-width: 490px) {
 
     .prev,
     .next {
@@ -753,18 +712,13 @@ main.content {
     }
 
     .navul {
-        margin: 60px !important;
-
+		margin: 25px 0  0 100px;
+		width: 100%;
+		transform: translateX(2%);
     }
 
     .imglogo {
-        background-image: url('../images/diamond-logo.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 85px !important;
-        left: 5px;
-        top: 10px;
-        width: 85px !important;
+        display: none;
     }
 
     .black {
@@ -793,17 +747,15 @@ main.content {
     }
 
     .lic-info {
-        bottom: 15px;
+		transform: translateX(-100%);
         font-size: 15px;
         position: relative;
-        right: 290px;
     }
 
     .lic-info2 {
-        bottom: 54px;
+		transform: translateX(-50%);
         font-size: 15px;
         position: relative;
-        right: 160px;
     }
 
     .wrapper2 {
