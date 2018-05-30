@@ -214,7 +214,7 @@ ul li.black a {
     opacity: 1; } }
 
 .contactinfo {
-  margin-left: 46%; }
+  margin-left: 43%; }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
@@ -424,10 +424,6 @@ main.content .wrap {
     transform: translateX(35%); } }
 
 @media (max-width: 1024px) and (max-width: 949px) {
-  .headerText {
-    transform: translateX(-28%) !important; }
-    
-@media (max-width: 949px) {
   .logo {
     width: 100px;
     height: 100px;
