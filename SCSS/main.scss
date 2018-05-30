@@ -391,7 +391,7 @@ main.content {
     }
 }
 
-.headerText, .headerTextEngi {
+.headerText, .headerTextFix {
     top: 16vh;
     position: absolute;
     left: 50vw;
@@ -533,7 +533,7 @@ main.content {
         text-align: center !important;
     }
 
-      .headerTextEngi {
+      .headerTextFix {
         width: 60%;
         padding-top: 43px;
         text-align: center;
@@ -566,14 +566,6 @@ main.content {
 
     .wrapper {
         margin: 0 auto;
-    }
-
-    .headerTextEngi {
-        width: 60%;
-        padding-top: 43px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        font-size: 55px;
     }
 
     .headerText3,
@@ -616,14 +608,6 @@ main.content {
 	.lic-info2 {
 		transform: translateX(-50%);
 	}
-
-   .headerTextEngi {
-        width: 60%;
-        padding-top: 43px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        font-size: 55px;
-    }
 
     .headerText3,
     .headerText2 {
