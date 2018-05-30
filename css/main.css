@@ -398,18 +398,15 @@ main.content .wrap {
     margin: 0 !important;
     transform: translateX(35%); } }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 829px) {
   .headerText {
-    transform: translateX(-60%) !important; }
+    transform: translateX(-28%) !important; }
   .logo {
     background-image: url(../images/diamond-logo.png);
     transform: translateY(3%); }
   .navul {
     transform: translateX(-17%); } }
 
->>>>>>> am2
 /*phone*/
 @media (max-width: 755px) {
   .imglogo {
@@ -479,7 +476,6 @@ main.content .wrap {
   .imglogo {
     background-image: url("../images/diamond-logo.png");
     background-repeat: no-repeat;
-    top: 10px;
     background-size: cover;
     height: 85px !important;
     left: 5px;
@@ -544,4 +540,6 @@ main.content .wrap {
   .w50ma {
     width: 90%;
     margin: 5%;
-    font-family: 'Athiti', sans-serif; } }
+    font-family: 'Athiti', sans-serif; }
+  .wrapper2 {
+    transform: translateX(5%); } }
