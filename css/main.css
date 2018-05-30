@@ -366,7 +366,8 @@ main.content .wrap {
     margin-left: 50px; }
   .contactinfo {
     transform: translateX(-50px); }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 27%; }
   .headerText {
@@ -378,8 +379,6 @@ main.content .wrap {
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
-    text-align: center !important; }
-  .perfect {
     text-align: center !important; } }
 
 @media (max-width: 1024px) {
@@ -387,25 +386,40 @@ main.content .wrap {
     display: none; }
   .imglogo {
     width: 290px; }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 26%; }
   .headerText {
     font-size: 55px !important;
+<<<<<<< HEAD
     transform: translateX(-30%);
     margin-left: 0; }
+=======
+    transform: translateX(-40%); }
+>>>>>>> 9c1b34ceb758a87be9b591a5c9c27f63057bfc53
   .headerText2 {
     font-size: 17px;
     text-align: center !important; }
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .perfect {
-    text-align: center !important; }
   .contactinfo {
     margin: 0 !important;
     transform: translateX(35%); } }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 829px) {
+  .headerText {
+    transform: translateX(-60%) !important; }
+  .logo {
+    background-image: url(../images/diamond-logo.png);
+    transform: translateY(3%); }
+  .navul {
+    transform: translateX(-17%); } }
+
+>>>>>>> am2
 /*phone*/
 @media (max-width: 755px) {
   .imglogo {
@@ -413,11 +427,12 @@ main.content .wrap {
   .headerText {
     width: 100%;
     transform: translateX(-35%);
-    margin-left: 27%; }
+    margin-left: 10%; }
   .contactinfo {
     float: inherit;
     margin: 0 !important; }
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 49%; }
   .headerText2 {
@@ -426,11 +441,14 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .perfect {
-    text-align: center !important; } }
+  .w50ma {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Athiti', sans-serif; } }
 
 @media (max-width: 433px) {
-  .prev, .next {
+  .prev,
+  .next {
     position: absolute;
     top: 42% !important; }
   .headerText2 {
@@ -449,7 +467,13 @@ main.content .wrap {
     text-align: center;
     transform: translateX(-50%);
     width: 80vw; }
+  .w50ma {
+    width: 100%;
+    margin: 10px;
+    font-family: 'Athiti', sans-serif; }
   /* vinyl plank */
+  .vinyl {
+    color: white; }
   body {
     background-color: white; }
   ul {
@@ -499,7 +523,8 @@ main.content .wrap {
     width: 100%; }
   .hide {
     display: none; }
-  .showmq:hover, .drop-item {
+  .showmq:hover,
+  .drop-item {
     display: inline-block; }
   .drop-item:hover {
     display: inline-block;
@@ -516,8 +541,17 @@ main.content .wrap {
   /*show element in phone only*/
   .show-mq {
     display: block !important;
-    visibility: visible; } }
+    visibility: visible; }
+  .navul {
+    text-align: right; } }
 
 @media (max-width: 415px) {
+  .navul {
+    transform: translateX(8px) !important; }
   .headerText {
-    width: 100%; } }
+    font-size: 45px !important;
+    transform: translateX(-51%) !important; }
+  .w50ma {
+    width: 90%;
+    margin: 5%;
+    font-family: 'Athiti', sans-serif; } }

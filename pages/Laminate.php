@@ -27,7 +27,6 @@
 	<ul class="perfect">
 	    <li>Loudest of the Three</li>
 	    <li>Susceptible to water damage.</li>
-	    <li>Moldings</li>
 	    <li>Expands and Contracts</li>
 	</ul>
         </div>
