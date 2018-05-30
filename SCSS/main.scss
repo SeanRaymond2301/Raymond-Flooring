@@ -10,7 +10,6 @@ body {
         font-size: 23px;
         font-family: 'Athiti', sans-serif;
     }
-
     li {
         font-size: 23px;
     }
@@ -32,7 +31,7 @@ h6 {
 }
 
 h2 {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .flex {
@@ -43,7 +42,6 @@ h2 {
     width: 50%;
     margin: 100px auto;
     font-family: 'Athiti', sans-serif;
-
 }
 
 //***********NAV***********//
@@ -285,10 +283,9 @@ ul {
 //********Contact Page********//
 .contactinfo {
     margin-left: 46%;
-
 }
 
-.contactform {}
+// .contactform {}
 
 /* Style inputs with type="text", select elements and textareas */
 
@@ -394,10 +391,11 @@ main.content {
     }
 }
 
-.headerText {
-    top: 13vh;
+.headerText, .headerTextEngi {
+    top: 16vh;
     position: absolute;
     left: 50vw;
+    padding-top:43px;
     transform: translateX(-50%);
     color: $bg-color;
     font-family: 'Oswald', sans-serif;
@@ -470,7 +468,6 @@ main.content {
     display: none;
 }
 
-
 /* Media Queries */
 
 @media (max-width: 1260px) {
@@ -481,19 +478,23 @@ main.content {
     .headerText3 {
         margin-left: 50px;
     }
+
     .contactinfo {
         transform: translateX(-50px);
     }
+
     .prev,
     .next {
         position: absolute;
         top: 27%;
     }
+
     .headerText {
         font-size: 55px !important;
-        margin-left: 15px;
-        margin-top: 50px;
+        margin-left: 20px;
+        margin-top: 25px;
     }
+
     .headerText2 {
         font-size: 17px;
         text-align: center !important;
@@ -503,11 +504,42 @@ main.content {
         font-size: 17px;
         text-align: center !important;
     }
-
-
 }
 
 @media (max-width: 1024px) {
+
+    .nav {
+        text-align: left;
+    }
+
+    h2 {
+        padding-bottom: 30px;
+    }
+
+    .wrapper2 {
+        width: 100%;
+        display: flex;
+        transform: translateX(-50%);
+    }
+
+    .lic-info,
+    .lic-info2 {
+        margin: 0px;
+        color: #917c69;
+        font-family: 'Athiti', sans-serif;
+    }
+
+    li {
+        font-size: 20px !important;
+    }
+
+    a {
+        margin: 0px !important;
+    }
+
+    .headerText {
+        padding-top: 43px;
+    }
 
     footer {
         display: none;
@@ -539,7 +571,13 @@ main.content {
         text-align: center !important;
     }
 
-
+      .headerTextEngi {
+        width: 60%;
+        padding-top: 43px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 55px;
+    }
 
     .contactinfo {
         margin: 0 !important;
@@ -549,20 +587,50 @@ main.content {
 
 
 @media (max-width: 829px) {
+
     .headerText {
         transform: translateX(-28%) !important;
     }
+
     .logo {
         background-image: url(../images/diamond-logo.png);
         transform: translateY(3%);
     }
+
     .navul {
-        transform: translateX(-17%);
+        transform: translateX(-17%)
     }
 
-}
+    .wrapper {
+        margin: 0 auto;
+    }
 
+    .headerTextEngi {
+        width: 60%;
+        padding-top: 43px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 55px;
+    }
 
+    .headerText3,
+    .headerText2 {
+        width: 32%;
+    }
+
+    .headerbox {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .wrap {
+        display: flex;
+    }
+
+    .imglogo {
+        width: 20%;
+        transform: translateX(-17%);
+    }
 
 /*phone*/
 
@@ -570,12 +638,6 @@ main.content {
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
-    }
-
-    .headerText {
-        width: 100%;
-        transform: translateX(-35%);
-        margin-left: 10%;
     }
 
     .contactinfo {
@@ -589,14 +651,17 @@ main.content {
         top: 49%;
     }
 
-    .headerText2 {
-        font-size: 17px;
-        text-align: center !important;
+   .headerTextEngi {
+        width: 60%;
+        padding-top: 43px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 55px;
     }
 
-    .headerText3 {
-        font-size: 17px;
-        text-align: center !important;
+    .headerText3,
+    .headerText2 {
+        width: 32%;
     }
 
     .w50ma {
@@ -635,12 +700,10 @@ main.content {
         width: 80vw;
     }
 
-
     .w50ma {
         width: 100%;
         margin: 10px;
         font-family: 'Athiti', sans-serif;
-
     }
 
     /* vinyl plank */
@@ -668,13 +731,12 @@ main.content {
 
     .navul {
         margin: 60px !important;
-
     }
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size: cover;
         height: 85px !important;
         left: 5px;
         top: 10px;
@@ -765,18 +827,22 @@ main.content {
 }
 
 @media (max-width: 415px) {
+
     .navul {
         transform: translateX(8px) !important;
     }
+
     .headerText {
         font-size: 45px !important;
         transform: translateX(-51%) !important;
     }
+
     .w50ma {
         width: 90%;
         margin: 5%;
         font-family: 'Athiti', sans-serif;
     }
+
     .wrapper2 {
         transform: translateX(5%);
     }
