@@ -506,6 +506,8 @@ main.content {
 }
 
 @media (max-width: 1024px) {
+    
+@media (max-width: 1362px) {
 
     .nav {
         text-align: left;
@@ -585,19 +587,20 @@ main.content {
 }
 
 
-@media (max-width: 829px) {
+@media (max-width: 949px) {
 
     .headerText {
         transform: translateX(-28%) !important;
     }
 
     .logo {
-        background-image: url(../images/diamond-logo.png);
+		width: 100px;
+		height: 100px;
+        background-image: url('../images/diamond-logo.png');
         transform: translateY(3%);
     }
-
     .navul {
-        transform: translateX(-17%);
+		margin: 35px 0 0 120px;
     }
 
     .wrapper {
@@ -625,6 +628,7 @@ main.content {
     .wrap {
         display: flex;
     }
+}
 
     .imglogo {
         width: 20%;
@@ -632,9 +636,10 @@ main.content {
 }
         transform: translateX(-17%);
     }
+
 /*phone*/
 
-@media (max-width: 755px) {
+@media (max-width: 790px) {
 
     .imglogo {
         background-image: url('../images/diamond-logo.png');
@@ -650,6 +655,11 @@ main.content {
         position: absolute;
         top: 49%;
     }
+
+	.lic-info,
+	.lic-info2 {
+		transform: translateX(-50%);
+	}
 
    .headerTextEngi {
         width: 60%;
@@ -669,9 +679,14 @@ main.content {
         margin: 10px;
         font-family: 'Athiti', sans-serif;
     }
+
+	nav ul {
+		width: 75%;
+		margin: 30px 0 0 200px;
+	}
 }
 
-@media (max-width: 433px) {
+@media (max-width: 490px) {
 
     .prev,
     .next {
@@ -730,17 +745,13 @@ main.content {
     }
 
     .navul {
-        margin: 60px !important;
+		margin: 25px 0  0 100px;
+		width: 100%;
+		transform: translateX(2%);
     }
 
     .imglogo {
-        background-image: url('../images/diamond-logo.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 85px !important;
-        left: 5px;
-        top: 10px;
-        width: 85px !important;
+        display: none;
     }
 
     .black {
@@ -769,17 +780,15 @@ main.content {
     }
 
     .lic-info {
-        bottom: 15px;
+		transform: translateX(-100%);
         font-size: 15px;
         position: relative;
-        right: 290px;
     }
 
     .lic-info2 {
-        bottom: 54px;
+		transform: translateX(-50%);
         font-size: 15px;
         position: relative;
-        right: 160px;
     }
 
     .wrapper2 {
@@ -826,24 +835,24 @@ main.content {
     }
 }
 
-@media (max-width: 415px) {
-
-    .navul {
-        transform: translateX(8px) !important;
-    }
-
-    .headerText {
-        font-size: 45px !important;
-        transform: translateX(-51%) !important;
-    }
-
-    .w50ma {
-        width: 90%;
-        margin: 5%;
-        font-family: 'Athiti', sans-serif;
-    }
-
-    .wrapper2 {
-        transform: translateX(5%);
-    }
-}
+// @media (max-width: 415px) {
+//
+//     .navul {
+//         transform: translateX(8px) !important;
+//     }
+//
+//     .headerText {
+//         font-size: 45px !important;
+//         transform: translateX(-51%) !important;
+//     }
+//
+//     .w50ma {
+//         width: 90%;
+//         margin: 5%;
+//         font-family: 'Athiti', sans-serif;
+//     }
+//
+//     .wrapper2 {
+//         transform: translateX(5%);
+//     }
+// }
