@@ -379,6 +379,10 @@ main.content {
         justify-content: space-between;
         .comp {
             text-align: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d984f78cffed688f091b148cee8bcc917eae6f6c
             ul {
                 display: block;
                 li {
@@ -419,6 +423,7 @@ main.content {
     color: $bg-color;
     font-family: 'Oswald', sans-serif;
     font-size: 23px;
+    width: 40%;
 }
 
 /* "About Me" page styling */
@@ -520,11 +525,13 @@ main.content {
     .headerText2 {
         font-size: 17px;
         text-align: center !important;
+        margin-left: -50px;
     }
 
     .headerText3 {
         font-size: 17px;
         text-align: center !important;
+        margin-left: 50px;
     }
 
     .headerTextFix {
@@ -626,16 +633,12 @@ main.content {
 
     .headerText2 {
         font-size: 17px;
-        text-align: inherit !important;
-        transform: translateX(-70%);
-        margin-top: 50px;
     }
 
     .headerText3 {
         font-size: 17px;
-        text-align: inherit !important;
-        margin-top: 50px;
     }
+
     /* engineered hardwood */
     .headerText {
         font-size: 45px !important;
