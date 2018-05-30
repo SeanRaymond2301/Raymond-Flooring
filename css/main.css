@@ -293,7 +293,7 @@ main.content .wrap {
       main.content .wrap .comp ul li {
         margin-top: 15px; }
 
-.headerText, .headerTextEngi {
+.headerText, .headerTextFix {
   top: 16vh;
   position: absolute;
   left: 50vw;
@@ -394,7 +394,7 @@ main.content .wrap {
   .headerText3 {
     font-size: 17px;
     text-align: center !important; }
-  .headerTextEngi {
+  .headerTextFix {
     width: 60%;
     padding-top: 43px;
     text-align: center;
@@ -416,12 +416,6 @@ main.content .wrap {
     margin: 35px 0 0 120px; }
   .wrapper {
     margin: 0 auto; }
-  .headerTextEngi {
-    width: 60%;
-    padding-top: 43px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 55px; }
   .headerText3,
   .headerText2 {
     width: 32%; }
@@ -445,12 +439,6 @@ main.content .wrap {
   .lic-info,
   .lic-info2 {
     transform: translateX(-50%); }
-  .headerTextEngi {
-    width: 60%;
-    padding-top: 43px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 55px; }
   .headerText3,
   .headerText2 {
     width: 32%; }
