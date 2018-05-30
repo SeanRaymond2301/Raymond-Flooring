@@ -285,8 +285,7 @@ main.content .wrap {
   display: flex;
   justify-content: space-between; }
   main.content .wrap .comp {
-    text-align: center;
-    width: 20%; }
+    text-align: center; }
     main.content .wrap .comp ul {
       display: block; }
       main.content .wrap .comp ul li {
@@ -318,7 +317,8 @@ main.content .wrap {
   transform: translateX(-60%);
   color: #FAF8F4;
   font-family: 'Oswald', sans-serif;
-  font-size: 23px; }
+  font-size: 23px;
+  width: 40%; }
 
 /* "About Me" page styling */
 .about-title {
@@ -387,10 +387,12 @@ main.content .wrap {
     margin-left: 0; }
   .headerText2 {
     font-size: 17px;
-    text-align: center !important; }
+    text-align: center !important;
+    margin-left: -50px; }
   .headerText3 {
     font-size: 17px;
-    text-align: center !important; }
+    text-align: center !important;
+    margin-left: 50px; }
   .headerTextFix {
     width: 60%;
     padding-top: 43px;
@@ -449,14 +451,9 @@ main.content .wrap {
   .headerTextFix {
     bottom: 10px; }
   .headerText2 {
-    font-size: 17px;
-    text-align: inherit !important;
-    transform: translateX(-70%);
-    margin-top: 50px; }
+    font-size: 17px; }
   .headerText3 {
-    font-size: 17px;
-    text-align: inherit !important;
-    margin-top: 50px; }
+    font-size: 17px; }
   /* engineered hardwood */
   .headerText {
     font-size: 45px !important;
