@@ -375,9 +375,8 @@ footer ul a {
 //***********CONTENT***********//
 main.content {
     .wrap {
-        float: right;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         .comp {
             text-align: center;
             width: 20%;
@@ -499,10 +498,6 @@ main.content {
         margin: 0px !important;
     }
 
-    .headerText {
-        padding-top: 43px;
-    }
-
     footer {
         display: none;
     }
@@ -533,7 +528,7 @@ main.content {
         text-align: center !important;
     }
 
-      .headerTextFix {
+    .headerTextFix {
         width: 60%;
         padding-top: 43px;
         text-align: center;
@@ -550,16 +545,13 @@ main.content {
 
 @media (max-width: 949px) {
 
-    .headerText {
-        transform: translateX(-28%) !important;
-    }
-
     .logo {
 		width: 100px;
 		height: 100px;
         background-image: url('../images/diamond-logo.png');
         transform: translateY(3%);
     }
+
     .navul {
 		margin: 35px 0 0 120px;
     }
@@ -568,19 +560,19 @@ main.content {
         margin: 0 auto;
     }
 
-    .headerText3,
-    .headerText2 {
-        width: 32%;
-    }
-
     .headerbox {
         display: flex;
         margin: 0 auto;
     }
 
-    .wrap {
-        display: flex;
-    }
+    .content {
+		h3 {
+			transform: translateY(100px);
+		}
+		ul {
+			transform: translateY(70px);
+		}
+	}
 }
 
 
@@ -608,11 +600,6 @@ main.content {
 	.lic-info2 {
 		transform: translateX(-50%);
 	}
-
-    .headerText3,
-    .headerText2 {
-        width: 32%;
-    }
 
     .w50ma {
         width: 100%;
@@ -677,10 +664,6 @@ main.content {
     ul {
         margin: 30px !important;
         text-align: center;
-    }
-
-    .perfect {
-        margin: 0 !important;
     }
 
     .contactinfo {
@@ -778,25 +761,3 @@ main.content {
         text-align: right;
     }
 }
-
-// @media (max-width: 415px) {
-//
-//     .navul {
-//         transform: translateX(8px) !important;
-//     }
-//
-//     .headerText {
-//         font-size: 45px !important;
-//         transform: translateX(-51%) !important;
-//     }
-//
-//     .w50ma {
-//         width: 90%;
-//         margin: 5%;
-//         font-family: 'Athiti', sans-serif;
-//     }
-//
-//     .wrapper2 {
-//         transform: translateX(5%);
-//     }
-// }
