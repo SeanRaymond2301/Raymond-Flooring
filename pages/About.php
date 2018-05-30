@@ -1,11 +1,18 @@
-
+<?php
+$content = "SELECT PageTitle FROM `floor_content` WHERE PageTitle='About Me'";
+$result = mysqli_query($conn, $content);
+while($row = mysqli_fetch_assoc($result)) {
+	$string = $row['PageTitle'];
+		echo "<title>$string</title>";
+}
+?>
  <div class="about-container">
 
  <div class="portrait">
-  
+
  </div>
    <div class="about-wrap-p">
-   <h2 class="about-header" aria-atomic=""style="text-align:center;">About Me: Matthew Raymond</h2>
+   <h2 class="about-header" aria-atomic=""style="text-align:center;">About Me</h2>
     <p class="about-p">I started in the floor covering business with my dad installing carpet in 1985. I installed carpet with him until one day we opened a very small store. There I learned the supply and sales aspect of the flooring industry. In 1995 I left his business and started working for various companies. My knowledge of installing carpet was expanded throughout the years.</p>
 
     <p class="about-p">In 1999, I wanted to break out of carpet and attend school to learn how to install laminate flooring. When I finished attending school I obtained my California Contractor's License #768883. I started subcontracting work from my dad's store while going out and obtaining more accounts installing laminate flooring. Within a couple of years, I partnered up with a man who taught me how to install engineered hardwood flooring. We worked together for a while until the recession hit. At that time we went our separate ways.</p>
