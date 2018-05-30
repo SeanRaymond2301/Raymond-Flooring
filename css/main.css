@@ -5,7 +5,8 @@ body {
   body p {
     text-indent: 33px;
     font-size: 23px;
-    font-family: 'Athiti', sans-serif; }
+    font-family: 'Athiti', sans-serif;
+    margin: 0; }
   body li {
     font-size: 23px; }
 
@@ -437,7 +438,6 @@ main.content .wrap {
     transform: translateX(-50%); }
   .w50ma {
     width: 100%;
-    margin: 10px;
     font-family: 'Athiti', sans-serif; }
   nav ul {
     width: 75%;
@@ -461,10 +461,6 @@ main.content .wrap {
     text-align: center;
     transform: translateX(-50%);
     width: 80vw; }
-  .w50ma {
-    width: 100%;
-    margin: 10px;
-    font-family: 'Athiti', sans-serif; }
   /* vinyl plank */
   .vinyl {
     color: white; }
