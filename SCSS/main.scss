@@ -379,7 +379,6 @@ main.content {
         justify-content: space-between;
         .comp {
             text-align: center;
-            width: 20%;
             ul {
                 display: block;
                 li {
@@ -723,40 +722,8 @@ main.content {
         width: 100%;
     }
 
-    .hide {
-        display: none;
-    }
-
-
-    .showmq:hover,
-    .drop-item {
-        display: inline-block;
-    }
-
-
-    .drop-item:hover {
-        display: inline-block;
-        background-color: pink;
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
     /*show element in phone only*/
-    .show-mq {
-        display: block !important;
-        visibility: visible;
-    }
-
-
+	
     .navul {
         text-align: right;
     }
