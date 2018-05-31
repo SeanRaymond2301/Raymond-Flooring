@@ -504,23 +504,7 @@ main.content {
     }
 }
 
-@media (max-width: 1024px) {
-    
-     .wrapper2 {
-        width: 100%;
-        display: flex;
-        transform: translateX(-50%);
-    }
-
-    .lic-info,
-    .lic-info2 {
-        margin: 0px;
-        color: #917c69;
-        font-family: 'Athiti', sans-serif;
-    }
-    
-}
-@media (max-width: 1362px) {
+@media (max-width: 1365px) {
 
     .nav {
         text-align: left;
@@ -630,7 +614,7 @@ main.content {
 	}
 }
 
-    
+
 
 
 
@@ -661,7 +645,7 @@ main.content {
     .w50ma {
         width: 90%;
 		font-family: 'Athiti', sans-serif;
-        
+
     }
 
 	nav ul {

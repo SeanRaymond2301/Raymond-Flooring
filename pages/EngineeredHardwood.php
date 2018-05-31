@@ -44,7 +44,7 @@ while($row = mysqli_fetch_assoc($result)) {
 			$string = $row['PageContent'];
 			$strings = explode("|", "$string");
 			foreach ($strings as $string) {
-				echo "<p>$string</p>";
+				echo "<p>$string</p><br>";
 			}
 		}
 		?>
