@@ -506,6 +506,20 @@ main.content {
 
 @media (max-width: 1024px) {
     
+     .wrapper2 {
+        width: 100%;
+        display: flex;
+        transform: translateX(-50%);
+    }
+
+    .lic-info,
+    .lic-info2 {
+        margin: 0px;
+        color: #917c69;
+        font-family: 'Athiti', sans-serif;
+    }
+    
+}
 @media (max-width: 1362px) {
 
     .nav {
@@ -616,10 +630,9 @@ main.content {
 	}
 }
 
-    .imglogo {
-        width: 20%;
-    }
-}
+    
+
+
 
 /*phone*/
 
@@ -646,14 +659,21 @@ main.content {
 	}
 
     .w50ma {
-        width: 100%;
+        width: 90%;
 		font-family: 'Athiti', sans-serif;
+        
     }
 
 	nav ul {
 		width: 75%;
 		margin: 30px 0 0 200px;
 	}
+    .headerText {
+        transform: translateX(-60%);
+    }
+    .contactinfo {
+        padding-top: 5%;
+    }
 }
 
 @media (max-width: 490px) {
@@ -739,13 +759,13 @@ main.content {
     }
 
     .lic-info {
-		transform: translateX(-100%);
+		transform: translateX(-65%);
         font-size: 15px;
         position: relative;
     }
 
     .lic-info2 {
-		transform: translateX(-50%);
+		transform: translateX(-75%);
         font-size: 15px;
         position: relative;
     }

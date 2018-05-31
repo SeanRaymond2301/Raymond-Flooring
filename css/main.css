@@ -378,7 +378,18 @@ main.content .wrap {
     font-size: 17px;
     text-align: center !important; } }
 
-@media (max-width: 1024px) and (max-width: 1362px) {
+@media (max-width: 1024px) {
+  .wrapper2 {
+    width: 100%;
+    display: flex;
+    transform: translateX(-50%); }
+  .lic-info,
+  .lic-info2 {
+    margin: 0px;
+    color: #917c69;
+    font-family: 'Athiti', sans-serif; } }
+
+@media (max-width: 1362px) {
   .nav {
     text-align: left; }
   h2 {
@@ -426,7 +437,7 @@ main.content .wrap {
     margin: 0 !important;
     transform: translateX(35%); } }
 
-@media (max-width: 1024px) and (max-width: 949px) {
+@media (max-width: 949px) {
   .logo {
     width: 100px;
     height: 100px;
@@ -444,10 +455,6 @@ main.content .wrap {
   .content ul {
     transform: translateY(70px); } }
 
-@media (max-width: 1024px) {
-  .imglogo {
-    width: 20%; } }
-
 /*phone*/
 @media (max-width: 790px) {
   .imglogo {
@@ -463,11 +470,15 @@ main.content .wrap {
   .lic-info2 {
     transform: translateX(-50%); }
   .w50ma {
-    width: 100%;
+    width: 90%;
     font-family: 'Athiti', sans-serif; }
   nav ul {
     width: 75%;
-    margin: 30px 0 0 200px; } }
+    margin: 30px 0 0 200px; }
+  .headerText {
+    transform: translateX(-60%); }
+  .contactinfo {
+    padding-top: 5%; } }
 
 @media (max-width: 490px) {
   .prev,
@@ -518,11 +529,11 @@ main.content .wrap {
   .imglogo {
     width: 150px; }
   .lic-info {
-    transform: translateX(-100%);
+    transform: translateX(-65%);
     font-size: 15px;
     position: relative; }
   .lic-info2 {
-    transform: translateX(-50%);
+    transform: translateX(-75%);
     font-size: 15px;
     position: relative; }
   .wrapper2 {
